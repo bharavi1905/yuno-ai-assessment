@@ -1,0 +1,502 @@
+[
+  {
+    "id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "name": "Meghana Foods",
+    "city": "Bangalore",
+    "cuisine": "Biryani",
+    "rating": 4.6,
+    "address": "Koramangala, Bangalore",
+    "delivery_time_mins": 35,
+    "is_active": true
+  },
+  {
+    "id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "name": "MTR 1924",
+    "city": "Bangalore",
+    "cuisine": "South Indian",
+    "rating": 4.5,
+    "address": "Lalbagh Road, Bangalore",
+    "delivery_time_mins": 40,
+    "is_active": true
+  },
+  {
+    "id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "name": "Koshy's",
+    "city": "Bangalore",
+    "cuisine": "Continental",
+    "rating": 4.3,
+    "address": "St. Mark's Road, Bangalore",
+    "delivery_time_mins": 45,
+    "is_active": true
+  },
+  {
+    "id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "name": "Truffles",
+    "city": "Bangalore",
+    "cuisine": "American",
+    "rating": 4.4,
+    "address": "Koramangala, Bangalore",
+    "delivery_time_mins": 30,
+    "is_active": true
+  },
+  {
+    "id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "name": "Brahmin's Coffee Bar",
+    "city": "Bangalore",
+    "cuisine": "South Indian",
+    "rating": 4.7,
+    "address": "Basavanagudi, Bangalore",
+    "delivery_time_mins": 50,
+    "is_active": true
+  },
+  {
+    "id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "name": "Empire Restaurant",
+    "city": "Bangalore",
+    "cuisine": "North Indian",
+    "rating": 4.2,
+    "address": "Church Street, Bangalore",
+    "delivery_time_mins": 35,
+    "is_active": true
+  },
+  {
+    "id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "name": "Vidyarthi Bhavan",
+    "city": "Bangalore",
+    "cuisine": "South Indian",
+    "rating": 4.8,
+    "address": "Gandhi Bazaar, Bangalore",
+    "delivery_time_mins": 60,
+    "is_active": true
+  },
+  {
+    "id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "name": "Toit Brewpub",
+    "city": "Bangalore",
+    "cuisine": "Continental",
+    "rating": 4.3,
+    "address": "Indiranagar, Bangalore",
+    "delivery_time_mins": 40,
+    "is_active": true
+  },
+  {
+    "id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "name": "Veena Stores",
+    "city": "Bangalore",
+    "cuisine": "South Indian",
+    "rating": 4.6,
+    "address": "Majestic, Bangalore",
+    "delivery_time_mins": 45,
+    "is_active": true
+  },
+  {
+    "id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "name": "Adyar Ananda Bhavan",
+    "city": "Bangalore",
+    "cuisine": "South Indian",
+    "rating": 4.2,
+    "address": "Malleshwaram, Bangalore",
+    "delivery_time_mins": 30,
+    "is_active": true
+  },
+  {
+    "id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "name": "Trishna",
+    "city": "Mumbai",
+    "cuisine": "Seafood",
+    "rating": 4.5,
+    "address": "Kala Ghoda, Mumbai",
+    "delivery_time_mins": 40,
+    "is_active": true
+  },
+  {
+    "id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "name": "Britannia & Co",
+    "city": "Mumbai",
+    "cuisine": "Parsi",
+    "rating": 4.6,
+    "address": "Ballard Estate, Mumbai",
+    "delivery_time_mins": 45,
+    "is_active": true
+  },
+  {
+    "id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "name": "Khyber Restaurant",
+    "city": "Mumbai",
+    "cuisine": "Mughlai",
+    "rating": 4.4,
+    "address": "Fort, Mumbai",
+    "delivery_time_mins": 50,
+    "is_active": true
+  },
+  {
+    "id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "name": "Cafe Mondegar",
+    "city": "Mumbai",
+    "cuisine": "Continental",
+    "rating": 4.3,
+    "address": "Colaba, Mumbai",
+    "delivery_time_mins": 35,
+    "is_active": true
+  },
+  {
+    "id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "name": "Swati Snacks",
+    "city": "Mumbai",
+    "cuisine": "Gujarati",
+    "rating": 4.5,
+    "address": "Tardeo, Mumbai",
+    "delivery_time_mins": 40,
+    "is_active": true
+  },
+  {
+    "id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "name": "Bade Miya",
+    "city": "Mumbai",
+    "cuisine": "Mughlai",
+    "rating": 4.4,
+    "address": "Colaba, Mumbai",
+    "delivery_time_mins": 30,
+    "is_active": true
+  },
+  {
+    "id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "name": "Mahesh Lunch Home",
+    "city": "Mumbai",
+    "cuisine": "Seafood",
+    "rating": 4.5,
+    "address": "Fort, Mumbai",
+    "delivery_time_mins": 45,
+    "is_active": true
+  },
+  {
+    "id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "name": "Sarvi Restaurant",
+    "city": "Mumbai",
+    "cuisine": "Mughlai",
+    "rating": 4.3,
+    "address": "Bhendi Bazaar, Mumbai",
+    "delivery_time_mins": 35,
+    "is_active": true
+  },
+  {
+    "id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "name": "The Table",
+    "city": "Mumbai",
+    "cuisine": "Continental",
+    "rating": 4.6,
+    "address": "Apollo Bunder, Mumbai",
+    "delivery_time_mins": 55,
+    "is_active": true
+  },
+  {
+    "id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "name": "Pradeep Gomantak",
+    "city": "Mumbai",
+    "cuisine": "Seafood",
+    "rating": 4.4,
+    "address": "Dadar, Mumbai",
+    "delivery_time_mins": 40,
+    "is_active": true
+  },
+  {
+    "id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "name": "Karim's",
+    "city": "Delhi",
+    "cuisine": "Mughlai",
+    "rating": 4.5,
+    "address": "Jama Masjid, Delhi",
+    "delivery_time_mins": 40,
+    "is_active": true
+  },
+  {
+    "id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "name": "Paranthe Wali Gali",
+    "city": "Delhi",
+    "cuisine": "North Indian",
+    "rating": 4.4,
+    "address": "Chandni Chowk, Delhi",
+    "delivery_time_mins": 35,
+    "is_active": true
+  },
+  {
+    "id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "name": "Indian Accent",
+    "city": "Delhi",
+    "cuisine": "Contemporary",
+    "rating": 4.7,
+    "address": "The Lodhi, Delhi",
+    "delivery_time_mins": 60,
+    "is_active": true
+  },
+  {
+    "id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "name": "Bukhara",
+    "city": "Delhi",
+    "cuisine": "North Indian",
+    "rating": 4.6,
+    "address": "ITC Maurya, Delhi",
+    "delivery_time_mins": 55,
+    "is_active": true
+  },
+  {
+    "id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "name": "Haldiram's Nagpur",
+    "city": "Delhi",
+    "cuisine": "North Indian",
+    "rating": 4.3,
+    "address": "Connaught Place, Delhi",
+    "delivery_time_mins": 30,
+    "is_active": true
+  },
+  {
+    "id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "name": "Moti Mahal",
+    "city": "Delhi",
+    "cuisine": "Mughlai",
+    "rating": 4.4,
+    "address": "Daryaganj, Delhi",
+    "delivery_time_mins": 45,
+    "is_active": true
+  },
+  {
+    "id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "name": "Gulati Restaurant",
+    "city": "Delhi",
+    "cuisine": "North Indian",
+    "rating": 4.3,
+    "address": "Pandara Road, Delhi",
+    "delivery_time_mins": 40,
+    "is_active": true
+  },
+  {
+    "id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "name": "Gali Paranthe Wali",
+    "city": "Delhi",
+    "cuisine": "North Indian",
+    "rating": 4.5,
+    "address": "Chandni Chowk, Delhi",
+    "delivery_time_mins": 35,
+    "is_active": true
+  },
+  {
+    "id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "name": "Nathu's Sweets",
+    "city": "Delhi",
+    "cuisine": "North Indian",
+    "rating": 4.4,
+    "address": "Bengali Market, Delhi",
+    "delivery_time_mins": 30,
+    "is_active": true
+  },
+  {
+    "id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "name": "Sagar Ratna",
+    "city": "Delhi",
+    "cuisine": "South Indian",
+    "rating": 4.3,
+    "address": "Janpath, Delhi",
+    "delivery_time_mins": 35,
+    "is_active": true
+  },
+  {
+    "id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "name": "Bawarchi Restaurant",
+    "city": "Hyderabad",
+    "cuisine": "Biryani",
+    "rating": 4.7,
+    "address": "RTC X Roads, Hyderabad",
+    "delivery_time_mins": 35,
+    "is_active": true
+  },
+  {
+    "id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "name": "Cafe Bahar",
+    "city": "Hyderabad",
+    "cuisine": "Biryani",
+    "rating": 4.5,
+    "address": "Basheer Bagh, Hyderabad",
+    "delivery_time_mins": 40,
+    "is_active": true
+  },
+  {
+    "id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "name": "Paradise Restaurant",
+    "city": "Hyderabad",
+    "cuisine": "Biryani",
+    "rating": 4.6,
+    "address": "Secunderabad, Hyderabad",
+    "delivery_time_mins": 45,
+    "is_active": true
+  },
+  {
+    "id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "name": "Shadab Hotel",
+    "city": "Hyderabad",
+    "cuisine": "Mughlai",
+    "rating": 4.5,
+    "address": "High Court Road, Hyderabad",
+    "delivery_time_mins": 35,
+    "is_active": true
+  },
+  {
+    "id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "name": "Hotel Nayaab",
+    "city": "Hyderabad",
+    "cuisine": "Biryani",
+    "rating": 4.4,
+    "address": "Tolichowki, Hyderabad",
+    "delivery_time_mins": 30,
+    "is_active": true
+  },
+  {
+    "id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "name": "Pista House",
+    "city": "Hyderabad",
+    "cuisine": "Biryani",
+    "rating": 4.5,
+    "address": "Mozamjahi Market, Hyderabad",
+    "delivery_time_mins": 40,
+    "is_active": true
+  },
+  {
+    "id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "name": "Shah Ghouse",
+    "city": "Hyderabad",
+    "cuisine": "Biryani",
+    "rating": 4.6,
+    "address": "Tolichowki, Hyderabad",
+    "delivery_time_mins": 35,
+    "is_active": true
+  },
+  {
+    "id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "name": "Chutneys",
+    "city": "Hyderabad",
+    "cuisine": "South Indian",
+    "rating": 4.4,
+    "address": "Banjara Hills, Hyderabad",
+    "delivery_time_mins": 30,
+    "is_active": true
+  },
+  {
+    "id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "name": "Ohri's Banjara",
+    "city": "Hyderabad",
+    "cuisine": "Multi-Cuisine",
+    "rating": 4.3,
+    "address": "Banjara Hills, Hyderabad",
+    "delivery_time_mins": 45,
+    "is_active": true
+  },
+  {
+    "id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "name": "Spicy Venue",
+    "city": "Hyderabad",
+    "cuisine": "Biryani",
+    "rating": 4.4,
+    "address": "Jubilee Hills, Hyderabad",
+    "delivery_time_mins": 35,
+    "is_active": true
+  },
+  {
+    "id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "name": "Saravana Bhavan",
+    "city": "Chennai",
+    "cuisine": "South Indian",
+    "rating": 4.5,
+    "address": "T. Nagar, Chennai",
+    "delivery_time_mins": 35,
+    "is_active": true
+  },
+  {
+    "id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "name": "Murugan Idli Shop",
+    "city": "Chennai",
+    "cuisine": "South Indian",
+    "rating": 4.6,
+    "address": "T. Nagar, Chennai",
+    "delivery_time_mins": 30,
+    "is_active": true
+  },
+  {
+    "id": "67277f48-bf59-5992-a244-47831757fa17",
+    "name": "Buhari Hotel",
+    "city": "Chennai",
+    "cuisine": "North Indian",
+    "rating": 4.3,
+    "address": "Anna Salai, Chennai",
+    "delivery_time_mins": 40,
+    "is_active": true
+  },
+  {
+    "id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "name": "Anjappar",
+    "city": "Chennai",
+    "cuisine": "Chettinad",
+    "rating": 4.5,
+    "address": "Nungambakkam, Chennai",
+    "delivery_time_mins": 45,
+    "is_active": true
+  },
+  {
+    "id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "name": "Junior Kuppanna",
+    "city": "Chennai",
+    "cuisine": "Chettinad",
+    "rating": 4.4,
+    "address": "Nungambakkam, Chennai",
+    "delivery_time_mins": 40,
+    "is_active": true
+  },
+  {
+    "id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "name": "Residency Towers",
+    "city": "Chennai",
+    "cuisine": "Multi-Cuisine",
+    "rating": 4.3,
+    "address": "T. Nagar, Chennai",
+    "delivery_time_mins": 50,
+    "is_active": true
+  },
+  {
+    "id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "name": "Rayar's Mess",
+    "city": "Chennai",
+    "cuisine": "South Indian",
+    "rating": 4.7,
+    "address": "Mylapore, Chennai",
+    "delivery_time_mins": 35,
+    "is_active": true
+  },
+  {
+    "id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "name": "Karpagambal Mess",
+    "city": "Chennai",
+    "cuisine": "South Indian",
+    "rating": 4.6,
+    "address": "Mylapore, Chennai",
+    "delivery_time_mins": 30,
+    "is_active": true
+  },
+  {
+    "id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "name": "Dakshin",
+    "city": "Chennai",
+    "cuisine": "South Indian",
+    "rating": 4.5,
+    "address": "Park Sheraton, Chennai",
+    "delivery_time_mins": 55,
+    "is_active": true
+  },
+  {
+    "id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "name": "Hotel Vasanta Bhavan",
+    "city": "Chennai",
+    "cuisine": "South Indian",
+    "rating": 4.4,
+    "address": "T. Nagar, Chennai",
+    "delivery_time_mins": 35,
+    "is_active": true
+  }
+]

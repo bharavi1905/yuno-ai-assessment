@@ -1,0 +1,4 @@
+<clickhouse>
+  <!-- Allow connections from other Docker containers, not just localhost -->
+  <listen_host>0.0.0.0</listen_host>
+</clickhouse>

@@ -1,0 +1,242 @@
+[
+  {
+    "id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "telegram_chat_id": null,
+    "name": "Arjun Sharma",
+    "email": "arjun.sharma@gmail.com",
+    "city": "Bangalore",
+    "preferences": {
+      "cuisine": "South Indian",
+      "max_price": 300,
+      "min_rating": 4.0
+    }
+  },
+  {
+    "id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "telegram_chat_id": null,
+    "name": "Priya Nair",
+    "email": "priya.nair@yahoo.com",
+    "city": "Mumbai",
+    "preferences": {
+      "cuisine": "Seafood",
+      "max_price": 500,
+      "min_rating": 4.2
+    }
+  },
+  {
+    "id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "telegram_chat_id": null,
+    "name": "Rahul Singh",
+    "email": "rahul.singh@hotmail.com",
+    "city": "Delhi",
+    "preferences": {
+      "cuisine": "Mughlai",
+      "max_price": 400,
+      "min_rating": 4.0
+    }
+  },
+  {
+    "id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "telegram_chat_id": null,
+    "name": "Divya Reddy",
+    "email": "divya.reddy@gmail.com",
+    "city": "Hyderabad",
+    "preferences": {
+      "cuisine": "Biryani",
+      "max_price": 280,
+      "min_rating": 4.3
+    }
+  },
+  {
+    "id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "telegram_chat_id": null,
+    "name": "Karthik Iyer",
+    "email": "karthik.iyer@gmail.com",
+    "city": "Chennai",
+    "preferences": {
+      "cuisine": "South Indian",
+      "max_price": 200,
+      "min_rating": 4.4
+    }
+  },
+  {
+    "id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "telegram_chat_id": null,
+    "name": "Sneha Gupta",
+    "email": "sneha.gupta@gmail.com",
+    "city": "Bangalore",
+    "preferences": {
+      "cuisine": "North Indian",
+      "max_price": 350,
+      "min_rating": 4.0
+    }
+  },
+  {
+    "id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "telegram_chat_id": null,
+    "name": "Vikram Patel",
+    "email": "vikram.patel@gmail.com",
+    "city": "Mumbai",
+    "preferences": {
+      "cuisine": "Gujarati",
+      "max_price": 250,
+      "min_rating": 4.2
+    }
+  },
+  {
+    "id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "telegram_chat_id": null,
+    "name": "Anjali Verma",
+    "email": "anjali.verma@outlook.com",
+    "city": "Delhi",
+    "preferences": {
+      "cuisine": "Mughlai",
+      "max_price": 300,
+      "min_rating": 4.0
+    }
+  },
+  {
+    "id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "telegram_chat_id": null,
+    "name": "Suresh Kumar",
+    "email": "suresh.kumar@gmail.com",
+    "city": "Hyderabad",
+    "preferences": {
+      "cuisine": "Biryani",
+      "max_price": 260,
+      "min_rating": 4.5
+    }
+  },
+  {
+    "id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "telegram_chat_id": null,
+    "name": "Meera Pillai",
+    "email": "meera.pillai@gmail.com",
+    "city": "Chennai",
+    "preferences": {
+      "cuisine": "Chettinad",
+      "max_price": 400,
+      "min_rating": 4.3
+    }
+  },
+  {
+    "id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "telegram_chat_id": null,
+    "name": "Rohit Agarwal",
+    "email": "rohit.agarwal@gmail.com",
+    "city": "Bangalore",
+    "preferences": {
+      "cuisine": "Continental",
+      "max_price": 400,
+      "min_rating": 4.2
+    }
+  },
+  {
+    "id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "telegram_chat_id": null,
+    "name": "Pooja Bhat",
+    "email": "pooja.bhat@gmail.com",
+    "city": "Mumbai",
+    "preferences": {
+      "cuisine": "Parsi",
+      "max_price": 500,
+      "min_rating": 4.4
+    }
+  },
+  {
+    "id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "telegram_chat_id": null,
+    "name": "Deepak Joshi",
+    "email": "deepak.joshi@yahoo.com",
+    "city": "Delhi",
+    "preferences": {
+      "cuisine": "North Indian",
+      "max_price": 350,
+      "min_rating": 4.1
+    }
+  },
+  {
+    "id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "telegram_chat_id": null,
+    "name": "Kavitha Rao",
+    "email": "kavitha.rao@gmail.com",
+    "city": "Hyderabad",
+    "preferences": {
+      "cuisine": "Biryani",
+      "max_price": 300,
+      "min_rating": 4.4
+    }
+  },
+  {
+    "id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "telegram_chat_id": null,
+    "name": "Arun Menon",
+    "email": "arun.menon@gmail.com",
+    "city": "Chennai",
+    "preferences": {
+      "cuisine": "South Indian",
+      "max_price": 150,
+      "min_rating": 4.5
+    }
+  },
+  {
+    "id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "telegram_chat_id": null,
+    "name": "Nisha Kapoor",
+    "email": "nisha.kapoor@gmail.com",
+    "city": "Bangalore",
+    "preferences": {
+      "cuisine": "Multi-Cuisine",
+      "max_price": 300,
+      "min_rating": 4.0
+    }
+  },
+  {
+    "id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "telegram_chat_id": null,
+    "name": "Sanjay Das",
+    "email": "sanjay.das@gmail.com",
+    "city": "Mumbai",
+    "preferences": {
+      "cuisine": "Mughlai",
+      "max_price": 400,
+      "min_rating": 4.3
+    }
+  },
+  {
+    "id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "telegram_chat_id": null,
+    "name": "Lakshmi Subba",
+    "email": "lakshmi.subba@gmail.com",
+    "city": "Delhi",
+    "preferences": {
+      "cuisine": "South Indian",
+      "max_price": 200,
+      "min_rating": 4.3
+    }
+  },
+  {
+    "id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "telegram_chat_id": null,
+    "name": "Naveen Chandra",
+    "email": "naveen.chandra@gmail.com",
+    "city": "Hyderabad",
+    "preferences": {
+      "cuisine": "Biryani",
+      "max_price": 290,
+      "min_rating": 4.5
+    }
+  },
+  {
+    "id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "telegram_chat_id": null,
+    "name": "Asha Thomas",
+    "email": "asha.thomas@gmail.com",
+    "city": "Chennai",
+    "preferences": {
+      "cuisine": "Chettinad",
+      "max_price": 350,
+      "min_rating": 4.2
+    }
+  }
+]

@@ -1,0 +1,194 @@
+[
+  {
+    "id": "9abc7eff-a65d-50fd-a83d-546764aeed22",
+    "name": "Razorpay",
+    "method": "upi",
+    "success_rate": 97.2,
+    "fee_percent": 1.5,
+    "is_active": true
+  },
+  {
+    "id": "905ec386-0dec-5c46-bee1-e640c581471b",
+    "name": "Razorpay",
+    "method": "card",
+    "success_rate": 96.5,
+    "fee_percent": 2.0,
+    "is_active": true
+  },
+  {
+    "id": "a0b0b5ce-ba8e-5a7e-befa-5f9c1f051e55",
+    "name": "Razorpay",
+    "method": "netbanking",
+    "success_rate": 95.8,
+    "fee_percent": 1.8,
+    "is_active": true
+  },
+  {
+    "id": "01a9be99-8cd5-502d-af29-7166e939833b",
+    "name": "Razorpay",
+    "method": "wallet",
+    "success_rate": 96.0,
+    "fee_percent": 1.2,
+    "is_active": true
+  },
+  {
+    "id": "f9e44823-17e7-54c1-937d-5d0acb19f381",
+    "name": "Juspay",
+    "method": "upi",
+    "success_rate": 96.8,
+    "fee_percent": 2.0,
+    "is_active": true
+  },
+  {
+    "id": "71e79b0a-2317-5120-a3cb-bc5b31152f1f",
+    "name": "Juspay",
+    "method": "card",
+    "success_rate": 95.5,
+    "fee_percent": 2.5,
+    "is_active": true
+  },
+  {
+    "id": "50f29005-1d30-5919-8f73-96a61e01df54",
+    "name": "Juspay",
+    "method": "netbanking",
+    "success_rate": 94.9,
+    "fee_percent": 2.2,
+    "is_active": true
+  },
+  {
+    "id": "e4975b6c-b1a5-5d96-94df-a564925ee009",
+    "name": "Juspay",
+    "method": "wallet",
+    "success_rate": 95.2,
+    "fee_percent": 1.8,
+    "is_active": true
+  },
+  {
+    "id": "dd6f184f-e347-547f-9a49-63ee371f9f04",
+    "name": "PayTM",
+    "method": "upi",
+    "success_rate": 95.5,
+    "fee_percent": 1.5,
+    "is_active": true
+  },
+  {
+    "id": "ba784da8-7516-57c0-a6b0-759c79aa0b9d",
+    "name": "PayTM",
+    "method": "card",
+    "success_rate": 94.8,
+    "fee_percent": 2.0,
+    "is_active": true
+  },
+  {
+    "id": "04d39951-9a21-5d5a-aefb-db2a00e4f263",
+    "name": "PayTM",
+    "method": "netbanking",
+    "success_rate": 93.5,
+    "fee_percent": 1.8,
+    "is_active": true
+  },
+  {
+    "id": "e2527c9b-df3f-597c-adf7-31dd34365f45",
+    "name": "PayTM",
+    "method": "wallet",
+    "success_rate": 96.2,
+    "fee_percent": 1.0,
+    "is_active": true
+  },
+  {
+    "id": "3086ed01-bd75-5851-86ae-5ae1fcb3cf44",
+    "name": "PhonePe",
+    "method": "upi",
+    "success_rate": 96.9,
+    "fee_percent": 1.3,
+    "is_active": true
+  },
+  {
+    "id": "8d2ce8f5-d7eb-5d2c-88ed-107d256ac7e7",
+    "name": "PhonePe",
+    "method": "card",
+    "success_rate": 95.2,
+    "fee_percent": 2.0,
+    "is_active": true
+  },
+  {
+    "id": "94014bcb-0e28-5694-8927-a91b673b075c",
+    "name": "PhonePe",
+    "method": "netbanking",
+    "success_rate": 94.5,
+    "fee_percent": 1.9,
+    "is_active": true
+  },
+  {
+    "id": "0d8ad8bb-c7fe-5770-b075-b6421617589c",
+    "name": "PhonePe",
+    "method": "wallet",
+    "success_rate": 95.8,
+    "fee_percent": 1.1,
+    "is_active": true
+  },
+  {
+    "id": "083d5181-a688-586f-8607-46aaa66c8bb0",
+    "name": "GPay",
+    "method": "upi",
+    "success_rate": 97.0,
+    "fee_percent": 1.0,
+    "is_active": true
+  },
+  {
+    "id": "e42aec6c-554e-5fe6-bf9e-058588cd3457",
+    "name": "GPay",
+    "method": "card",
+    "success_rate": 95.5,
+    "fee_percent": 1.8,
+    "is_active": true
+  },
+  {
+    "id": "86f56e49-8fc8-5ed4-8160-bdf07d9dcdc2",
+    "name": "GPay",
+    "method": "netbanking",
+    "success_rate": 94.2,
+    "fee_percent": 1.7,
+    "is_active": true
+  },
+  {
+    "id": "6266da87-71df-542a-8ab5-1067db844172",
+    "name": "GPay",
+    "method": "wallet",
+    "success_rate": 95.0,
+    "fee_percent": 1.2,
+    "is_active": true
+  },
+  {
+    "id": "26582b21-f9b2-54ed-8996-09aa2361d494",
+    "name": "BillDesk",
+    "method": "upi",
+    "success_rate": 94.5,
+    "fee_percent": 1.8,
+    "is_active": true
+  },
+  {
+    "id": "11416c6a-d5af-5793-ba99-825c73cfd5d7",
+    "name": "BillDesk",
+    "method": "card",
+    "success_rate": 95.0,
+    "fee_percent": 2.2,
+    "is_active": true
+  },
+  {
+    "id": "e6fdec37-497b-55b0-9bbd-5ab7938858bb",
+    "name": "BillDesk",
+    "method": "netbanking",
+    "success_rate": 96.0,
+    "fee_percent": 1.5,
+    "is_active": true
+  },
+  {
+    "id": "c6c88c56-02b3-5733-8ff8-f5bfc79a7c66",
+    "name": "BillDesk",
+    "method": "wallet",
+    "success_rate": 93.8,
+    "fee_percent": 1.6,
+    "is_active": true
+  }
+]

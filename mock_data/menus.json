@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "82a16660-3105-593b-895b-f2af6f6919f8",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "name": "Thali",
+    "description": "Assorted daily meal set",
+    "price": 200.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "ae391d69-c2dd-5453-a184-06141d58ead8",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "name": "Rice",
+    "description": "Steamed basmati rice",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "b940e728-9fa4-5eeb-a858-412b91dc0ddc",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "name": "Dal",
+    "description": "Lentil preparation of the day",
+    "price": 100.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "278ad987-a331-5ac5-ac31-d45b9631997a",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "name": "Chapati",
+    "description": "Whole wheat flatbread",
+    "price": 40.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "815c803e-2478-546b-92a7-696163f39710",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "name": "Sabzi",
+    "description": "Seasonal vegetable preparation",
+    "price": 120.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "db87d47a-122b-5597-a8de-18bcdf6b8e12",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "name": "Raita",
+    "description": "Yoghurt with cucumber",
+    "price": 60.0,
+    "category": "Side",
+    "is_available": true
+  },
+  {
+    "id": "247bb425-d2b3-5db4-9f6b-551b9c6abd66",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "name": "Pickle",
+    "description": "Assorted Indian pickles",
+    "price": 30.0,
+    "category": "Condiment",
+    "is_available": true
+  },
+  {
+    "id": "d9a02fa5-477f-5173-b8d3-84a7a9689353",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "name": "Papad",
+    "description": "Crispy lentil wafer",
+    "price": 30.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "63eab13a-41b9-5d96-aa61-e935f9954877",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "name": "Kheer",
+    "description": "Rice pudding with cardamom",
+    "price": 90.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "919890ad-bc29-5e04-a64f-947fc5381dfe",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "name": "Lassi",
+    "description": "Sweet yoghurt drink",
+    "price": 70.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "aa34354a-83c1-5c90-a765-0654a26bdfdc",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "name": "Masala Dosa",
+    "description": "Crispy dosa filled with spiced potato and onion",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "c384a7f1-d00a-5f4f-a446-cafe8ecf7fb8",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "name": "Idli Sambar",
+    "description": "Steamed rice cakes served with lentil soup and chutney",
+    "price": 70.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "03603ba0-2507-5a78-b6be-47384571eb01",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "name": "Rava Idli",
+    "description": "Semolina idli with cashew and curry leaves",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "7391e94e-6068-5513-ba70-ad2c7f0cbf2c",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "name": "Medu Vada",
+    "description": "Crispy fried lentil doughnuts",
+    "price": 70.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "bfa3c8a0-84b4-5dbe-b540-d3b65ed4c816",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "name": "Uttapam",
+    "description": "Thick rice pancake topped with onion and tomato",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "23a39690-f265-5bb1-8bb6-b71c82d25f2c",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "name": "Pesarattu",
+    "description": "Green moong dal crepe with ginger chutney",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "86dfc3e7-319f-5fbb-ad6e-8587b722516b",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "name": "Curd Rice",
+    "description": "Cooling yoghurt rice with mustard and curry leaves",
+    "price": 100.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "05097e5f-3133-5704-b743-d6e9cff666ac",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "name": "Filter Coffee",
+    "description": "South Indian drip coffee with frothy milk",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "5be4455e-6c6c-5a54-bc86-c05826e91122",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "name": "Kesari Bath",
+    "description": "Semolina pudding with saffron and cashews",
+    "price": 80.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "a83d08af-2e99-5a3c-b0f8-0cdd0d62fc8a",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "name": "Rasam",
+    "description": "Tangy tomato and pepper broth",
+    "price": 60.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "2e85015d-de24-5a07-ace0-1769760fffc5",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "name": "Grilled Chicken Sandwich",
+    "description": "Char-grilled chicken in toasted ciabatta",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "d5994e13-092d-5dba-a4c9-c221f5c28ce1",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "name": "Mushroom Pasta",
+    "description": "Penne in garlic-mushroom cream sauce",
+    "price": 320.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "f6e40cf3-7e43-5823-8270-ede1180592b2",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "name": "Caesar Salad",
+    "description": "Romaine with Caesar dressing and croutons",
+    "price": 260.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "f9d7a374-252a-545d-b417-faecb7aef316",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "name": "Beef Steak",
+    "description": "Pan-seared beef with peppercorn sauce",
+    "price": 580.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "3a03c3d0-25db-5638-9bd8-f2860c6207e9",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "name": "Eggs Benedict",
+    "description": "Poached eggs on English muffin with hollandaise",
+    "price": 320.0,
+    "category": "Breakfast",
+    "is_available": true
+  },
+  {
+    "id": "61974cf1-00d2-5e20-9f7d-e2c750c25abd",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "name": "French Onion Soup",
+    "description": "Slow-cooked onion soup with gruyere crouton",
+    "price": 240.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "5b772779-4100-5d72-9b73-30cb58f873ae",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "name": "Chocolate Brownie",
+    "description": "Warm fudge brownie with vanilla ice cream",
+    "price": 200.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "5df14876-103d-5717-b63d-919d4c2cb47b",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "name": "Espresso",
+    "description": "Double shot espresso",
+    "price": 120.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "bed9d642-b959-579b-adab-ca284b6743fe",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "name": "Club Sandwich",
+    "description": "Triple-decker chicken and egg sandwich",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "f8f031de-29e2-55f4-9112-2636939fd3a2",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "name": "Tiramisu",
+    "description": "Classic Italian mascarpone dessert",
+    "price": 250.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "9df8bbff-7cc4-5079-9cf9-1578b4eed787",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "name": "Classic Burger",
+    "description": "Beef patty with lettuce, tomato, cheddar",
+    "price": 320.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "021620bf-faba-55f9-82b2-2fac5b6b507b",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "name": "BBQ Chicken Pizza",
+    "description": "Grilled chicken, BBQ sauce, mozzarella",
+    "price": 380.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "5f2f480d-e879-5511-9f50-9ebae01310ac",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "name": "Loaded Nachos",
+    "description": "Corn nachos with salsa, guacamole, sour cream",
+    "price": 280.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "7d2213f4-ef82-528e-a20e-7931f049c581",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "name": "Mac and Cheese",
+    "description": "Elbow pasta in three-cheese sauce",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "239611a8-5876-5f3c-b651-a91418822119",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "name": "Chicken Wings",
+    "description": "Crispy buffalo wings with blue cheese dip",
+    "price": 320.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "59778237-7919-5c4c-ad58-100bebe05997",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "name": "Brownie Sundae",
+    "description": "Warm brownie with vanilla ice cream and hot fudge",
+    "price": 240.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "d8e093c2-d0d1-59aa-a655-e4fcf736a359",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "name": "Milkshake",
+    "description": "Thick shake in vanilla, chocolate, or strawberry",
+    "price": 180.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "6b1a4a86-1bb7-59d5-8a62-2d15ce0c662c",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "name": "Hot Dog",
+    "description": "All-beef hot dog in brioche bun",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "8bab6885-4b68-578c-859f-478f50c7eb25",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "name": "Onion Rings",
+    "description": "Crispy battered onion rings",
+    "price": 160.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "92547d3e-52f1-589c-99ab-91facc088ae3",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "name": "Apple Pie",
+    "description": "Warm cinnamon apple pie with cream",
+    "price": 200.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "620d225a-ee4d-58fe-aa4a-656af733f19e",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "name": "Masala Dosa",
+    "description": "Crispy dosa filled with spiced potato and onion",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "46a133b5-e608-529a-b07a-857e93fe417d",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "name": "Idli Sambar",
+    "description": "Steamed rice cakes served with lentil soup and chutney",
+    "price": 70.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "037feb32-56aa-574c-ad74-e752261aa399",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "name": "Rava Idli",
+    "description": "Semolina idli with cashew and curry leaves",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "da024e62-169e-5adc-b09f-02d5b3d12f06",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "name": "Medu Vada",
+    "description": "Crispy fried lentil doughnuts",
+    "price": 70.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "7df8db5d-7fe8-59d8-b162-8a60599a2eea",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "name": "Uttapam",
+    "description": "Thick rice pancake topped with onion and tomato",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "88b8aebd-f571-5cc9-a1f0-548389858e3f",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "name": "Pesarattu",
+    "description": "Green moong dal crepe with ginger chutney",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "3ee89829-4c3b-5cf5-ab70-4bf2c1efef9f",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "name": "Curd Rice",
+    "description": "Cooling yoghurt rice with mustard and curry leaves",
+    "price": 100.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "d7ac5ce2-ef56-562d-947a-1adbae9bac08",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "name": "Filter Coffee",
+    "description": "South Indian drip coffee with frothy milk",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "3519d5d2-9e44-5b3f-82dc-03efe11f5e96",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "name": "Kesari Bath",
+    "description": "Semolina pudding with saffron and cashews",
+    "price": 80.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "a870fdfe-d745-568e-ac40-089d0c3424b5",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "name": "Rasam",
+    "description": "Tangy tomato and pepper broth",
+    "price": 60.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "e2e0554e-b598-5055-b90c-4164a4d6dadc",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "name": "Butter Chicken",
+    "description": "Tender chicken in rich tomato-cream sauce",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "6f7354b3-18cb-5484-a603-5797e08dac9e",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils with butter and cream",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "1ced1207-89bc-587a-8d65-c8dc0d2180ee",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "name": "Paneer Tikka Masala",
+    "description": "Grilled cottage cheese in spiced tomato gravy",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "e41ed894-e6e6-5d2c-9b80-a14ea8e5fe80",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with chicken",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "6216693f-ebcb-5a06-ba9e-e87b61ce48b8",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "name": "Naan",
+    "description": "Tandoor-baked leavened bread",
+    "price": 50.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "4fef9967-50a8-59e6-8fac-3ecc264e05bc",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "name": "Seekh Kebab",
+    "description": "Spiced minced meat kebabs",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "2b9a2200-573b-5ba3-bc57-e241c15c950a",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "name": "Mutton Rogan Josh",
+    "description": "Slow-cooked mutton in Kashmiri spices",
+    "price": 340.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "11820c1f-5e6d-52ba-8865-99a376dc11c0",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "name": "Raita",
+    "description": "Yoghurt with cucumber and spices",
+    "price": 60.0,
+    "category": "Side",
+    "is_available": true
+  },
+  {
+    "id": "08d497f5-a24b-5d10-9839-eaf7ea3c54ef",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "name": "Gulab Jamun",
+    "description": "Milk-solid dumplings in sugar syrup",
+    "price": 90.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "565aed43-43d4-5d16-b6d1-fa97b138dd61",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "name": "Lassi",
+    "description": "Sweet or salted chilled yoghurt",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "117f1ad3-32a4-5524-aa2d-dd6b2971423e",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "name": "Masala Dosa",
+    "description": "Crispy dosa filled with spiced potato and onion",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "144005b8-666d-57de-bc73-38b090a4ce51",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "name": "Idli Sambar",
+    "description": "Steamed rice cakes served with lentil soup and chutney",
+    "price": 70.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "eb63624f-e597-5fcf-a2e4-a4b4df1638b2",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "name": "Rava Idli",
+    "description": "Semolina idli with cashew and curry leaves",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "f3218aa3-e928-5c7c-a673-793492fd6f17",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "name": "Medu Vada",
+    "description": "Crispy fried lentil doughnuts",
+    "price": 70.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "a9ac0c0b-46b9-5467-baeb-12cc76cd1780",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "name": "Uttapam",
+    "description": "Thick rice pancake topped with onion and tomato",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "8e273d5d-3c74-5bd2-af38-2a1c5c274bae",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "name": "Pesarattu",
+    "description": "Green moong dal crepe with ginger chutney",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "f1750de7-1c9e-574c-8455-240863520f76",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "name": "Curd Rice",
+    "description": "Cooling yoghurt rice with mustard and curry leaves",
+    "price": 100.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "4fea7699-dcfd-57d6-8607-0086b254d2a2",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "name": "Filter Coffee",
+    "description": "South Indian drip coffee with frothy milk",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "937d4b98-79fc-54d1-b11e-a6caf886ccf0",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "name": "Kesari Bath",
+    "description": "Semolina pudding with saffron and cashews",
+    "price": 80.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "85e662f6-f6e3-5498-a123-aea06017e88c",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "name": "Rasam",
+    "description": "Tangy tomato and pepper broth",
+    "price": 60.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "399d8553-6d36-5bdd-b5c4-a891e9b29a9c",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "name": "Grilled Chicken Sandwich",
+    "description": "Char-grilled chicken in toasted ciabatta",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "c143e845-2f01-574b-9c4f-2463c6325b99",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "name": "Mushroom Pasta",
+    "description": "Penne in garlic-mushroom cream sauce",
+    "price": 320.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "86d727ae-2305-5dd4-8bdb-a22a0ed3f971",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "name": "Caesar Salad",
+    "description": "Romaine with Caesar dressing and croutons",
+    "price": 260.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "ad4d6964-a146-541c-b569-13f4876f5a18",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "name": "Beef Steak",
+    "description": "Pan-seared beef with peppercorn sauce",
+    "price": 580.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "4085c683-a325-57a9-8373-776192f272d2",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "name": "Eggs Benedict",
+    "description": "Poached eggs on English muffin with hollandaise",
+    "price": 320.0,
+    "category": "Breakfast",
+    "is_available": true
+  },
+  {
+    "id": "4c17a927-13fc-59b4-a8cf-29a0abc15a7d",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "name": "French Onion Soup",
+    "description": "Slow-cooked onion soup with gruyere crouton",
+    "price": 240.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "2c836869-6885-5475-868f-ed8b97565f8a",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "name": "Chocolate Brownie",
+    "description": "Warm fudge brownie with vanilla ice cream",
+    "price": 200.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "c23820de-5761-51d9-8497-3f34739bbaa4",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "name": "Espresso",
+    "description": "Double shot espresso",
+    "price": 120.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "30f57061-2b7a-54e9-a7f8-b758ad426957",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "name": "Club Sandwich",
+    "description": "Triple-decker chicken and egg sandwich",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "dbd9e816-6d2e-5fca-a7de-5cec8d38c6ff",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "name": "Tiramisu",
+    "description": "Classic Italian mascarpone dessert",
+    "price": 250.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "9b557f6a-b47b-5f15-b52e-b38494ec5108",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "name": "Masala Dosa",
+    "description": "Crispy dosa filled with spiced potato and onion",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "0ba0ed49-3072-5fdf-af8d-c5e7553cf8a1",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "name": "Idli Sambar",
+    "description": "Steamed rice cakes served with lentil soup and chutney",
+    "price": 70.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "480f19a3-e769-5d31-828e-64d4a987ef01",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "name": "Rava Idli",
+    "description": "Semolina idli with cashew and curry leaves",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "a40929f0-d091-513d-be0e-778ef000c55a",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "name": "Medu Vada",
+    "description": "Crispy fried lentil doughnuts",
+    "price": 70.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "56cd0c4d-37fe-55ba-ac4a-b6bd8cf662ef",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "name": "Uttapam",
+    "description": "Thick rice pancake topped with onion and tomato",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "729eae69-67a9-5d28-8670-bb392ce34554",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "name": "Pesarattu",
+    "description": "Green moong dal crepe with ginger chutney",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "df2677ed-ed4f-5e5a-aaab-8b982a182e39",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "name": "Curd Rice",
+    "description": "Cooling yoghurt rice with mustard and curry leaves",
+    "price": 100.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "4a3849e5-8a94-5db5-8f47-d161f4351b62",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "name": "Filter Coffee",
+    "description": "South Indian drip coffee with frothy milk",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "19e3a904-7ace-5ae0-b5d1-b5e016438da4",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "name": "Kesari Bath",
+    "description": "Semolina pudding with saffron and cashews",
+    "price": 80.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "43d93c25-8984-51d2-8316-867d81afdae7",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "name": "Rasam",
+    "description": "Tangy tomato and pepper broth",
+    "price": 60.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "4374646d-593d-5b78-bb9f-a72e3495a875",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "name": "Masala Dosa",
+    "description": "Crispy dosa filled with spiced potato and onion",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "806b7384-d53c-56ad-885a-529f35b113ba",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "name": "Idli Sambar",
+    "description": "Steamed rice cakes served with lentil soup and chutney",
+    "price": 70.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "8ec7f57f-7c31-5643-95e5-172fa8cb7358",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "name": "Rava Idli",
+    "description": "Semolina idli with cashew and curry leaves",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "c25626ae-4b01-58aa-9a57-1a9e3d5d96f5",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "name": "Medu Vada",
+    "description": "Crispy fried lentil doughnuts",
+    "price": 70.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "bd385b1f-f2d7-500a-8fe4-8360ed8598db",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "name": "Uttapam",
+    "description": "Thick rice pancake topped with onion and tomato",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "49bd8139-64f3-52cf-b01f-56392c30d1f9",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "name": "Pesarattu",
+    "description": "Green moong dal crepe with ginger chutney",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "8dd7291f-863a-5524-a6f3-9ef9d5d42d6c",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "name": "Curd Rice",
+    "description": "Cooling yoghurt rice with mustard and curry leaves",
+    "price": 100.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "e4749c72-a1a9-50e7-86af-e621ce51d397",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "name": "Filter Coffee",
+    "description": "South Indian drip coffee with frothy milk",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "dae2b637-64de-5501-a2ce-cef1f8505cb7",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "name": "Kesari Bath",
+    "description": "Semolina pudding with saffron and cashews",
+    "price": 80.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "73e6f169-2520-5c6a-ae39-50a0ad1bbc9a",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "name": "Rasam",
+    "description": "Tangy tomato and pepper broth",
+    "price": 60.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "dbbc7c48-d6d5-5fb7-8527-377c91d8d652",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "name": "Butter Garlic Crab",
+    "description": "Fresh crab in butter garlic sauce",
+    "price": 680.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "b3fa6fec-7b6b-5e8c-ac93-df559594433d",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "name": "Grilled Pomfret",
+    "description": "Pomfret marinated and grilled with spices",
+    "price": 420.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "a5d87e4e-1d7d-5d2b-bcfa-65c5ae0db205",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "name": "Prawn Masala",
+    "description": "Prawns cooked in onion-tomato masala",
+    "price": 380.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "e4fa31ff-f8da-56e7-bf47-7e8f59cf05b0",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "name": "Fish Curry",
+    "description": "Fresh fish in coconut-based curry",
+    "price": 320.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "e79fff12-5825-5193-8575-0036616caeae",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "name": "Bombil Fry",
+    "description": "Crispy fried Bombay duck",
+    "price": 260.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "39e38e28-f2db-5eb5-8bfb-e1eecb37f49b",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "name": "Kolambi Bhaat",
+    "description": "Prawns cooked with rice",
+    "price": 320.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "528faf7c-fe47-5865-bc77-cbfb6115572a",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "name": "Sol Kadhi",
+    "description": "Kokum and coconut milk digestive drink",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "4d6fcba0-130d-52b0-8bca-f6173b4b3fb4",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "name": "Surmai Fry",
+    "description": "King fish shallow-fried with spices",
+    "price": 360.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "b96d20e1-c99a-553d-b33d-89a4eb65e3b6",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "name": "Crab Sukka",
+    "description": "Dry spiced crab preparation",
+    "price": 580.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "4610bca5-baad-50d9-952b-cf7b44b7220e",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "name": "Modak",
+    "description": "Sweet coconut-stuffed rice dumpling",
+    "price": 120.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "b2fe15fe-a583-516b-b88e-ba2becaec725",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "name": "Dhansak",
+    "description": "Slow-cooked lamb with lentils and vegetables",
+    "price": 380.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "825ac852-c805-5845-838e-d972ae018f1f",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "name": "Sali Boti",
+    "description": "Lamb in tangy tomato gravy with potato straws",
+    "price": 360.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "2470f695-7356-55ef-9139-6ab34a9c0aa4",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "name": "Patra ni Machhi",
+    "description": "Steamed fish in chutney wrapped in banana leaf",
+    "price": 400.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "398ef9cd-39b1-55e2-9cf1-3e545d1d815a",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "name": "Berry Pulao",
+    "description": "Rice cooked with barberries and caramelised onions",
+    "price": 320.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "ec066d39-7c08-59d6-86bb-f9b209a264b3",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "name": "Lagan nu Custard",
+    "description": "Baked egg custard with nutmeg",
+    "price": 130.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "0669d1fb-eae1-504e-80b7-5fc8309a26df",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "name": "Akuri",
+    "description": "Spiced scrambled eggs on toast",
+    "price": 180.0,
+    "category": "Breakfast",
+    "is_available": true
+  },
+  {
+    "id": "5f1825be-de46-50fe-a97f-9aad8f6f82fc",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "name": "Mutton Cutlet",
+    "description": "Breadcrumbed minced mutton patties",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "3e12dadc-2e6e-550c-ac59-519a6005a605",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "name": "Sali per Eedu",
+    "description": "Eggs baked over potato straws",
+    "price": 200.0,
+    "category": "Breakfast",
+    "is_available": true
+  },
+  {
+    "id": "db948491-9d1e-5000-b79d-c563016df482",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "name": "Caramel Custard",
+    "description": "Classic baked caramel custard",
+    "price": 120.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "731238b5-4874-56cb-908d-2ac6183dd7bb",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "name": "Raspberry Soda",
+    "description": "Chilled raspberry syrup soda",
+    "price": 70.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "42f8f4f4-d262-57d0-8994-19a0b9cca849",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "name": "Butter Chicken",
+    "description": "Tender chicken in rich tomato-cream sauce",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "f9e07efc-78c3-5b8e-83f2-d7452ade7f70",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils with butter and cream",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "b15308a8-8360-5749-823e-fd499521dec9",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "name": "Paneer Tikka Masala",
+    "description": "Grilled cottage cheese in spiced tomato gravy",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "f1f97c58-54ba-5a58-ba58-54811ce80f09",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with chicken",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "6045b906-8c44-5b10-927f-b90b1b980f6b",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "name": "Naan",
+    "description": "Tandoor-baked leavened bread",
+    "price": 50.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "160ebe44-d08c-5063-9f88-4acdac9bc5df",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "name": "Seekh Kebab",
+    "description": "Spiced minced meat kebabs",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "a647ab11-d5f7-5031-82ac-f14306340dd5",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "name": "Mutton Rogan Josh",
+    "description": "Slow-cooked mutton in Kashmiri spices",
+    "price": 340.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "61658f67-35bd-56dc-9f76-b53a55116c97",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "name": "Raita",
+    "description": "Yoghurt with cucumber and spices",
+    "price": 60.0,
+    "category": "Side",
+    "is_available": true
+  },
+  {
+    "id": "13e74d1a-a70f-57d7-a97e-34a0ffb00bc3",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "name": "Gulab Jamun",
+    "description": "Milk-solid dumplings in sugar syrup",
+    "price": 90.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "eaf799a2-0dad-5b30-81b2-7c3d76e8fcaf",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "name": "Lassi",
+    "description": "Sweet or salted chilled yoghurt",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "0ee468c6-6a1e-51b9-aa97-e8c6513aadee",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "name": "Grilled Chicken Sandwich",
+    "description": "Char-grilled chicken in toasted ciabatta",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "a9ac0a59-ce43-5418-869d-2b6823b2fdf5",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "name": "Mushroom Pasta",
+    "description": "Penne in garlic-mushroom cream sauce",
+    "price": 320.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "b0a7f4fb-fe59-56e6-a88e-87ad0ce138c9",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "name": "Caesar Salad",
+    "description": "Romaine with Caesar dressing and croutons",
+    "price": 260.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "4eca87f9-9388-5177-84a6-c88c74005c1f",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "name": "Beef Steak",
+    "description": "Pan-seared beef with peppercorn sauce",
+    "price": 580.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "9baf270a-b54f-5c43-b5fb-4101c403860b",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "name": "Eggs Benedict",
+    "description": "Poached eggs on English muffin with hollandaise",
+    "price": 320.0,
+    "category": "Breakfast",
+    "is_available": true
+  },
+  {
+    "id": "9d1ead73-73a4-5d62-8b65-7c98eb26e8f0",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "name": "French Onion Soup",
+    "description": "Slow-cooked onion soup with gruyere crouton",
+    "price": 240.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "ea8df44a-3f7e-59da-8e72-5b951d6ce2ae",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "name": "Chocolate Brownie",
+    "description": "Warm fudge brownie with vanilla ice cream",
+    "price": 200.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "9da370c5-23a9-5c74-b11d-a66e64fa2b6a",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "name": "Espresso",
+    "description": "Double shot espresso",
+    "price": 120.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "040a6b0d-e627-50d9-a7d6-bd4bc54e7b90",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "name": "Club Sandwich",
+    "description": "Triple-decker chicken and egg sandwich",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "be63fe49-4bb0-5fc6-903b-0ba6a340d76b",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "name": "Tiramisu",
+    "description": "Classic Italian mascarpone dessert",
+    "price": 250.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "2a37f776-b1d3-5772-a12d-0a6d7af2bb32",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "name": "Dhokla",
+    "description": "Steamed fermented rice-lentil cake",
+    "price": 80.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "ee6fb339-ab49-5f78-bf1a-e5194ff06409",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "name": "Thepla",
+    "description": "Spiced fenugreek flatbread",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "091466bf-4a0e-5778-9dd9-9c471c47844d",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "name": "Undhiyu",
+    "description": "Seasonal vegetable dish from Surat",
+    "price": 180.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "3fa04387-eb80-5600-aeb6-f60fa5847552",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "name": "Khandvi",
+    "description": "Savoury gram flour rolls",
+    "price": 90.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "5e622cf4-c024-5051-b507-6c679ec5c453",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "name": "Fafda Jalebi",
+    "description": "Crispy chickpea flour fritters with sweet jalebi",
+    "price": 100.0,
+    "category": "Breakfast",
+    "is_available": true
+  },
+  {
+    "id": "5bf35adb-4077-541e-85c3-510f01b42b7c",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "name": "Dal Dhokli",
+    "description": "Wheat dumplings in spiced lentil stew",
+    "price": 160.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "a4c0b9a6-a7d2-5be5-9671-64b042a942f7",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "name": "Farsan",
+    "description": "Assorted Gujarati snack platter",
+    "price": 140.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "e95e5ca8-810b-5ec1-89e9-7387af77c11b",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "name": "Shreekhand",
+    "description": "Strained yoghurt dessert with saffron",
+    "price": 120.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "66acbbf6-c8b2-51cd-a403-95c879d98096",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "name": "Aam Panna",
+    "description": "Tangy raw mango drink",
+    "price": 70.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "f90050ac-22f7-5b37-811a-7bf004459349",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "name": "Buttermilk",
+    "description": "Spiced thin yoghurt drink",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "3cb639b2-1f46-59da-98e9-9077d2831b11",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "name": "Butter Chicken",
+    "description": "Tender chicken in rich tomato-cream sauce",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "311e7fd6-0c9a-50b3-9716-bd53feb931cf",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils with butter and cream",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "695d7ee9-f679-5343-8bb6-28919a325393",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "name": "Paneer Tikka Masala",
+    "description": "Grilled cottage cheese in spiced tomato gravy",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "0eb4e7d6-25fb-52aa-9902-54d0159dd105",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with chicken",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "fc884710-82a6-5ab8-b04d-b9bb6a81a35f",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "name": "Naan",
+    "description": "Tandoor-baked leavened bread",
+    "price": 50.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "d65295b1-150b-560d-9b11-d18ad0858cf8",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "name": "Seekh Kebab",
+    "description": "Spiced minced meat kebabs",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "4d0e0a90-9a52-527e-82b9-161ccafcc6d9",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "name": "Mutton Rogan Josh",
+    "description": "Slow-cooked mutton in Kashmiri spices",
+    "price": 340.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "871a61c6-5e12-566a-ac1f-9c81e11dda90",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "name": "Raita",
+    "description": "Yoghurt with cucumber and spices",
+    "price": 60.0,
+    "category": "Side",
+    "is_available": true
+  },
+  {
+    "id": "73876d4d-c23f-5462-9301-91d7e57586a1",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "name": "Gulab Jamun",
+    "description": "Milk-solid dumplings in sugar syrup",
+    "price": 90.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "29cfce00-ba5b-5529-a73e-13fd29730bcd",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "name": "Lassi",
+    "description": "Sweet or salted chilled yoghurt",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "c3221e7d-a4fa-5399-9650-0223f900c51e",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "name": "Butter Garlic Crab",
+    "description": "Fresh crab in butter garlic sauce",
+    "price": 680.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "a29370aa-b731-5f95-86aa-eefbbf0a1cc6",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "name": "Grilled Pomfret",
+    "description": "Pomfret marinated and grilled with spices",
+    "price": 420.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "873862d8-24d3-5407-a2a8-a0b5144951fd",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "name": "Prawn Masala",
+    "description": "Prawns cooked in onion-tomato masala",
+    "price": 380.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "41ddc954-0a43-5aa4-9d0c-bfec58d1bb8c",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "name": "Fish Curry",
+    "description": "Fresh fish in coconut-based curry",
+    "price": 320.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "39a8be82-1d97-5e08-934b-5900beb03496",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "name": "Bombil Fry",
+    "description": "Crispy fried Bombay duck",
+    "price": 260.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "70b2061b-967b-5086-b2cb-3ca926e79777",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "name": "Kolambi Bhaat",
+    "description": "Prawns cooked with rice",
+    "price": 320.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "dea63b17-83c0-5ccd-9c6f-a3c13fe383a6",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "name": "Sol Kadhi",
+    "description": "Kokum and coconut milk digestive drink",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "7ee97dc7-05aa-5e54-bc4a-62496ca31786",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "name": "Surmai Fry",
+    "description": "King fish shallow-fried with spices",
+    "price": 360.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "afef3552-a87a-5b36-9f1e-8fca3fa4a76c",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "name": "Crab Sukka",
+    "description": "Dry spiced crab preparation",
+    "price": 580.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "ec11f9ae-56da-5600-b9d7-4f742b17cef3",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "name": "Modak",
+    "description": "Sweet coconut-stuffed rice dumpling",
+    "price": 120.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "e640d98e-1ad0-57f2-9149-19c2766aeb18",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "name": "Butter Chicken",
+    "description": "Tender chicken in rich tomato-cream sauce",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "1816ef0e-73ac-59fd-9e55-ca2f513fc93b",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils with butter and cream",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "c8eed938-d5fa-531e-9df9-3c18ec0fbfe3",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "name": "Paneer Tikka Masala",
+    "description": "Grilled cottage cheese in spiced tomato gravy",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "552cec31-1215-52e0-b595-b68cdee5144b",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with chicken",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "2448192f-6b62-5850-8275-fe53db69bde5",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "name": "Naan",
+    "description": "Tandoor-baked leavened bread",
+    "price": 50.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "0abdba24-e866-5ee2-9826-5d47ba07d430",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "name": "Seekh Kebab",
+    "description": "Spiced minced meat kebabs",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "1182c82c-82e6-5cb3-afe0-a38f8ce42c29",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "name": "Mutton Rogan Josh",
+    "description": "Slow-cooked mutton in Kashmiri spices",
+    "price": 340.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "5ed4ddad-5664-5f42-b5a3-978d72371628",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "name": "Raita",
+    "description": "Yoghurt with cucumber and spices",
+    "price": 60.0,
+    "category": "Side",
+    "is_available": true
+  },
+  {
+    "id": "4766bad2-0bfe-508b-97af-b035fa503ff8",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "name": "Gulab Jamun",
+    "description": "Milk-solid dumplings in sugar syrup",
+    "price": 90.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "fa3ba7b2-1806-571b-8872-4ba4dccc8ee9",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "name": "Lassi",
+    "description": "Sweet or salted chilled yoghurt",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "b727ddc1-91be-5765-82c8-26d65414d530",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "name": "Grilled Chicken Sandwich",
+    "description": "Char-grilled chicken in toasted ciabatta",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "a7c1ae08-2a53-5644-a9d3-1403215faa8d",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "name": "Mushroom Pasta",
+    "description": "Penne in garlic-mushroom cream sauce",
+    "price": 320.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "9dbba28e-94b0-5a26-89ba-e94b21b31980",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "name": "Caesar Salad",
+    "description": "Romaine with Caesar dressing and croutons",
+    "price": 260.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "167d12ff-8412-5cdb-a611-bf4d2d78606c",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "name": "Beef Steak",
+    "description": "Pan-seared beef with peppercorn sauce",
+    "price": 580.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "a25b4a09-33b9-5908-b1a4-539f4d932863",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "name": "Eggs Benedict",
+    "description": "Poached eggs on English muffin with hollandaise",
+    "price": 320.0,
+    "category": "Breakfast",
+    "is_available": true
+  },
+  {
+    "id": "51fdb2b0-01bd-5b00-b745-d75008181660",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "name": "French Onion Soup",
+    "description": "Slow-cooked onion soup with gruyere crouton",
+    "price": 240.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "6eb415c5-f55b-5a2e-ba54-a4d37d0abd57",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "name": "Chocolate Brownie",
+    "description": "Warm fudge brownie with vanilla ice cream",
+    "price": 200.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "e58876f4-d00b-5810-a454-065aa10b931e",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "name": "Espresso",
+    "description": "Double shot espresso",
+    "price": 120.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "cb63b937-760f-5304-9b55-9debaf808a97",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "name": "Club Sandwich",
+    "description": "Triple-decker chicken and egg sandwich",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "6435237f-ac65-5f03-91fa-e4e30e14f829",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "name": "Tiramisu",
+    "description": "Classic Italian mascarpone dessert",
+    "price": 250.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "8c81bc32-6230-5124-b223-913c89976efc",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "name": "Butter Garlic Crab",
+    "description": "Fresh crab in butter garlic sauce",
+    "price": 680.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "56dfd12c-9b73-50e1-a502-4f60035a3737",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "name": "Grilled Pomfret",
+    "description": "Pomfret marinated and grilled with spices",
+    "price": 420.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "60aea2a2-7741-5321-a753-6635407adf2f",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "name": "Prawn Masala",
+    "description": "Prawns cooked in onion-tomato masala",
+    "price": 380.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "380f0720-686e-509b-8a23-ee6ff80729f2",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "name": "Fish Curry",
+    "description": "Fresh fish in coconut-based curry",
+    "price": 320.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "405ccbe7-3974-5177-aeca-3d84d425b639",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "name": "Bombil Fry",
+    "description": "Crispy fried Bombay duck",
+    "price": 260.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "319ca1b3-c617-5051-97aa-02037be83383",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "name": "Kolambi Bhaat",
+    "description": "Prawns cooked with rice",
+    "price": 320.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "91892178-a16f-5b5c-8da7-06f3f7b67028",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "name": "Sol Kadhi",
+    "description": "Kokum and coconut milk digestive drink",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "427952d1-c023-5b73-8012-9e0eb4ea33c0",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "name": "Surmai Fry",
+    "description": "King fish shallow-fried with spices",
+    "price": 360.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "3efa1b73-21d6-5863-a29b-79a6b63c37b8",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "name": "Crab Sukka",
+    "description": "Dry spiced crab preparation",
+    "price": 580.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "a5ba95bf-48fc-5885-869f-a5dc3d47b834",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "name": "Modak",
+    "description": "Sweet coconut-stuffed rice dumpling",
+    "price": 120.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "b1841fd0-1c10-5241-9af6-25f74960080e",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "name": "Butter Chicken",
+    "description": "Tender chicken in rich tomato-cream sauce",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "a0fc1f5f-e9b4-53c2-a915-25bfdef1b75c",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils with butter and cream",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "8506161b-b47a-5018-b77e-a22082345e8d",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "name": "Paneer Tikka Masala",
+    "description": "Grilled cottage cheese in spiced tomato gravy",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "f1d5f0b6-c775-5132-a684-f7fae910fcc6",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with chicken",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "127a47e0-6208-562c-afb1-d9702fe6cf5b",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "name": "Naan",
+    "description": "Tandoor-baked leavened bread",
+    "price": 50.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "47d31496-9848-5a75-a684-be53f419b322",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "name": "Seekh Kebab",
+    "description": "Spiced minced meat kebabs",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "3fca3736-3efc-573d-ba21-4ecb3330cf7e",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "name": "Mutton Rogan Josh",
+    "description": "Slow-cooked mutton in Kashmiri spices",
+    "price": 340.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "13df0a93-6989-50b6-8fa6-e8cc18d303b6",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "name": "Raita",
+    "description": "Yoghurt with cucumber and spices",
+    "price": 60.0,
+    "category": "Side",
+    "is_available": true
+  },
+  {
+    "id": "6b60278e-301c-5f25-bee2-e06d9b3959ec",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "name": "Gulab Jamun",
+    "description": "Milk-solid dumplings in sugar syrup",
+    "price": 90.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "941c6f2e-7527-5f5a-b825-18206020d594",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "name": "Lassi",
+    "description": "Sweet or salted chilled yoghurt",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "da4bd47f-bb54-59ce-b72b-f4f753486989",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "name": "Butter Chicken",
+    "description": "Tender chicken in rich tomato-cream sauce",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "4015ed51-1334-5b62-be6a-52a50d11bf6e",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils with butter and cream",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "db502689-1d26-5970-bb0f-aa3eaeacb484",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "name": "Paneer Tikka Masala",
+    "description": "Grilled cottage cheese in spiced tomato gravy",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "88f21087-3bc1-5406-9ad8-cf614273f1e0",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with chicken",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "6900f0a3-801c-5b2f-bb88-f60cfdb21d35",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "name": "Naan",
+    "description": "Tandoor-baked leavened bread",
+    "price": 50.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "46be3120-1c11-5b13-aacf-d5169045ae51",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "name": "Seekh Kebab",
+    "description": "Spiced minced meat kebabs",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "d6ec1437-6a02-51d6-9916-e1e7564014c6",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "name": "Mutton Rogan Josh",
+    "description": "Slow-cooked mutton in Kashmiri spices",
+    "price": 340.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "5739e650-1a77-5eff-a8e2-4c65a8b4da29",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "name": "Raita",
+    "description": "Yoghurt with cucumber and spices",
+    "price": 60.0,
+    "category": "Side",
+    "is_available": true
+  },
+  {
+    "id": "61024381-aeeb-5873-9134-624692078d8c",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "name": "Gulab Jamun",
+    "description": "Milk-solid dumplings in sugar syrup",
+    "price": 90.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "52311ef4-a685-5407-805a-ce8bc361ef2e",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "name": "Lassi",
+    "description": "Sweet or salted chilled yoghurt",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "5d309593-8cfd-5bbb-bf56-85579e298000",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "name": "Kashmiri Morels",
+    "description": "Wild morel mushrooms with truffle butter",
+    "price": 680.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "cf74a6a9-3f2a-5d3b-b06d-b9d11c9c7de3",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "name": "Gucchi Pulao",
+    "description": "Wild mushroom pilaf with saffron",
+    "price": 780.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "118d0f8e-6359-5ca8-bef4-1667a84f58db",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "name": "Adraki Chicken",
+    "description": "Ginger-marinated chicken with seasonal greens",
+    "price": 580.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "2213d378-ec2c-5824-9c89-37771baca3b9",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "name": "Daulat Ki Chaat",
+    "description": "Whipped cream and milk foam dessert",
+    "price": 320.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "85e0f726-fffb-52c3-aac0-18029de08326",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "name": "Ghewar",
+    "description": "Rajasthani lattice sweet",
+    "price": 280.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "28a5cf24-294d-559b-9230-216e5d39cbee",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "name": "Puchka Shots",
+    "description": "Deconstructed pani puri amuse-bouche",
+    "price": 420.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "f3229d6a-51bb-5b40-a14b-04f9ce7ad8ac",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "name": "Tandoori Lobster",
+    "description": "Lobster marinated and grilled in tandoor",
+    "price": 1400.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "c1bde0d2-c80a-5943-96c0-a81f6ebb329d",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "name": "Lamb Raan",
+    "description": "Slow-roasted whole leg of lamb",
+    "price": 1200.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "d83d198b-fa87-5106-b2dc-076e4a83bd42",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "name": "Rabri Kulfi",
+    "description": "Traditional Indian ice cream",
+    "price": 200.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "59d4fd43-fed4-5828-8ade-d8946608a9b0",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "name": "Chaas",
+    "description": "Spiced buttermilk",
+    "price": 120.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "fb328152-a181-5c83-b45b-3b03b0ef77b1",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "name": "Butter Chicken",
+    "description": "Tender chicken in rich tomato-cream sauce",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "32f4c76a-da5c-5f7f-8dc1-b417af85a273",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils with butter and cream",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "fa7654b6-4c6a-5923-917a-266a6a36d13b",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "name": "Paneer Tikka Masala",
+    "description": "Grilled cottage cheese in spiced tomato gravy",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "4af04275-a38e-51a0-83e5-1f90989aef94",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with chicken",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "5803fcbd-1da0-5187-9420-080f9520c4d6",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "name": "Naan",
+    "description": "Tandoor-baked leavened bread",
+    "price": 50.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "8421de8c-7e6f-5453-b175-e792d00bdb77",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "name": "Seekh Kebab",
+    "description": "Spiced minced meat kebabs",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "cf33fc2a-60bd-5e8b-a446-c28b536c07af",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "name": "Mutton Rogan Josh",
+    "description": "Slow-cooked mutton in Kashmiri spices",
+    "price": 340.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "e2a48121-8d2b-5b38-a04b-f633cd487f8e",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "name": "Raita",
+    "description": "Yoghurt with cucumber and spices",
+    "price": 60.0,
+    "category": "Side",
+    "is_available": true
+  },
+  {
+    "id": "4e82aeb1-b85a-518f-b0db-fa08edaa9706",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "name": "Gulab Jamun",
+    "description": "Milk-solid dumplings in sugar syrup",
+    "price": 90.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "b72fbf62-5982-570b-9dd6-a08ffd7c4159",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "name": "Lassi",
+    "description": "Sweet or salted chilled yoghurt",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "41466fc4-de4f-5f82-b06a-df014f3cfb77",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "name": "Butter Chicken",
+    "description": "Tender chicken in rich tomato-cream sauce",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "c280432c-9a34-55ea-a77f-df2e9854ed95",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils with butter and cream",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "609bfcbc-72aa-5548-bfdb-bc1f73f06952",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "name": "Paneer Tikka Masala",
+    "description": "Grilled cottage cheese in spiced tomato gravy",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "faf91e66-5241-577c-9cf2-048d33f172e8",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with chicken",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "d5b875d5-7f97-5b13-96f7-ebfe438854f6",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "name": "Naan",
+    "description": "Tandoor-baked leavened bread",
+    "price": 50.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "c5ba889e-013b-505f-b0d2-e2885f85f8d0",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "name": "Seekh Kebab",
+    "description": "Spiced minced meat kebabs",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "3681cb88-cfcc-522e-97fa-883df9721939",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "name": "Mutton Rogan Josh",
+    "description": "Slow-cooked mutton in Kashmiri spices",
+    "price": 340.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "161cfa8f-cc53-5b1c-8667-9fc153f8a210",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "name": "Raita",
+    "description": "Yoghurt with cucumber and spices",
+    "price": 60.0,
+    "category": "Side",
+    "is_available": true
+  },
+  {
+    "id": "4cdd6e89-557d-59fa-acf7-b086e99f86e9",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "name": "Gulab Jamun",
+    "description": "Milk-solid dumplings in sugar syrup",
+    "price": 90.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "be147fe4-388c-53c8-bdc9-da28a12e4d98",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "name": "Lassi",
+    "description": "Sweet or salted chilled yoghurt",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "73d9e07d-b4f5-56ec-9a68-3d6a53279ac3",
+    "restaurant_id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "name": "Butter Chicken",
+    "description": "Tender chicken in rich tomato-cream sauce",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "188ed478-2f5a-5252-897d-9859cb48880d",
+    "restaurant_id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils with butter and cream",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "16c671aa-1412-595f-a294-9924196e2073",
+    "restaurant_id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "name": "Paneer Tikka Masala",
+    "description": "Grilled cottage cheese in spiced tomato gravy",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "668336c3-fae1-5a64-9878-1609ad375ac3",
+    "restaurant_id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with chicken",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "7ab43005-f5b5-5b91-8536-65f9af98dc50",
+    "restaurant_id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "name": "Naan",
+    "description": "Tandoor-baked leavened bread",
+    "price": 50.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "7a1cd556-edb2-56fe-8147-d2d7e6f6f7d9",
+    "restaurant_id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "name": "Seekh Kebab",
+    "description": "Spiced minced meat kebabs",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "431cebf9-15e8-575f-8138-fa91e2fbcab7",
+    "restaurant_id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "name": "Mutton Rogan Josh",
+    "description": "Slow-cooked mutton in Kashmiri spices",
+    "price": 340.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "18ac77d3-ac93-579b-b7be-80d55f0f88dd",
+    "restaurant_id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "name": "Raita",
+    "description": "Yoghurt with cucumber and spices",
+    "price": 60.0,
+    "category": "Side",
+    "is_available": true
+  },
+  {
+    "id": "774339d7-82a5-5c82-ba6f-c03ddb65b0a2",
+    "restaurant_id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "name": "Gulab Jamun",
+    "description": "Milk-solid dumplings in sugar syrup",
+    "price": 90.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "5c55ff50-b9ee-595d-8204-09ee86925015",
+    "restaurant_id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "name": "Lassi",
+    "description": "Sweet or salted chilled yoghurt",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "43a0b62b-fcfa-59fe-9211-c623c96e9216",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "name": "Butter Chicken",
+    "description": "Tender chicken in rich tomato-cream sauce",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "2a7ccfe9-fb92-54f6-92ec-b169279e323d",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils with butter and cream",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "90c99bbd-712a-5321-be56-2b22a3c1b94e",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "name": "Paneer Tikka Masala",
+    "description": "Grilled cottage cheese in spiced tomato gravy",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "6572712a-1e91-535e-9209-22fbf8d67df0",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with chicken",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "d4b5eadd-c366-50a3-9461-50723c730b0f",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "name": "Naan",
+    "description": "Tandoor-baked leavened bread",
+    "price": 50.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "5dd9623f-1fa8-59bb-b2f9-6e1d9076e199",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "name": "Seekh Kebab",
+    "description": "Spiced minced meat kebabs",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "abc1e063-76c4-588e-9f45-06cc3b46464e",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "name": "Mutton Rogan Josh",
+    "description": "Slow-cooked mutton in Kashmiri spices",
+    "price": 340.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "7a830b2a-d8f7-53c5-86e6-89426d64ca0e",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "name": "Raita",
+    "description": "Yoghurt with cucumber and spices",
+    "price": 60.0,
+    "category": "Side",
+    "is_available": true
+  },
+  {
+    "id": "2d9768a0-cb44-5be1-87d9-235b89042b84",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "name": "Gulab Jamun",
+    "description": "Milk-solid dumplings in sugar syrup",
+    "price": 90.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "41fdcf0b-26f0-57fa-acb1-9ea54d832faf",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "name": "Lassi",
+    "description": "Sweet or salted chilled yoghurt",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "daa02ca2-0ca0-5d81-9372-24f549d130db",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "name": "Butter Chicken",
+    "description": "Tender chicken in rich tomato-cream sauce",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "4ae8568b-c39a-5a6a-ba2a-bc43d02fdc2a",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils with butter and cream",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "1a426725-7856-5b01-bc4f-dc5c5499a09f",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "name": "Paneer Tikka Masala",
+    "description": "Grilled cottage cheese in spiced tomato gravy",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "135ca4d4-e5c5-55dc-9f89-87a353b62c73",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with chicken",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "5c956493-d197-5e7d-9433-0819cab49165",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "name": "Naan",
+    "description": "Tandoor-baked leavened bread",
+    "price": 50.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "b816d1c8-82bd-595e-971c-35c772425e7b",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "name": "Seekh Kebab",
+    "description": "Spiced minced meat kebabs",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "d537649a-40ab-5fda-8f94-c3eebfb31206",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "name": "Mutton Rogan Josh",
+    "description": "Slow-cooked mutton in Kashmiri spices",
+    "price": 340.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "0d7e8085-a50b-5464-9756-fa9a6100e2f5",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "name": "Raita",
+    "description": "Yoghurt with cucumber and spices",
+    "price": 60.0,
+    "category": "Side",
+    "is_available": true
+  },
+  {
+    "id": "ae2c537c-2a3d-5455-9d05-ab10aa8c02d0",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "name": "Gulab Jamun",
+    "description": "Milk-solid dumplings in sugar syrup",
+    "price": 90.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "9ef7f421-0051-5f34-8f37-826936c79122",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "name": "Lassi",
+    "description": "Sweet or salted chilled yoghurt",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "77fae184-4c4f-5975-87cb-1d795427a255",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "name": "Butter Chicken",
+    "description": "Tender chicken in rich tomato-cream sauce",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "61452197-df8b-51c5-97c7-ada831395c7c",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils with butter and cream",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "9be2e14c-64bb-5988-bf4e-3b525af79bdd",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "name": "Paneer Tikka Masala",
+    "description": "Grilled cottage cheese in spiced tomato gravy",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "1d9a69ff-0551-5385-a667-316496c5a36f",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with chicken",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "b0cdbc61-5b8f-508e-95fd-6461c077a15c",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "name": "Naan",
+    "description": "Tandoor-baked leavened bread",
+    "price": 50.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "3675c85b-5a27-5dd1-bb31-6251cc472a96",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "name": "Seekh Kebab",
+    "description": "Spiced minced meat kebabs",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "68afde9f-cb65-53f8-9561-5df6dfe5773f",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "name": "Mutton Rogan Josh",
+    "description": "Slow-cooked mutton in Kashmiri spices",
+    "price": 340.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "9902b8bd-2c92-5986-9ffa-fb50842de0c5",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "name": "Raita",
+    "description": "Yoghurt with cucumber and spices",
+    "price": 60.0,
+    "category": "Side",
+    "is_available": true
+  },
+  {
+    "id": "5f56b856-5518-55b8-99be-b13dbcb7218b",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "name": "Gulab Jamun",
+    "description": "Milk-solid dumplings in sugar syrup",
+    "price": 90.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "c504a127-e63e-5069-994c-656f559771a8",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "name": "Lassi",
+    "description": "Sweet or salted chilled yoghurt",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "3b90d47c-75ce-57d3-9aa8-736871de2d8c",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "name": "Masala Dosa",
+    "description": "Crispy dosa filled with spiced potato and onion",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "c24d7394-5fc5-5b5f-9c7c-4ca10cf97792",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "name": "Idli Sambar",
+    "description": "Steamed rice cakes served with lentil soup and chutney",
+    "price": 70.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "897381b7-55a8-525a-9d34-40bbda122c09",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "name": "Rava Idli",
+    "description": "Semolina idli with cashew and curry leaves",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "ea1ff2ce-5fed-5cf4-a1e2-460564fe00bc",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "name": "Medu Vada",
+    "description": "Crispy fried lentil doughnuts",
+    "price": 70.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "79335a5a-4b7e-5809-9e1e-dee08bec54a4",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "name": "Uttapam",
+    "description": "Thick rice pancake topped with onion and tomato",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "88435774-2be9-584f-bbcb-420434275dcd",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "name": "Pesarattu",
+    "description": "Green moong dal crepe with ginger chutney",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "30d37c61-5d5d-5b0e-af6a-ff492163efb5",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "name": "Curd Rice",
+    "description": "Cooling yoghurt rice with mustard and curry leaves",
+    "price": 100.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "586793d3-437e-52db-8bef-3887ae9ff330",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "name": "Filter Coffee",
+    "description": "South Indian drip coffee with frothy milk",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "1620f730-e24c-5a93-a736-dc05fa475997",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "name": "Kesari Bath",
+    "description": "Semolina pudding with saffron and cashews",
+    "price": 80.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "7c75ac6e-1a15-5884-bfa9-f8aa48928634",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "name": "Rasam",
+    "description": "Tangy tomato and pepper broth",
+    "price": 60.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "2d26a3b3-1aa1-5692-b23a-3860f0c85dcb",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "name": "Chicken Dum Biryani",
+    "description": "The classic Hyderabadi biryani slow-cooked in dum style",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "11bec9de-4f5f-5606-936c-da08589e3c9c",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "name": "Mutton Biryani",
+    "description": "Tender mutton pieces in aromatic basmati rice",
+    "price": 290.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "ae70fa64-fb06-52f7-bc8a-42c0274cfcc7",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "name": "Veg Biryani",
+    "description": "Seasonal vegetables layered with fragrant basmati rice",
+    "price": 220.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "e400f73d-cac1-5390-b988-0ac083f165d9",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "name": "Paneer Biryani",
+    "description": "Cottage cheese cubes in richly spiced basmati rice",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "62d5cc10-5bab-53ac-ac30-bbbd4110a8d3",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "name": "Chicken Haleem",
+    "description": "Slow-cooked wheat and chicken stew",
+    "price": 180.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "c92fc3d9-3901-5830-922b-85679ad6d3b9",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "name": "Mutton Seekh Kebab",
+    "description": "Minced mutton kebabs grilled on skewers",
+    "price": 220.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "7927c05c-683d-5008-a8fc-0b85fd84d805",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "name": "Double Ka Meetha",
+    "description": "Hyderabadi bread pudding with saffron and dry fruits",
+    "price": 120.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "3afbb8bb-aa81-5c21-baae-fa808d289b67",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "name": "Qubani Ka Meetha",
+    "description": "Dried apricot dessert with cream",
+    "price": 110.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "e00ce907-559e-5320-8592-bee17d71427d",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "name": "Lassi",
+    "description": "Sweet chilled yoghurt drink",
+    "price": 60.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "8ed6ae63-705b-5c5b-a15c-43a911eef5c0",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "name": "Soda Lemon",
+    "description": "Fresh lime with soda",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "6f594ab7-7f96-5436-acb1-cb5306449b42",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "name": "Chicken Dum Biryani",
+    "description": "The classic Hyderabadi biryani slow-cooked in dum style",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "526f9595-afd5-5c3e-bf83-047645580f22",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "name": "Mutton Biryani",
+    "description": "Tender mutton pieces in aromatic basmati rice",
+    "price": 290.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "81cda11c-770d-5ea4-8bca-c436fd958e94",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "name": "Veg Biryani",
+    "description": "Seasonal vegetables layered with fragrant basmati rice",
+    "price": 220.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "7cf1a13a-a184-588a-8ff0-06b13104681f",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "name": "Paneer Biryani",
+    "description": "Cottage cheese cubes in richly spiced basmati rice",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "aab6aa16-51ae-5c51-8ca2-ce022934ed27",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "name": "Chicken Haleem",
+    "description": "Slow-cooked wheat and chicken stew",
+    "price": 180.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "3304ed95-59d8-5bfe-ad38-6f7c6f3e6bce",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "name": "Mutton Seekh Kebab",
+    "description": "Minced mutton kebabs grilled on skewers",
+    "price": 220.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "183714a7-28bf-59cf-a087-c6826d076421",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "name": "Double Ka Meetha",
+    "description": "Hyderabadi bread pudding with saffron and dry fruits",
+    "price": 120.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "c7d79960-df79-5d63-8255-1546053618ae",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "name": "Qubani Ka Meetha",
+    "description": "Dried apricot dessert with cream",
+    "price": 110.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "cf4f31c1-48bd-528b-b1dc-e5813017e08b",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "name": "Lassi",
+    "description": "Sweet chilled yoghurt drink",
+    "price": 60.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "0c57a50e-1118-59a4-8582-bcdd5c13e994",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "name": "Soda Lemon",
+    "description": "Fresh lime with soda",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "1b473d4b-f52f-50a2-b810-87248fce633d",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "name": "Chicken Dum Biryani",
+    "description": "The classic Hyderabadi biryani slow-cooked in dum style",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "d615807c-6fc9-546e-9e85-65c32d2e8a20",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "name": "Mutton Biryani",
+    "description": "Tender mutton pieces in aromatic basmati rice",
+    "price": 290.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "1fddd22e-0df2-5627-b70f-1c3cb8582619",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "name": "Veg Biryani",
+    "description": "Seasonal vegetables layered with fragrant basmati rice",
+    "price": 220.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "0b41f471-8220-5995-a0e6-937ae5ed77b8",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "name": "Paneer Biryani",
+    "description": "Cottage cheese cubes in richly spiced basmati rice",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "d030c620-f640-5c2b-9587-b5e435b1e8d1",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "name": "Chicken Haleem",
+    "description": "Slow-cooked wheat and chicken stew",
+    "price": 180.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "71e4dc2c-01ff-5d0a-b4f8-4a03481d29ba",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "name": "Mutton Seekh Kebab",
+    "description": "Minced mutton kebabs grilled on skewers",
+    "price": 220.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "e4d51c76-ab2e-5414-b106-cebc5fc1e8e9",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "name": "Double Ka Meetha",
+    "description": "Hyderabadi bread pudding with saffron and dry fruits",
+    "price": 120.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "e4baf73c-b39b-5b50-9af3-f4c0c63fc7c0",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "name": "Qubani Ka Meetha",
+    "description": "Dried apricot dessert with cream",
+    "price": 110.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "f3f2810c-7671-577a-a0aa-7e6e837875d8",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "name": "Lassi",
+    "description": "Sweet chilled yoghurt drink",
+    "price": 60.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "4e9f04a0-93d5-5d14-a490-ec3a9b2a1f48",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "name": "Soda Lemon",
+    "description": "Fresh lime with soda",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "9f10f037-0e2b-540d-9824-6cc56ff551ac",
+    "restaurant_id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "name": "Chicken Dum Biryani",
+    "description": "The classic Hyderabadi biryani slow-cooked in dum style",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "5b835586-67d1-5bc8-8341-03fd4b4eb2c8",
+    "restaurant_id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "name": "Mutton Biryani",
+    "description": "Tender mutton pieces in aromatic basmati rice",
+    "price": 290.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "83c99fc2-f87b-5919-a866-ba7febd8d464",
+    "restaurant_id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "name": "Veg Biryani",
+    "description": "Seasonal vegetables layered with fragrant basmati rice",
+    "price": 220.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "e41adf76-5cde-5490-89ae-dba04b64ab7e",
+    "restaurant_id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "name": "Paneer Biryani",
+    "description": "Cottage cheese cubes in richly spiced basmati rice",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "47e11140-7d38-5fbb-94e4-7d0fbcad6f9a",
+    "restaurant_id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "name": "Chicken Haleem",
+    "description": "Slow-cooked wheat and chicken stew",
+    "price": 180.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "98a79cd8-a0b0-5da8-bdef-cbc0fe373a19",
+    "restaurant_id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "name": "Mutton Seekh Kebab",
+    "description": "Minced mutton kebabs grilled on skewers",
+    "price": 220.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "68164a66-5f56-5590-8887-196ac6e2c364",
+    "restaurant_id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "name": "Double Ka Meetha",
+    "description": "Hyderabadi bread pudding with saffron and dry fruits",
+    "price": 120.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "58b82ce4-4104-5d34-9ee1-a0eb765eb46d",
+    "restaurant_id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "name": "Qubani Ka Meetha",
+    "description": "Dried apricot dessert with cream",
+    "price": 110.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "c57b6787-be0b-5426-8835-2a4aad4615a1",
+    "restaurant_id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "name": "Lassi",
+    "description": "Sweet chilled yoghurt drink",
+    "price": 60.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "ea4b2f18-a806-583a-9123-3cd79b885a95",
+    "restaurant_id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "name": "Soda Lemon",
+    "description": "Fresh lime with soda",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "b22dce7d-998a-5ffe-a7b9-49728354a78e",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "name": "Chicken Dum Biryani",
+    "description": "The classic Hyderabadi biryani slow-cooked in dum style",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "ba784768-3dd6-5bd4-b8e7-5ff98aed1a41",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "name": "Mutton Biryani",
+    "description": "Tender mutton pieces in aromatic basmati rice",
+    "price": 290.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "e12af5f2-ec04-57e6-8b3c-9eed900ae2fb",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "name": "Veg Biryani",
+    "description": "Seasonal vegetables layered with fragrant basmati rice",
+    "price": 220.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "f75bf60f-01f1-5714-a05b-734ac82a0b55",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "name": "Paneer Biryani",
+    "description": "Cottage cheese cubes in richly spiced basmati rice",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "49571911-33f5-53af-b1b5-2f0b7527c2c7",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "name": "Chicken Haleem",
+    "description": "Slow-cooked wheat and chicken stew",
+    "price": 180.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "baf23606-cafb-5f50-a2e3-86694d71d50a",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "name": "Mutton Seekh Kebab",
+    "description": "Minced mutton kebabs grilled on skewers",
+    "price": 220.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "887d049a-5c5a-5b8f-a9bf-1bc0a087881c",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "name": "Double Ka Meetha",
+    "description": "Hyderabadi bread pudding with saffron and dry fruits",
+    "price": 120.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "673d649a-b1b5-5937-a7f8-afa115f266a1",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "name": "Qubani Ka Meetha",
+    "description": "Dried apricot dessert with cream",
+    "price": 110.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "0628adf0-4a1d-55f0-b2c5-740e032056d9",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "name": "Lassi",
+    "description": "Sweet chilled yoghurt drink",
+    "price": 60.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "d44bd3d4-6e59-5596-afdc-50419cfef499",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "name": "Soda Lemon",
+    "description": "Fresh lime with soda",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "b2efe98e-d33b-5911-910d-1bbeb8d4e367",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "name": "Chicken Dum Biryani",
+    "description": "The classic Hyderabadi biryani slow-cooked in dum style",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "182851ba-d913-55b1-9611-fde63b999a51",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "name": "Mutton Biryani",
+    "description": "Tender mutton pieces in aromatic basmati rice",
+    "price": 290.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "a1ef1b1a-dc35-5d60-a477-38b9aa69f3ff",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "name": "Veg Biryani",
+    "description": "Seasonal vegetables layered with fragrant basmati rice",
+    "price": 220.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "4c51939f-8e4d-59aa-8542-d68620f599d1",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "name": "Paneer Biryani",
+    "description": "Cottage cheese cubes in richly spiced basmati rice",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "55177583-8ec8-5d76-b62d-fbfd329b71d6",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "name": "Chicken Haleem",
+    "description": "Slow-cooked wheat and chicken stew",
+    "price": 180.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "5393c32a-62c2-581e-ad6e-61d1ca453005",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "name": "Mutton Seekh Kebab",
+    "description": "Minced mutton kebabs grilled on skewers",
+    "price": 220.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "07e0ffe7-e6ec-577d-b4da-2f3ae4df3ff8",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "name": "Double Ka Meetha",
+    "description": "Hyderabadi bread pudding with saffron and dry fruits",
+    "price": 120.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "dbd253dc-35c2-5bc8-b907-519a35643c28",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "name": "Qubani Ka Meetha",
+    "description": "Dried apricot dessert with cream",
+    "price": 110.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "7fbac0b5-1299-551b-a7ff-3f3c0d52ddbd",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "name": "Lassi",
+    "description": "Sweet chilled yoghurt drink",
+    "price": 60.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "2d4452dd-166c-5f8e-b751-cbe1653b5cf4",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "name": "Soda Lemon",
+    "description": "Fresh lime with soda",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "eefeec19-9148-5e8c-972f-7a17b2919115",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "name": "Chicken Dum Biryani",
+    "description": "The classic Hyderabadi biryani slow-cooked in dum style",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "479dd71f-fe65-55d9-9d24-2a1cc1d25560",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "name": "Mutton Biryani",
+    "description": "Tender mutton pieces in aromatic basmati rice",
+    "price": 290.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "cefa719f-8b71-53f2-8002-b83ff222d6d8",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "name": "Veg Biryani",
+    "description": "Seasonal vegetables layered with fragrant basmati rice",
+    "price": 220.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "c100f9fc-c405-528f-9009-9511ca32c7b6",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "name": "Paneer Biryani",
+    "description": "Cottage cheese cubes in richly spiced basmati rice",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "a23cb9a5-6049-5c86-85de-f68fee35e9d3",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "name": "Chicken Haleem",
+    "description": "Slow-cooked wheat and chicken stew",
+    "price": 180.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "c6f9c07e-6c97-55f6-a324-8887ac408054",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "name": "Mutton Seekh Kebab",
+    "description": "Minced mutton kebabs grilled on skewers",
+    "price": 220.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "28b7694e-1a67-5869-bb10-2626595299b3",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "name": "Double Ka Meetha",
+    "description": "Hyderabadi bread pudding with saffron and dry fruits",
+    "price": 120.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "2e7efef9-5045-50ff-9269-3a7b933037ae",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "name": "Qubani Ka Meetha",
+    "description": "Dried apricot dessert with cream",
+    "price": 110.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "93372701-bd73-597b-b18a-bafc70b2a5d4",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "name": "Lassi",
+    "description": "Sweet chilled yoghurt drink",
+    "price": 60.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "ae6703f2-9183-5f5d-ba88-7dd72b9ebbdf",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "name": "Soda Lemon",
+    "description": "Fresh lime with soda",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "f2a828c9-0737-5939-86b4-180a606fa873",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "name": "Masala Dosa",
+    "description": "Crispy dosa filled with spiced potato and onion",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "d4cddf4f-1b73-5ec6-9a88-cd982dd42bab",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "name": "Idli Sambar",
+    "description": "Steamed rice cakes served with lentil soup and chutney",
+    "price": 70.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "3ca43940-2981-5206-97b9-0a62d35c6a31",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "name": "Rava Idli",
+    "description": "Semolina idli with cashew and curry leaves",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "c32e953c-4595-5cd7-94d6-d46653200e54",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "name": "Medu Vada",
+    "description": "Crispy fried lentil doughnuts",
+    "price": 70.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "f747279a-fff7-52a0-ab1e-775a4b06ac0d",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "name": "Uttapam",
+    "description": "Thick rice pancake topped with onion and tomato",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "922db6fd-9e0d-55f8-82d2-1c4155849807",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "name": "Pesarattu",
+    "description": "Green moong dal crepe with ginger chutney",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "300b3153-975e-5946-8df1-be64fa28699e",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "name": "Curd Rice",
+    "description": "Cooling yoghurt rice with mustard and curry leaves",
+    "price": 100.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "acbec1b8-0d09-5e56-b685-3f3122ba839e",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "name": "Filter Coffee",
+    "description": "South Indian drip coffee with frothy milk",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "03d3f997-f90f-5b4c-8265-f3fbff92b4e7",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "name": "Kesari Bath",
+    "description": "Semolina pudding with saffron and cashews",
+    "price": 80.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "88731485-02e5-5dd4-aa4d-57b0546a560e",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "name": "Rasam",
+    "description": "Tangy tomato and pepper broth",
+    "price": 60.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "58e270b8-aae3-588e-a12c-49b150fa5ac6",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with tender chicken",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "e78a1adc-f57c-5936-80ad-da89569ee8f2",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "name": "Paneer Butter Masala",
+    "description": "Cottage cheese in tomato-cream gravy",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "42427143-c10a-5d08-8103-9d19a708ae51",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "name": "Prawn Masala",
+    "description": "Spiced prawns in thick onion-tomato gravy",
+    "price": 360.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "a9fe5341-6ecf-53d2-a734-36df22ca12fb",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "name": "Spring Rolls",
+    "description": "Crispy vegetable-filled rolls with sweet chilli",
+    "price": 160.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "2bbc7c77-b5f7-552f-9a29-0264e58cba90",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "name": "Veg Fried Rice",
+    "description": "Wok-tossed rice with mixed vegetables",
+    "price": 200.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "0db47bb4-07e4-558f-9da7-e20cedf4dff2",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "name": "Chicken 65",
+    "description": "Deep-fried spiced chicken bites",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "31805791-3f70-577c-95e2-c97da2b9408f",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "name": "Gulab Jamun",
+    "description": "Milk-solid dumplings in rose sugar syrup",
+    "price": 100.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "23155c3c-3723-59a2-bec8-8bd23c206146",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "name": "Mango Lassi",
+    "description": "Sweet mango yoghurt smoothie",
+    "price": 120.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "93559924-bb55-5a3c-8ac3-be94438ca40e",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "name": "Hakka Noodles",
+    "description": "Stir-fried noodles with vegetables or chicken",
+    "price": 220.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "83780322-32a6-5e82-ae6d-4c00489736f4",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "name": "Ice Cream",
+    "description": "Seasonal flavours",
+    "price": 120.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "c675bea6-2bca-5cd5-b32f-7a9f502b351e",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "name": "Chicken Dum Biryani",
+    "description": "The classic Hyderabadi biryani slow-cooked in dum style",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "d3fbb76f-a092-5d9d-b45c-2ad42d8a500e",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "name": "Mutton Biryani",
+    "description": "Tender mutton pieces in aromatic basmati rice",
+    "price": 290.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "d0c26887-60ce-53f0-b047-3f65118af499",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "name": "Veg Biryani",
+    "description": "Seasonal vegetables layered with fragrant basmati rice",
+    "price": 220.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "d2704555-8640-5512-b28c-fab3a827089a",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "name": "Paneer Biryani",
+    "description": "Cottage cheese cubes in richly spiced basmati rice",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "2ed2d1d8-977b-5370-bf76-f1cb475a345b",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "name": "Chicken Haleem",
+    "description": "Slow-cooked wheat and chicken stew",
+    "price": 180.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "7ed98bce-8414-5b59-bb40-56f17510627c",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "name": "Mutton Seekh Kebab",
+    "description": "Minced mutton kebabs grilled on skewers",
+    "price": 220.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "87781bf1-a3c3-598f-825f-0790130b1cd6",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "name": "Double Ka Meetha",
+    "description": "Hyderabadi bread pudding with saffron and dry fruits",
+    "price": 120.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "2ed66f7b-1f1c-5d90-88f2-128c36a3b10d",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "name": "Qubani Ka Meetha",
+    "description": "Dried apricot dessert with cream",
+    "price": 110.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "d8f4a165-1be8-5fca-b807-da050b221549",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "name": "Lassi",
+    "description": "Sweet chilled yoghurt drink",
+    "price": 60.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "8941fbe9-43d6-58f1-8433-3530d9b9b76c",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "name": "Soda Lemon",
+    "description": "Fresh lime with soda",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "6930b7c1-2469-59a5-9795-b6d0120e1f8a",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "name": "Masala Dosa",
+    "description": "Crispy dosa filled with spiced potato and onion",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "4620f3e9-9479-540d-8082-3970238f2c12",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "name": "Idli Sambar",
+    "description": "Steamed rice cakes served with lentil soup and chutney",
+    "price": 70.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "d8d30465-cf2e-5574-849a-a9091d125716",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "name": "Rava Idli",
+    "description": "Semolina idli with cashew and curry leaves",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "b9ac3ee3-0783-5802-a6b2-e854b1416558",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "name": "Medu Vada",
+    "description": "Crispy fried lentil doughnuts",
+    "price": 70.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "d346e267-d712-5265-8238-82ede238cccb",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "name": "Uttapam",
+    "description": "Thick rice pancake topped with onion and tomato",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "3431b913-aa4e-5c5c-9e0f-a610c2a33e2f",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "name": "Pesarattu",
+    "description": "Green moong dal crepe with ginger chutney",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "962a43d5-62e4-586f-a600-7f858a005196",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "name": "Curd Rice",
+    "description": "Cooling yoghurt rice with mustard and curry leaves",
+    "price": 100.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "7b3a97e0-3b51-5b6a-850b-4e5caa7f964d",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "name": "Filter Coffee",
+    "description": "South Indian drip coffee with frothy milk",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "30d86511-ca98-58e2-b405-df35a6906ca9",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "name": "Kesari Bath",
+    "description": "Semolina pudding with saffron and cashews",
+    "price": 80.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "7278b10c-c250-5297-9b1c-000b0c9e92b9",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "name": "Rasam",
+    "description": "Tangy tomato and pepper broth",
+    "price": 60.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "61c5a0a5-fc98-5397-8ec8-237cf9c7afd9",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "name": "Masala Dosa",
+    "description": "Crispy dosa filled with spiced potato and onion",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "43ce52f2-6f57-5cda-9e27-47a3adb7db85",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "name": "Idli Sambar",
+    "description": "Steamed rice cakes served with lentil soup and chutney",
+    "price": 70.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "cbef6a56-a8c9-5c2f-ab86-e0804329ab7f",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "name": "Rava Idli",
+    "description": "Semolina idli with cashew and curry leaves",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "752eca01-fead-5c5e-90a2-b69834450264",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "name": "Medu Vada",
+    "description": "Crispy fried lentil doughnuts",
+    "price": 70.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "3a60dc97-ac1f-54a9-9c1a-3236ff0a68ef",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "name": "Uttapam",
+    "description": "Thick rice pancake topped with onion and tomato",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "535347a6-c620-5fc3-bef6-eb788745966c",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "name": "Pesarattu",
+    "description": "Green moong dal crepe with ginger chutney",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "e8672948-77ae-5fec-afdd-b3ea89a5a555",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "name": "Curd Rice",
+    "description": "Cooling yoghurt rice with mustard and curry leaves",
+    "price": 100.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "2e811425-6966-5eb2-a69c-1901a9290b1e",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "name": "Filter Coffee",
+    "description": "South Indian drip coffee with frothy milk",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "8f529402-3e13-5d46-87c9-177163d8b3d4",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "name": "Kesari Bath",
+    "description": "Semolina pudding with saffron and cashews",
+    "price": 80.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "c3ad50cb-f221-503e-b316-1b6d4c6d3a83",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "name": "Rasam",
+    "description": "Tangy tomato and pepper broth",
+    "price": 60.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "e1071a3b-a570-5522-a792-72c077a04e22",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "name": "Butter Chicken",
+    "description": "Tender chicken in rich tomato-cream sauce",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "93f85a3b-47ab-5be9-a0b6-b085ca9db374",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "name": "Dal Makhani",
+    "description": "Slow-cooked black lentils with butter and cream",
+    "price": 240.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "89f27862-45ea-53cd-b380-3b62fea76572",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "name": "Paneer Tikka Masala",
+    "description": "Grilled cottage cheese in spiced tomato gravy",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "53a642cf-f617-51e4-b6a1-679c17b6cce5",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with chicken",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "5bfb837a-dce0-578d-bf6c-5bcdb9656aab",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "name": "Naan",
+    "description": "Tandoor-baked leavened bread",
+    "price": 50.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "d01cbc47-1f5c-54e5-8249-21bdb296c307",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "name": "Seekh Kebab",
+    "description": "Spiced minced meat kebabs",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "d6894b10-510e-548f-805f-225f2aed565f",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "name": "Mutton Rogan Josh",
+    "description": "Slow-cooked mutton in Kashmiri spices",
+    "price": 340.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "9281b26f-7ac7-58f6-a452-2cfacf696127",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "name": "Raita",
+    "description": "Yoghurt with cucumber and spices",
+    "price": 60.0,
+    "category": "Side",
+    "is_available": true
+  },
+  {
+    "id": "8e289da1-a273-5777-ac3a-1f94c89fabfd",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "name": "Gulab Jamun",
+    "description": "Milk-solid dumplings in sugar syrup",
+    "price": 90.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "7fe3a984-cfc6-50a9-b7c6-f623e152d0d1",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "name": "Lassi",
+    "description": "Sweet or salted chilled yoghurt",
+    "price": 80.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "9017cd44-5768-5059-a015-c8596f0e8bb0",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "name": "Chettinad Chicken Curry",
+    "description": "Spicy chicken in freshly ground Chettinad masala",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "871b287d-ec0c-552e-9ba1-f3a71e5e6c47",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "name": "Chettinad Mutton Curry",
+    "description": "Mutton in peppery Chettinad spice blend",
+    "price": 360.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "f5a9e892-705e-5b8f-942c-8348156b9e17",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "name": "Kavuni Arisi",
+    "description": "Steamed black rice pudding",
+    "price": 100.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "1bd772ce-b65d-5291-99ae-6dda609f4ff4",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "name": "Rasam",
+    "description": "Peppery tamarind broth",
+    "price": 60.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "68970a03-b302-5521-a37d-591409718cb8",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "name": "Parotta",
+    "description": "Layered flatbread with egg or chicken",
+    "price": 120.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "fb352145-0f07-5cc0-9ffb-9f6fdfee0240",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "name": "Idiyappam",
+    "description": "String hoppers with coconut milk",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "5ad9efb4-8356-5689-84c0-df5d39fe6633",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "name": "Appam",
+    "description": "Fermented rice pancake",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "13949404-05e5-555d-ba29-77780fbb329e",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "name": "Chettinad Kuzhambu",
+    "description": "Tangy tamarind-based gravy",
+    "price": 200.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "fe1654a0-21df-55db-ae64-4805d3b83966",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "name": "Paniyaram",
+    "description": "Rice and lentil dumplings",
+    "price": 90.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "229bf022-ee83-5835-bd7a-11d650ae04f0",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "name": "Filter Coffee",
+    "description": "South Indian drip coffee",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "a75270f8-01ff-53ae-b699-66df813623ba",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "name": "Chettinad Chicken Curry",
+    "description": "Spicy chicken in freshly ground Chettinad masala",
+    "price": 300.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "8eb42143-e16b-519c-8e53-a72daff47965",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "name": "Chettinad Mutton Curry",
+    "description": "Mutton in peppery Chettinad spice blend",
+    "price": 360.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "bfccbef9-024b-535d-977a-c401f9c1ecb1",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "name": "Kavuni Arisi",
+    "description": "Steamed black rice pudding",
+    "price": 100.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "afe14f70-1d70-5333-ba19-fae4c7a08cfc",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "name": "Rasam",
+    "description": "Peppery tamarind broth",
+    "price": 60.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "7cfbff6d-73b1-56ee-9284-e018cd19e21d",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "name": "Parotta",
+    "description": "Layered flatbread with egg or chicken",
+    "price": 120.0,
+    "category": "Bread",
+    "is_available": true
+  },
+  {
+    "id": "b1680056-47dd-5041-9a4c-b3398685c4bc",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "name": "Idiyappam",
+    "description": "String hoppers with coconut milk",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "f0812e87-b665-558c-8a86-c363d0d055b5",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "name": "Appam",
+    "description": "Fermented rice pancake",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "cad34d32-e6fe-5cd3-8912-47f4d50eb88a",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "name": "Chettinad Kuzhambu",
+    "description": "Tangy tamarind-based gravy",
+    "price": 200.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "da1bb65b-d3c1-5249-b482-1ac013925441",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "name": "Paniyaram",
+    "description": "Rice and lentil dumplings",
+    "price": 90.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "0d1d8182-7d8b-5861-a569-82e019de1a21",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "name": "Filter Coffee",
+    "description": "South Indian drip coffee",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "8d4c205f-7ea5-5c19-883d-f6fddfa41b70",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "name": "Chicken Biryani",
+    "description": "Aromatic basmati rice with tender chicken",
+    "price": 280.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "e070b565-f288-5b1b-8ad8-3070493d2174",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "name": "Paneer Butter Masala",
+    "description": "Cottage cheese in tomato-cream gravy",
+    "price": 260.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "eaa3f90e-bce5-51f9-95b3-d8c1459e2455",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "name": "Prawn Masala",
+    "description": "Spiced prawns in thick onion-tomato gravy",
+    "price": 360.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "e148cefe-7c0d-5f79-8d3c-6a041d0f529f",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "name": "Spring Rolls",
+    "description": "Crispy vegetable-filled rolls with sweet chilli",
+    "price": 160.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "4d39382d-ef86-56c7-84ad-591337d96da8",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "name": "Veg Fried Rice",
+    "description": "Wok-tossed rice with mixed vegetables",
+    "price": 200.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "06f8fbbd-caac-51a4-acf1-6716636bc8f0",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "name": "Chicken 65",
+    "description": "Deep-fried spiced chicken bites",
+    "price": 240.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "747ce7bb-bf81-5b1c-852e-7142c5de7ef5",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "name": "Gulab Jamun",
+    "description": "Milk-solid dumplings in rose sugar syrup",
+    "price": 100.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "59cad634-5b2c-507c-9292-5b36af0b9e95",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "name": "Mango Lassi",
+    "description": "Sweet mango yoghurt smoothie",
+    "price": 120.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "d336170c-393b-5e42-a624-aa944fe6243a",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "name": "Hakka Noodles",
+    "description": "Stir-fried noodles with vegetables or chicken",
+    "price": 220.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "2da5ed07-fd8c-5c5e-aedb-c95a5dcd8b99",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "name": "Ice Cream",
+    "description": "Seasonal flavours",
+    "price": 120.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "8fb350f4-6c67-5267-b208-aaf149ab1f6d",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "name": "Masala Dosa",
+    "description": "Crispy dosa filled with spiced potato and onion",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "38d861a1-a10f-57e9-b25d-d6176d55d536",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "name": "Idli Sambar",
+    "description": "Steamed rice cakes served with lentil soup and chutney",
+    "price": 70.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "5cd9124f-6a2b-52b3-a25a-e4361d09b57f",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "name": "Rava Idli",
+    "description": "Semolina idli with cashew and curry leaves",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "88cc3617-f635-5768-b813-0668e11acf92",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "name": "Medu Vada",
+    "description": "Crispy fried lentil doughnuts",
+    "price": 70.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "c95d1e7f-01a5-574f-b720-028bd7eead37",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "name": "Uttapam",
+    "description": "Thick rice pancake topped with onion and tomato",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "d08ac9fb-5dbe-5e84-8d44-40baa9780cef",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "name": "Pesarattu",
+    "description": "Green moong dal crepe with ginger chutney",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "e1ad44d0-8791-5c11-85b6-642cfd005ad4",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "name": "Curd Rice",
+    "description": "Cooling yoghurt rice with mustard and curry leaves",
+    "price": 100.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "da914fa5-bc55-553b-9e45-1bb39dfc3b0d",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "name": "Filter Coffee",
+    "description": "South Indian drip coffee with frothy milk",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "d73d61cf-c4a8-59c7-81b6-5cef6a90d32d",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "name": "Kesari Bath",
+    "description": "Semolina pudding with saffron and cashews",
+    "price": 80.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "793bf99d-e751-50e4-ac0a-e6d455b03605",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "name": "Rasam",
+    "description": "Tangy tomato and pepper broth",
+    "price": 60.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "ad43a033-72b7-5573-85df-de4fa1cef713",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "name": "Masala Dosa",
+    "description": "Crispy dosa filled with spiced potato and onion",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "05b2102d-d537-50ea-8239-fa239cb1da8b",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "name": "Idli Sambar",
+    "description": "Steamed rice cakes served with lentil soup and chutney",
+    "price": 70.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "8752548c-48b7-592f-9a18-dd4efe8bf7c9",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "name": "Rava Idli",
+    "description": "Semolina idli with cashew and curry leaves",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "23b1721e-607a-56e1-a639-90d08d130bf8",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "name": "Medu Vada",
+    "description": "Crispy fried lentil doughnuts",
+    "price": 70.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "5505d63d-6883-5420-97ea-b9ffc3e1d71f",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "name": "Uttapam",
+    "description": "Thick rice pancake topped with onion and tomato",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "eaa1b673-f354-5937-a041-1929dedeaef4",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "name": "Pesarattu",
+    "description": "Green moong dal crepe with ginger chutney",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "612b0317-796a-5c33-a427-1355e0efb4f9",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "name": "Curd Rice",
+    "description": "Cooling yoghurt rice with mustard and curry leaves",
+    "price": 100.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "b26b5a3e-8495-5413-91f5-388c9d2c8d14",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "name": "Filter Coffee",
+    "description": "South Indian drip coffee with frothy milk",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "e1575078-f899-517e-b3fc-096ed503ffb4",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "name": "Kesari Bath",
+    "description": "Semolina pudding with saffron and cashews",
+    "price": 80.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "edd11ebc-b957-5bff-b9d2-5ea629ced680",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "name": "Rasam",
+    "description": "Tangy tomato and pepper broth",
+    "price": 60.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "175fe7af-d1ef-55fc-a630-641bfa9ca609",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "name": "Masala Dosa",
+    "description": "Crispy dosa filled with spiced potato and onion",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "59f34d5c-8e5f-5bb8-89d3-16dbf4bf2559",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "name": "Idli Sambar",
+    "description": "Steamed rice cakes served with lentil soup and chutney",
+    "price": 70.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "79a5b78e-df9c-5e89-9db8-1607d53cb2e8",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "name": "Rava Idli",
+    "description": "Semolina idli with cashew and curry leaves",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "b59c9b80-dd23-5a69-8431-33831871ab1c",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "name": "Medu Vada",
+    "description": "Crispy fried lentil doughnuts",
+    "price": 70.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "76df7275-4aad-5508-90ff-50ece703de6d",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "name": "Uttapam",
+    "description": "Thick rice pancake topped with onion and tomato",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "6e126f49-3702-5aeb-8586-8ce425857312",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "name": "Pesarattu",
+    "description": "Green moong dal crepe with ginger chutney",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "648824f1-979f-5394-a401-b6c081199c61",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "name": "Curd Rice",
+    "description": "Cooling yoghurt rice with mustard and curry leaves",
+    "price": 100.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "2c8fd5f4-6ece-5fea-9aa0-bdaf4a237bd4",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "name": "Filter Coffee",
+    "description": "South Indian drip coffee with frothy milk",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "d4ce28bc-c0c1-5267-8bb6-5dedb82ec235",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "name": "Kesari Bath",
+    "description": "Semolina pudding with saffron and cashews",
+    "price": 80.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "3892d0db-187e-5a98-9ae5-0248297def6c",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "name": "Rasam",
+    "description": "Tangy tomato and pepper broth",
+    "price": 60.0,
+    "category": "Soup",
+    "is_available": true
+  },
+  {
+    "id": "cfc98a25-3333-58f7-aad6-f2a534c82f03",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "name": "Masala Dosa",
+    "description": "Crispy dosa filled with spiced potato and onion",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "878ae86a-4d4e-54a1-82a3-b4c44a5b828d",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "name": "Idli Sambar",
+    "description": "Steamed rice cakes served with lentil soup and chutney",
+    "price": 70.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "9a7e72e0-96f9-555b-93a2-12cbec7321a0",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "name": "Rava Idli",
+    "description": "Semolina idli with cashew and curry leaves",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "16a630c4-a12d-5686-86d3-0e35ae1d52c8",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "name": "Medu Vada",
+    "description": "Crispy fried lentil doughnuts",
+    "price": 70.0,
+    "category": "Starter",
+    "is_available": true
+  },
+  {
+    "id": "5ec19724-5e65-5009-853d-83ede0b66de9",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "name": "Uttapam",
+    "description": "Thick rice pancake topped with onion and tomato",
+    "price": 90.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "3b89b9ab-8c64-5f33-83eb-99ac04f2cd2c",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "name": "Pesarattu",
+    "description": "Green moong dal crepe with ginger chutney",
+    "price": 80.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "ebf8417c-ccb2-545f-8f3d-5411cb2624ad",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "name": "Curd Rice",
+    "description": "Cooling yoghurt rice with mustard and curry leaves",
+    "price": 100.0,
+    "category": "Main Course",
+    "is_available": true
+  },
+  {
+    "id": "96a3b61d-9684-5c33-a4f8-a8b7a57586a0",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "name": "Filter Coffee",
+    "description": "South Indian drip coffee with frothy milk",
+    "price": 50.0,
+    "category": "Beverage",
+    "is_available": true
+  },
+  {
+    "id": "c3c17b36-04fa-5231-89dc-d910c82eb266",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "name": "Kesari Bath",
+    "description": "Semolina pudding with saffron and cashews",
+    "price": 80.0,
+    "category": "Dessert",
+    "is_available": true
+  },
+  {
+    "id": "bd963fa2-0f5a-54c9-be33-5bfad4131a9a",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "name": "Rasam",
+    "description": "Tangy tomato and pepper broth",
+    "price": 60.0,
+    "category": "Soup",
+    "is_available": true
+  }
+]

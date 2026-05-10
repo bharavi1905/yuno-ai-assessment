@@ -1,0 +1,242 @@
+[
+  {
+    "id": "b6de84b6-0aeb-5fc5-8fe1-a10252384670",
+    "rule_name": "high_amount_block",
+    "rule_type": "amount_threshold",
+    "threshold": 5000.0,
+    "action": "block",
+    "description": "Block transactions above Rs5000 without prior history"
+  },
+  {
+    "id": "92c9eb9c-76e1-5dbe-a855-16a66e60d17d",
+    "rule_name": "high_amount_flag",
+    "rule_type": "amount_threshold",
+    "threshold": 2000.0,
+    "action": "flag",
+    "description": "Flag transactions above Rs2000 for review"
+  },
+  {
+    "id": "bac2075b-97cc-5a57-96b9-ad3cbe7fed58",
+    "rule_name": "low_amount_allow",
+    "rule_type": "amount_threshold",
+    "threshold": 100.0,
+    "action": "allow",
+    "description": "Allow small transactions below Rs100 automatically"
+  },
+  {
+    "id": "5dfc0da0-dce0-5438-8544-8bc803e78915",
+    "rule_name": "medium_amount_flag",
+    "rule_type": "amount_threshold",
+    "threshold": 1000.0,
+    "action": "flag",
+    "description": "Flag transactions above Rs1000 from new accounts"
+  },
+  {
+    "id": "38e0a245-66e0-5192-aee9-f580d8bd56bc",
+    "rule_name": "very_high_amount_block",
+    "rule_type": "amount_threshold",
+    "threshold": 10000.0,
+    "action": "block",
+    "description": "Block very high-value transactions regardless of history"
+  },
+  {
+    "id": "13e28f67-3e33-506f-a644-0d040e485cce",
+    "rule_name": "rapid_retries_block",
+    "rule_type": "velocity_check",
+    "threshold": 3.0,
+    "action": "block",
+    "description": "Block if 3 or more retries within 10 minutes"
+  },
+  {
+    "id": "c63f27e4-0d58-5553-b29e-fc38fb8573fd",
+    "rule_name": "rapid_retries_flag",
+    "rule_type": "velocity_check",
+    "threshold": 2.0,
+    "action": "flag",
+    "description": "Flag if 2 retries detected within 5 minutes"
+  },
+  {
+    "id": "a2dc0f79-8ebd-5816-b6b6-a3262ffe6129",
+    "rule_name": "multiple_fails_block",
+    "rule_type": "velocity_check",
+    "threshold": 5.0,
+    "action": "block",
+    "description": "Block after 5 failed attempts in 1 hour"
+  },
+  {
+    "id": "b44a95ab-d070-5d36-81c9-00e9ac63417e",
+    "rule_name": "session_velocity",
+    "rule_type": "velocity_check",
+    "threshold": 10.0,
+    "action": "block",
+    "description": "Block if more than 10 transactions in 24 hours"
+  },
+  {
+    "id": "435443f4-daee-5f78-aa1e-a7a09d8ce3d5",
+    "rule_name": "rapid_gateway_switch",
+    "rule_type": "velocity_check",
+    "threshold": 3.0,
+    "action": "flag",
+    "description": "Flag rapid switching between payment gateways"
+  },
+  {
+    "id": "b195d377-e4a2-5345-8523-d616ecc6494c",
+    "rule_name": "new_account_high_value",
+    "rule_type": "new_account_check",
+    "threshold": 500.0,
+    "action": "flag",
+    "description": "Flag new accounts making transactions above Rs500"
+  },
+  {
+    "id": "3eb30797-b733-5b03-a557-4ace42000e32",
+    "rule_name": "new_account_block",
+    "rule_type": "new_account_check",
+    "threshold": 2000.0,
+    "action": "block",
+    "description": "Block new accounts attempting transactions above Rs2000"
+  },
+  {
+    "id": "bc12cb51-f952-5a69-bb19-11dde93d4bf2",
+    "rule_name": "new_account_velocity",
+    "rule_type": "new_account_check",
+    "threshold": 3.0,
+    "action": "block",
+    "description": "Block new accounts with more than 3 transactions per day"
+  },
+  {
+    "id": "13d7640d-a393-59fa-9205-7a26ad9f1b6b",
+    "rule_name": "first_txn_flag",
+    "rule_type": "new_account_check",
+    "threshold": 200.0,
+    "action": "flag",
+    "description": "Flag first transaction from any new account above Rs200"
+  },
+  {
+    "id": "310439cb-88dc-5a92-a066-10b40854cd05",
+    "rule_name": "unverified_kyc_flag",
+    "rule_type": "new_account_check",
+    "threshold": 300.0,
+    "action": "flag",
+    "description": "Flag unverified KYC users for transactions above Rs300"
+  },
+  {
+    "id": "b8de1ab4-1dd5-5603-bd54-8a1444179ef2",
+    "rule_name": "city_mismatch_flag",
+    "rule_type": "location_mismatch",
+    "threshold": 1.0,
+    "action": "flag",
+    "description": "Flag order from city different from user's registered city"
+  },
+  {
+    "id": "9b4c9818-6db9-50e4-9516-b04cc5a3787d",
+    "rule_name": "vpn_detection_flag",
+    "rule_type": "location_mismatch",
+    "threshold": 1.0,
+    "action": "flag",
+    "description": "Flag transactions from known VPN/proxy IP ranges"
+  },
+  {
+    "id": "893f8dda-29d6-5bf6-9e51-4299391bf104",
+    "rule_name": "impossible_travel",
+    "rule_type": "location_mismatch",
+    "threshold": 500.0,
+    "action": "block",
+    "description": "Block if two transactions from 500km+ apart within 1 hour"
+  },
+  {
+    "id": "5f53aa3c-3c53-5e08-b8ae-aecb3cccd905",
+    "rule_name": "ip_mismatch_flag",
+    "rule_type": "location_mismatch",
+    "threshold": 1.0,
+    "action": "flag",
+    "description": "Flag IP address mismatch with billing address"
+  },
+  {
+    "id": "067caa00-acae-5fe7-883b-e222af4cbcc6",
+    "rule_name": "foreign_ip_flag",
+    "rule_type": "location_mismatch",
+    "threshold": 1.0,
+    "action": "flag",
+    "description": "Flag transactions from non-India IP addresses"
+  },
+  {
+    "id": "8824e071-068b-578e-9f7d-8103c99af897",
+    "rule_name": "unknown_device_flag",
+    "rule_type": "device_fingerprint",
+    "threshold": 1.0,
+    "action": "flag",
+    "description": "Flag transactions from unrecognised devices"
+  },
+  {
+    "id": "00bb3413-0150-522a-b00f-75834093a6a8",
+    "rule_name": "device_sharing_flag",
+    "rule_type": "device_fingerprint",
+    "threshold": 5.0,
+    "action": "flag",
+    "description": "Flag if same device used by more than 5 accounts"
+  },
+  {
+    "id": "f912f5d2-306c-56e8-9e28-d33cc43f0e6d",
+    "rule_name": "rooted_device_block",
+    "rule_type": "device_fingerprint",
+    "threshold": 1.0,
+    "action": "block",
+    "description": "Block transactions from rooted or jailbroken devices"
+  },
+  {
+    "id": "31207b3c-5a1a-5d81-a7a0-3ac989751124",
+    "rule_name": "round_amount_flag",
+    "rule_type": "pattern_analysis",
+    "threshold": 1.0,
+    "action": "flag",
+    "description": "Flag suspiciously round transaction amounts"
+  },
+  {
+    "id": "8e6ba58b-bf86-5884-97a0-417092f8710c",
+    "rule_name": "odd_hour_flag",
+    "rule_type": "pattern_analysis",
+    "threshold": 1.0,
+    "action": "flag",
+    "description": "Flag transactions between 2am and 5am IST"
+  },
+  {
+    "id": "0a886ce3-1dc6-5eb7-a03c-745b0f3bb8f0",
+    "rule_name": "card_test_block",
+    "rule_type": "pattern_analysis",
+    "threshold": 10.0,
+    "action": "block",
+    "description": "Block micro-transactions that look like card testing"
+  },
+  {
+    "id": "54ea3898-61e7-5f6b-995b-34b5c318179e",
+    "rule_name": "sequential_amounts",
+    "rule_type": "pattern_analysis",
+    "threshold": 3.0,
+    "action": "flag",
+    "description": "Flag three sequential increasing amounts from same user"
+  },
+  {
+    "id": "8f47fdbb-6464-5170-9d47-6120c1532bc4",
+    "rule_name": "gateway_timeout_flag",
+    "rule_type": "gateway_health",
+    "threshold": 1.0,
+    "action": "flag",
+    "description": "Flag when selected gateway has recent high timeout rate"
+  },
+  {
+    "id": "8e13c48b-e511-5ceb-9cb1-ebf5dea3e310",
+    "rule_name": "fallback_gateway_flag",
+    "rule_type": "gateway_health",
+    "threshold": 2.0,
+    "action": "flag",
+    "description": "Flag use of fallback gateway after primary failure"
+  },
+  {
+    "id": "075c5d8b-bbc5-58f5-b1f1-95202d45cb94",
+    "rule_name": "all_gateways_fail_block",
+    "rule_type": "gateway_health",
+    "threshold": 3.0,
+    "action": "block",
+    "description": "Block retry if all primary gateways have failed once"
+  }
+]

@@ -1,0 +1,56 @@
+# Project-specific secrets / instructions
+.env
+CLAUDE.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.so
+.venv/
+venv/
+env/
+.eggs/
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Node / frontend
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+
+# Docker volumes / data (if mounted locally)
+pgdata/
+redisdata/
+
+# Langfuse local volumes
+langfuse-postgres-data/
+langfuse-clickhouse-data/
+langfuse-minio-data/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Jupyter
+.ipynb_checkpoints/

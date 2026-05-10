@@ -1,0 +1,253 @@
+networks:
+  agent-platform:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  langfuse_postgres_data:
+  langfuse_clickhouse_data:
+  langfuse_minio_data:
+
+services:
+  # ─── Platform Services ───────────────────────────────────────────────────────
+
+  postgres:
+    image: pgvector/pgvector:pg15
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-agent_platform}
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - agent-platform
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-agent_platform}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    networks:
+      - agent-platform
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    restart: on-failure
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - PYTHONUNBUFFERED=1
+      # Both vars needed: LANGFUSE_HOST for REST client, LANGFUSE_BASE_URL for OTEL exporter
+      - LANGFUSE_HOST=http://langfuse-web:3000
+      - LANGFUSE_BASE_URL=http://langfuse-web:3000
+    volumes:
+      - ./backend:/app
+      - ./mock_data:/mock_data
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - agent-platform
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_API_URL=http://localhost:8000
+      - VITE_WS_URL=ws://localhost:8000
+    volumes:
+      - ./frontend/src:/app/src
+    depends_on:
+      - backend
+    networks:
+      - agent-platform
+
+  # ─── Langfuse Self-Hosted ────────────────────────────────────────────────────
+
+  langfuse-postgres:
+    image: postgres:15
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: langfuse
+      POSTGRES_PASSWORD: ${LANGFUSE_POSTGRES_PASSWORD:-langfuse}
+      POSTGRES_DB: langfuse
+    volumes:
+      - langfuse_postgres_data:/var/lib/postgresql/data
+    networks:
+      - agent-platform
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U langfuse -d langfuse"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  langfuse-clickhouse:
+    image: clickhouse/clickhouse-server:24.12
+    restart: unless-stopped
+    environment:
+      CLICKHOUSE_DB: default
+      CLICKHOUSE_USER: clickhouse
+      CLICKHOUSE_PASSWORD: ${LANGFUSE_CLICKHOUSE_PASSWORD:-clickhouse}
+    volumes:
+      - langfuse_clickhouse_data:/var/lib/clickhouse
+      - ./docker/clickhouse/config.d:/etc/clickhouse-server/config.d:ro
+    networks:
+      - agent-platform
+    healthcheck:
+      test: wget --no-verbose --tries=1 --spider http://localhost:8123/ping || exit 1
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  langfuse-minio:
+    image: minio/minio:latest
+    restart: unless-stopped
+    entrypoint: sh
+    command: -c 'mkdir -p /data/langfuse && minio server /data --console-address ":9001"'
+    environment:
+      MINIO_ROOT_USER: ${LANGFUSE_MINIO_USER:-minio}
+      MINIO_ROOT_PASSWORD: ${LANGFUSE_MINIO_PASSWORD:-miniosecret}
+    volumes:
+      - langfuse_minio_data:/data
+    ports:
+      - "9001:9001"
+    networks:
+      - agent-platform
+    healthcheck:
+      test: ["CMD", "mc", "ready", "local"]
+      interval: 5s
+      timeout: 10s
+      retries: 10
+
+  langfuse-redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: redis-server --requirepass ${LANGFUSE_REDIS_AUTH:-langfuse_redis_secret}
+    networks:
+      - agent-platform
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${LANGFUSE_REDIS_AUTH:-langfuse_redis_secret}", "ping"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  langfuse-worker:
+    image: langfuse/langfuse-worker:3
+    restart: unless-stopped
+    depends_on:
+      langfuse-postgres:
+        condition: service_healthy
+      langfuse-clickhouse:
+        condition: service_healthy
+      langfuse-minio:
+        condition: service_healthy
+      langfuse-redis:
+        condition: service_healthy
+    environment:
+      DATABASE_URL: postgresql://langfuse:${LANGFUSE_POSTGRES_PASSWORD:-langfuse}@langfuse-postgres:5432/langfuse
+      CLICKHOUSE_MIGRATION_URL: clickhouse://langfuse-clickhouse:9000
+      CLICKHOUSE_URL: http://langfuse-clickhouse:8123
+      CLICKHOUSE_USER: clickhouse
+      CLICKHOUSE_PASSWORD: ${LANGFUSE_CLICKHOUSE_PASSWORD:-clickhouse}
+      REDIS_HOST: langfuse-redis
+      REDIS_PORT: "6379"
+      REDIS_AUTH: ${LANGFUSE_REDIS_AUTH:-langfuse_redis_secret}
+      SALT: ${LANGFUSE_SALT:-local_dev_salt_change_in_production_!!}
+      ENCRYPTION_KEY: ${LANGFUSE_ENCRYPTION_KEY:-0000000000000000000000000000000000000000000000000000000000000000}
+      NEXTAUTH_SECRET: ${LANGFUSE_NEXTAUTH_SECRET:-local_dev_nextauth_secret}
+      NEXTAUTH_URL: http://localhost:3001
+      LANGFUSE_S3_EVENT_UPLOAD_BUCKET: langfuse
+      LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID: ${LANGFUSE_MINIO_USER:-minio}
+      LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY: ${LANGFUSE_MINIO_PASSWORD:-miniosecret}
+      LANGFUSE_S3_EVENT_UPLOAD_ENDPOINT: http://langfuse-minio:9000
+      LANGFUSE_S3_EVENT_UPLOAD_FORCE_PATH_STYLE: "true"
+      LANGFUSE_S3_EVENT_UPLOAD_REGION: auto
+      LANGFUSE_S3_MEDIA_UPLOAD_BUCKET: langfuse
+      LANGFUSE_S3_MEDIA_UPLOAD_ACCESS_KEY_ID: ${LANGFUSE_MINIO_USER:-minio}
+      LANGFUSE_S3_MEDIA_UPLOAD_SECRET_ACCESS_KEY: ${LANGFUSE_MINIO_PASSWORD:-miniosecret}
+      LANGFUSE_S3_MEDIA_UPLOAD_ENDPOINT: http://langfuse-minio:9000
+      LANGFUSE_S3_MEDIA_UPLOAD_FORCE_PATH_STYLE: "true"
+      LANGFUSE_S3_MEDIA_UPLOAD_REGION: auto
+    networks:
+      - agent-platform
+
+  langfuse-web:
+    image: langfuse/langfuse:3
+    restart: unless-stopped
+    depends_on:
+      langfuse-postgres:
+        condition: service_healthy
+      langfuse-clickhouse:
+        condition: service_healthy
+      langfuse-minio:
+        condition: service_healthy
+      langfuse-redis:
+        condition: service_healthy
+    ports:
+      - "3001:3000"
+    environment:
+      DATABASE_URL: postgresql://langfuse:${LANGFUSE_POSTGRES_PASSWORD:-langfuse}@langfuse-postgres:5432/langfuse
+      CLICKHOUSE_MIGRATION_URL: clickhouse://langfuse-clickhouse:9000
+      CLICKHOUSE_URL: http://langfuse-clickhouse:8123
+      CLICKHOUSE_USER: clickhouse
+      CLICKHOUSE_PASSWORD: ${LANGFUSE_CLICKHOUSE_PASSWORD:-clickhouse}
+      REDIS_HOST: langfuse-redis
+      REDIS_PORT: "6379"
+      REDIS_AUTH: ${LANGFUSE_REDIS_AUTH:-langfuse_redis_secret}
+      SALT: ${LANGFUSE_SALT:-local_dev_salt_change_in_production_!!}
+      ENCRYPTION_KEY: ${LANGFUSE_ENCRYPTION_KEY:-0000000000000000000000000000000000000000000000000000000000000000}
+      NEXTAUTH_SECRET: ${LANGFUSE_NEXTAUTH_SECRET:-local_dev_nextauth_secret}
+      NEXTAUTH_URL: http://localhost:3001
+      LANGFUSE_S3_EVENT_UPLOAD_BUCKET: langfuse
+      LANGFUSE_S3_EVENT_UPLOAD_ACCESS_KEY_ID: ${LANGFUSE_MINIO_USER:-minio}
+      LANGFUSE_S3_EVENT_UPLOAD_SECRET_ACCESS_KEY: ${LANGFUSE_MINIO_PASSWORD:-miniosecret}
+      LANGFUSE_S3_EVENT_UPLOAD_ENDPOINT: http://langfuse-minio:9000
+      LANGFUSE_S3_EVENT_UPLOAD_FORCE_PATH_STYLE: "true"
+      LANGFUSE_S3_EVENT_UPLOAD_REGION: auto
+      LANGFUSE_S3_MEDIA_UPLOAD_BUCKET: langfuse
+      LANGFUSE_S3_MEDIA_UPLOAD_ACCESS_KEY_ID: ${LANGFUSE_MINIO_USER:-minio}
+      LANGFUSE_S3_MEDIA_UPLOAD_SECRET_ACCESS_KEY: ${LANGFUSE_MINIO_PASSWORD:-miniosecret}
+      LANGFUSE_S3_MEDIA_UPLOAD_ENDPOINT: http://langfuse-minio:9000
+      LANGFUSE_S3_MEDIA_UPLOAD_FORCE_PATH_STYLE: "true"
+      LANGFUSE_S3_MEDIA_UPLOAD_REGION: auto
+      # Auto-init: creates org, project, and API keys on first startup (no manual UI setup needed)
+      LANGFUSE_INIT_ORG_ID: yuno-ai-org
+      LANGFUSE_INIT_ORG_NAME: "Yuno AI"
+      LANGFUSE_INIT_PROJECT_ID: yuno-ai-project
+      LANGFUSE_INIT_PROJECT_NAME: yuno-ai-platform
+      LANGFUSE_INIT_PROJECT_PUBLIC_KEY: ${LANGFUSE_PUBLIC_KEY:-pk-lf-local-00000000-0000-0000-0000-000000000001}
+      LANGFUSE_INIT_PROJECT_SECRET_KEY: ${LANGFUSE_SECRET_KEY:-sk-lf-local-00000000-0000-0000-0000-000000000001}
+      LANGFUSE_INIT_USER_EMAIL: ${LANGFUSE_INIT_USER_EMAIL:-admin@yuno.local}
+      LANGFUSE_INIT_USER_NAME: ${LANGFUSE_INIT_USER_NAME:-Admin}
+      LANGFUSE_INIT_USER_PASSWORD: ${LANGFUSE_INIT_USER_PASSWORD:-admin}
+    networks:
+      - agent-platform
+    healthcheck:
+      test: wget --no-verbose --tries=1 --spider http://localhost:3000/api/public/health || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 60s

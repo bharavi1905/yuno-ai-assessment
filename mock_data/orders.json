@@ -1,0 +1,4502 @@
+[
+  {
+    "id": "db6ed78d-6c04-5811-ab96-883baeb92ff7",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "item_name": "Masala Dosa",
+    "amount": 80.0,
+    "status": "pending",
+    "created_at": "2026-01-01T08:00:00"
+  },
+  {
+    "id": "bfe9775c-6d69-585a-8a19-ea78f9b08396",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "item_name": "Khandvi",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-01T10:30:00"
+  },
+  {
+    "id": "466d7d75-6b6f-53d5-8d15-87a10c63aa11",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "item_name": "Gucchi Pulao",
+    "amount": 780.0,
+    "status": "pending",
+    "created_at": "2026-01-01T13:00:00"
+  },
+  {
+    "id": "507520a9-ce99-5d31-bfd2-0e1b78276f76",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "item_name": "Paneer Butter Masala",
+    "amount": 260.0,
+    "status": "cancelled",
+    "created_at": "2026-01-01T15:30:00"
+  },
+  {
+    "id": "e7acccbb-3abb-5d09-8c4e-87ed39884081",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "item_name": "Masala Dosa",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-01T18:00:00"
+  },
+  {
+    "id": "b5f3992b-e534-5327-8ab4-96ded1646ea1",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-01-01T20:30:00"
+  },
+  {
+    "id": "c612c3b5-7f59-5c7c-a5f8-8ec2b235a521",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "item_name": "Tiramisu",
+    "amount": 250.0,
+    "status": "completed",
+    "created_at": "2026-01-01T23:00:00"
+  },
+  {
+    "id": "63378b67-bddb-56f9-b1da-515616c40097",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "pending",
+    "created_at": "2026-01-02T01:30:00"
+  },
+  {
+    "id": "f257f9a6-10bc-596f-8ce0-a2843206efd9",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "item_name": "Gulab Jamun",
+    "amount": 100.0,
+    "status": "completed",
+    "created_at": "2026-01-02T04:00:00"
+  },
+  {
+    "id": "17fafda7-6815-5c49-ae57-00d62f064735",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-01-02T06:30:00"
+  },
+  {
+    "id": "1d9e2b5a-e9bd-5082-a2dc-898da1691411",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "item_name": "Dal",
+    "amount": 100.0,
+    "status": "pending",
+    "created_at": "2026-01-02T09:00:00"
+  },
+  {
+    "id": "244c6860-eb57-5009-8e9b-664c68b30aaf",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "item_name": "Kolambi Bhaat",
+    "amount": 320.0,
+    "status": "completed",
+    "created_at": "2026-01-02T11:30:00"
+  },
+  {
+    "id": "506e1e26-1cec-5b24-90d3-610802e3f720",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "item_name": "Daulat Ki Chaat",
+    "amount": 320.0,
+    "status": "completed",
+    "created_at": "2026-01-02T14:00:00"
+  },
+  {
+    "id": "dce550b6-dde5-59cb-b0f1-5a3cfbf89dfa",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "item_name": "Mutton Biryani",
+    "amount": 290.0,
+    "status": "completed",
+    "created_at": "2026-01-02T16:30:00"
+  },
+  {
+    "id": "d0b0a8e0-56d3-5b76-bc03-ae01d711619c",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "item_name": "Pesarattu",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-02T19:00:00"
+  },
+  {
+    "id": "559a3b3d-a275-58aa-8eaa-d6d936d01022",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-02T21:30:00"
+  },
+  {
+    "id": "becad25f-501a-599f-b007-2b8059ba118e",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "item_name": "Gulab Jamun",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-03T00:00:00"
+  },
+  {
+    "id": "69ff63e8-985b-5aa7-9fd4-4eaaa89e245d",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "cancelled",
+    "created_at": "2026-01-03T02:30:00"
+  },
+  {
+    "id": "4143cb0c-f3d8-5837-b973-e5062ebfde9c",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Soda Lemon",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-01-03T05:00:00"
+  },
+  {
+    "id": "aa9f3426-9d8a-5d46-bd81-5c3d90c5e498",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "pending",
+    "created_at": "2026-01-03T07:30:00"
+  },
+  {
+    "id": "d99df9c2-86d5-5125-a515-bfc8e5266ff6",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "item_name": "Masala Dosa",
+    "amount": 80.0,
+    "status": "pending",
+    "created_at": "2026-01-03T10:00:00"
+  },
+  {
+    "id": "25c523c2-344d-5b54-a160-c1bcb938f8d3",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "item_name": "Eggs Benedict",
+    "amount": 320.0,
+    "status": "completed",
+    "created_at": "2026-01-03T12:30:00"
+  },
+  {
+    "id": "a7f9b58e-4ae1-5af3-bf69-b37594c50b59",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-01-03T15:00:00"
+  },
+  {
+    "id": "40cd54fa-f007-5a85-94e0-8306ba96fdf1",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Qubani Ka Meetha",
+    "amount": 110.0,
+    "status": "pending",
+    "created_at": "2026-01-03T17:30:00"
+  },
+  {
+    "id": "532f419a-b74c-5afe-964d-868fe2fa9af6",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "item_name": "Prawn Masala",
+    "amount": 360.0,
+    "status": "completed",
+    "created_at": "2026-01-03T20:00:00"
+  },
+  {
+    "id": "483695db-4008-5e28-8814-45e50565e0ef",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "pending",
+    "created_at": "2026-01-03T22:30:00"
+  },
+  {
+    "id": "511169b2-2678-5fd5-9540-7e08ac99f582",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "item_name": "Thepla",
+    "amount": 90.0,
+    "status": "cancelled",
+    "created_at": "2026-01-04T01:00:00"
+  },
+  {
+    "id": "2207f3c6-1fa1-5f25-9516-38009eb16c83",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "item_name": "Rabri Kulfi",
+    "amount": 200.0,
+    "status": "pending",
+    "created_at": "2026-01-04T03:30:00"
+  },
+  {
+    "id": "f81cd229-8062-50e3-bd2d-e50553c146de",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "item_name": "Veg Biryani",
+    "amount": 220.0,
+    "status": "completed",
+    "created_at": "2026-01-04T06:00:00"
+  },
+  {
+    "id": "aef7847b-75fe-5fe8-b470-3fc70c2bd0d6",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "pending",
+    "created_at": "2026-01-04T08:30:00"
+  },
+  {
+    "id": "dcfa48e4-1190-5da1-9fe1-b854802d905b",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "pending",
+    "created_at": "2026-01-04T11:00:00"
+  },
+  {
+    "id": "317b3447-6a88-5f7b-af4d-7ad5163ed655",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "item_name": "Butter Chicken",
+    "amount": 280.0,
+    "status": "completed",
+    "created_at": "2026-01-04T13:30:00"
+  },
+  {
+    "id": "864bbb02-ffd2-59d7-bf99-5aba0b83043d",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "item_name": "Seekh Kebab",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-01-04T16:00:00"
+  },
+  {
+    "id": "70608bd2-f293-507d-8dfe-2356e6ab8b41",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Mutton Biryani",
+    "amount": 290.0,
+    "status": "completed",
+    "created_at": "2026-01-04T18:30:00"
+  },
+  {
+    "id": "84e53c51-5ade-587d-b915-d7a257126671",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "item_name": "Pesarattu",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-04T21:00:00"
+  },
+  {
+    "id": "967333f8-18aa-5617-b6b7-0ff1982f29ad",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "item_name": "Chocolate Brownie",
+    "amount": 200.0,
+    "status": "pending",
+    "created_at": "2026-01-04T23:30:00"
+  },
+  {
+    "id": "f64fae04-4df8-55d7-b0de-4f9c89a3e2e7",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "item_name": "Paneer Tikka Masala",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-01-05T02:00:00"
+  },
+  {
+    "id": "92e20256-24ba-57ae-a2b9-8b2adec91a1e",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "item_name": "Daulat Ki Chaat",
+    "amount": 320.0,
+    "status": "pending",
+    "created_at": "2026-01-05T04:30:00"
+  },
+  {
+    "id": "df2351ae-c3ab-526c-8fa3-f6122c277324",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "item_name": "Hakka Noodles",
+    "amount": 220.0,
+    "status": "completed",
+    "created_at": "2026-01-05T07:00:00"
+  },
+  {
+    "id": "28336742-939f-5c0f-b3a7-eee48c55cc1d",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "item_name": "Curd Rice",
+    "amount": 100.0,
+    "status": "cancelled",
+    "created_at": "2026-01-05T09:30:00"
+  },
+  {
+    "id": "6c91fd7a-b3fd-5bf8-b5ae-3c70dcf9bf7d",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "item_name": "Pesarattu",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-05T12:00:00"
+  },
+  {
+    "id": "6c33dc1d-487e-5898-a195-4fe7156b2755",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "item_name": "Gulab Jamun",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-05T14:30:00"
+  },
+  {
+    "id": "722ece34-752d-55d4-80eb-9654d5ecaf11",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "item_name": "Butter Chicken",
+    "amount": 280.0,
+    "status": "completed",
+    "created_at": "2026-01-05T17:00:00"
+  },
+  {
+    "id": "d2e40c1c-d26f-5d77-b3bf-d90b4640297b",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "item_name": "Veg Biryani",
+    "amount": 220.0,
+    "status": "pending",
+    "created_at": "2026-01-05T19:30:00"
+  },
+  {
+    "id": "abd4fbd5-d3fc-5a94-8594-d74de816a898",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-01-05T22:00:00"
+  },
+  {
+    "id": "056f2708-ffcc-56e6-a1da-0daf7f29156a",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "item_name": "Curd Rice",
+    "amount": 100.0,
+    "status": "cancelled",
+    "created_at": "2026-01-06T00:30:00"
+  },
+  {
+    "id": "1fb4a691-1f81-574f-9184-ac5af87678c4",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "item_name": "Gulab Jamun",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-06T03:00:00"
+  },
+  {
+    "id": "e1639fff-4a5e-5a12-b4bd-81bb6c5d05c6",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "item_name": "Butter Chicken",
+    "amount": 280.0,
+    "status": "pending",
+    "created_at": "2026-01-06T05:30:00"
+  },
+  {
+    "id": "3892aede-68d9-590f-ac83-04148b78890d",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "item_name": "Lassi",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-01-06T08:00:00"
+  },
+  {
+    "id": "0c2c35a2-9c7d-550d-a865-39ffdb935160",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "item_name": "Paneer Butter Masala",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-01-06T10:30:00"
+  },
+  {
+    "id": "19ec4b45-6327-5687-9a82-399688664d9f",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "item_name": "Rava Idli",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-06T13:00:00"
+  },
+  {
+    "id": "50826e6e-6fec-5144-b387-dd2242b411bf",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "item_name": "Bombil Fry",
+    "amount": 260.0,
+    "status": "cancelled",
+    "created_at": "2026-01-06T15:30:00"
+  },
+  {
+    "id": "6e25f7ae-7205-59b5-8335-0eb39f241ffc",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "item_name": "Rabri Kulfi",
+    "amount": 200.0,
+    "status": "completed",
+    "created_at": "2026-01-06T18:00:00"
+  },
+  {
+    "id": "b3e49775-3197-55f1-9952-073745399117",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Lassi",
+    "amount": 60.0,
+    "status": "cancelled",
+    "created_at": "2026-01-06T20:30:00"
+  },
+  {
+    "id": "99cd7928-6f77-53ba-932d-261207641d73",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "item_name": "Kavuni Arisi",
+    "amount": 100.0,
+    "status": "completed",
+    "created_at": "2026-01-06T23:00:00"
+  },
+  {
+    "id": "3bee873c-595d-514a-a602-60512f0e71bc",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "item_name": "Club Sandwich",
+    "amount": 300.0,
+    "status": "cancelled",
+    "created_at": "2026-01-07T01:30:00"
+  },
+  {
+    "id": "cdccd4ca-9a8c-5874-b1d4-b23d05d05b06",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "item_name": "Modak",
+    "amount": 120.0,
+    "status": "completed",
+    "created_at": "2026-01-07T04:00:00"
+  },
+  {
+    "id": "1d5ce7c7-80f3-5709-a4dc-a531ceaf9d4e",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "item_name": "Butter Chicken",
+    "amount": 280.0,
+    "status": "completed",
+    "created_at": "2026-01-07T06:30:00"
+  },
+  {
+    "id": "7d0d15ac-484c-5019-a8a8-8b5cdf1f15b6",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "item_name": "Chicken Haleem",
+    "amount": 180.0,
+    "status": "completed",
+    "created_at": "2026-01-07T09:00:00"
+  },
+  {
+    "id": "e0d682b2-5e74-5a2b-8ab7-78d8fdb771f0",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "cancelled",
+    "created_at": "2026-01-07T11:30:00"
+  },
+  {
+    "id": "eadc884f-2eee-53be-b3bc-f36e67913b1b",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "item_name": "Idli Sambar",
+    "amount": 70.0,
+    "status": "pending",
+    "created_at": "2026-01-07T14:00:00"
+  },
+  {
+    "id": "603fbcf5-cff6-585f-9099-f9327cdfc3fa",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "cancelled",
+    "created_at": "2026-01-07T16:30:00"
+  },
+  {
+    "id": "2452025e-1432-5008-9675-2650d421c9c2",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "item_name": "Adraki Chicken",
+    "amount": 580.0,
+    "status": "pending",
+    "created_at": "2026-01-07T19:00:00"
+  },
+  {
+    "id": "8e734592-3319-5c9e-9555-7257e97e2207",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-07T21:30:00"
+  },
+  {
+    "id": "373262a5-8908-5d5d-8053-dcba6e18d90f",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "item_name": "Paniyaram",
+    "amount": 90.0,
+    "status": "cancelled",
+    "created_at": "2026-01-08T00:00:00"
+  },
+  {
+    "id": "da3bc5b0-8d1b-533e-8667-0f7a889825a4",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "cancelled",
+    "created_at": "2026-01-08T02:30:00"
+  },
+  {
+    "id": "891e567f-7a58-58fc-9bc6-7f8de6697451",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "item_name": "Eggs Benedict",
+    "amount": 320.0,
+    "status": "completed",
+    "created_at": "2026-01-08T05:00:00"
+  },
+  {
+    "id": "fc6aef96-1661-5526-875d-54bfbfbcdee0",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "item_name": "Raita",
+    "amount": 60.0,
+    "status": "cancelled",
+    "created_at": "2026-01-08T07:30:00"
+  },
+  {
+    "id": "0bea2e93-20c4-5498-88dc-982fa8d4826b",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "item_name": "Idli Sambar",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-01-08T10:00:00"
+  },
+  {
+    "id": "cb7e44d0-1eca-5c3e-a9aa-8d2a4d4cdcc0",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "item_name": "Chettinad Mutton Curry",
+    "amount": 360.0,
+    "status": "completed",
+    "created_at": "2026-01-08T12:30:00"
+  },
+  {
+    "id": "0fd7eb21-6b55-5c59-bada-d6057f9def4a",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "item_name": "Lassi",
+    "amount": 70.0,
+    "status": "cancelled",
+    "created_at": "2026-01-08T15:00:00"
+  },
+  {
+    "id": "090a1cb2-18fa-556c-872e-5d3fc511e651",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "item_name": "Tiramisu",
+    "amount": 250.0,
+    "status": "completed",
+    "created_at": "2026-01-08T17:30:00"
+  },
+  {
+    "id": "3917d16c-38f0-5d18-adf5-ce60a0cfbe20",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "pending",
+    "created_at": "2026-01-08T20:00:00"
+  },
+  {
+    "id": "1276d577-87e3-55c8-828f-dbcc1e5b718d",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "item_name": "Paneer Biryani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-01-08T22:30:00"
+  },
+  {
+    "id": "b2705eab-8a98-5149-85d8-e4ab1c17ef78",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "item_name": "Pesarattu",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-09T01:00:00"
+  },
+  {
+    "id": "e9d7bae5-5d71-5e8f-8bfa-324e7322e6f4",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-01-09T03:30:00"
+  },
+  {
+    "id": "82d8c9e2-421e-5bad-8850-2c2bd190fe03",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "cancelled",
+    "created_at": "2026-01-09T06:00:00"
+  },
+  {
+    "id": "9511c359-4369-5554-926b-a900309a08d4",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "item_name": "Chaas",
+    "amount": 120.0,
+    "status": "cancelled",
+    "created_at": "2026-01-09T08:30:00"
+  },
+  {
+    "id": "641e9972-886d-55d0-b60e-d29f7d229543",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-01-09T11:00:00"
+  },
+  {
+    "id": "b27be546-a7b0-5b1c-a523-eff7ce262ac8",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-01-09T13:30:00"
+  },
+  {
+    "id": "b05dca2d-a52e-5d1e-a33b-0310beb05cf0",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "item_name": "Curd Rice",
+    "amount": 100.0,
+    "status": "completed",
+    "created_at": "2026-01-09T16:00:00"
+  },
+  {
+    "id": "8aaf6af0-1ed8-5a3c-8d1d-9aadcfa07cc1",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "item_name": "Sol Kadhi",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-09T18:30:00"
+  },
+  {
+    "id": "06a3c6b6-2bee-538d-9cf9-67bb0fdeccb0",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-01-09T21:00:00"
+  },
+  {
+    "id": "5091dc72-adbf-5fe4-aa04-ad2c001c35c9",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "item_name": "Mutton Seekh Kebab",
+    "amount": 220.0,
+    "status": "completed",
+    "created_at": "2026-01-09T23:30:00"
+  },
+  {
+    "id": "64e7df16-7964-5506-8fb9-68a8fde2c8ac",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-01-10T02:00:00"
+  },
+  {
+    "id": "bd524d36-befa-5c5a-94b6-bc65ff9d8fa8",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "item_name": "Filter Coffee",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-01-10T04:30:00"
+  },
+  {
+    "id": "3b9d1b5e-91ba-5191-a37a-178cc36e9135",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "item_name": "Prawn Masala",
+    "amount": 380.0,
+    "status": "completed",
+    "created_at": "2026-01-10T07:00:00"
+  },
+  {
+    "id": "d5265808-7b4c-510d-a52a-2ba1b233861d",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "completed",
+    "created_at": "2026-01-10T09:30:00"
+  },
+  {
+    "id": "3ac22a4c-9895-5f01-b96d-396d7ff34521",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-10T12:00:00"
+  },
+  {
+    "id": "519de8fa-7620-5dba-81b6-e4c18b520f08",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-10T14:30:00"
+  },
+  {
+    "id": "5652f365-6693-59b2-8a2b-d67ebbc73cda",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-01-10T17:00:00"
+  },
+  {
+    "id": "63850fe2-2776-5006-8bb0-ca16798f8f03",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "item_name": "Surmai Fry",
+    "amount": 360.0,
+    "status": "completed",
+    "created_at": "2026-01-10T19:30:00"
+  },
+  {
+    "id": "79531319-31cc-5e31-84d2-1c00d0b335b5",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "item_name": "Mutton Rogan Josh",
+    "amount": 340.0,
+    "status": "completed",
+    "created_at": "2026-01-10T22:00:00"
+  },
+  {
+    "id": "0eb08cbf-55b4-54d0-92a8-56d91ae382b5",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "item_name": "Double Ka Meetha",
+    "amount": 120.0,
+    "status": "completed",
+    "created_at": "2026-01-11T00:30:00"
+  },
+  {
+    "id": "54b9c8c8-5348-513d-a045-9a36428b9e38",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-11T03:00:00"
+  },
+  {
+    "id": "54b5c734-08a7-5b96-93f9-48fe1458c18b",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "item_name": "Curd Rice",
+    "amount": 100.0,
+    "status": "pending",
+    "created_at": "2026-01-11T05:30:00"
+  },
+  {
+    "id": "3d9251a6-e0c7-5a45-ba79-b82044786b5c",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "item_name": "Espresso",
+    "amount": 120.0,
+    "status": "completed",
+    "created_at": "2026-01-11T08:00:00"
+  },
+  {
+    "id": "8c43c1e2-ef59-5b3c-b187-6f0a605b479a",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "item_name": "Naan",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-01-11T10:30:00"
+  },
+  {
+    "id": "92d5cb98-c824-50e2-9cc1-ea1f923dbef8",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "item_name": "Soda Lemon",
+    "amount": 50.0,
+    "status": "pending",
+    "created_at": "2026-01-11T13:00:00"
+  },
+  {
+    "id": "1ddaf784-9a3b-59c8-91ad-74078944dd80",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "item_name": "Masala Dosa",
+    "amount": 80.0,
+    "status": "pending",
+    "created_at": "2026-01-11T15:30:00"
+  },
+  {
+    "id": "67f56bb0-1ead-5698-8180-09665f7bd2ce",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "item_name": "Butter Chicken",
+    "amount": 280.0,
+    "status": "completed",
+    "created_at": "2026-01-11T18:00:00"
+  },
+  {
+    "id": "48e1cb67-0ca4-53a7-b472-190c3f9ddc83",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "item_name": "Surmai Fry",
+    "amount": 360.0,
+    "status": "cancelled",
+    "created_at": "2026-01-11T20:30:00"
+  },
+  {
+    "id": "37364348-f32e-5221-b093-3eb46ae00bfb",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "item_name": "Paneer Tikka Masala",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-01-11T23:00:00"
+  },
+  {
+    "id": "bec15651-23e1-58e8-b339-8d875da70360",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "item_name": "Paneer Butter Masala",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-01-12T01:30:00"
+  },
+  {
+    "id": "f14bcada-2883-5480-9697-6790339ddaf7",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-01-12T04:00:00"
+  },
+  {
+    "id": "55883e72-d7ce-5521-bf50-a0d8e5f9d679",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "item_name": "Milkshake",
+    "amount": 180.0,
+    "status": "completed",
+    "created_at": "2026-01-12T06:30:00"
+  },
+  {
+    "id": "b7ffb00d-f880-5010-a528-d550c889efc5",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "item_name": "Fish Curry",
+    "amount": 320.0,
+    "status": "cancelled",
+    "created_at": "2026-01-12T09:00:00"
+  },
+  {
+    "id": "2d74567b-63d1-5812-ba4c-9126775bbf3e",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "item_name": "Masala Dosa",
+    "amount": 80.0,
+    "status": "cancelled",
+    "created_at": "2026-01-12T11:30:00"
+  },
+  {
+    "id": "3bc11d5b-fded-5f32-bef1-637bfcdba43d",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "item_name": "Double Ka Meetha",
+    "amount": 120.0,
+    "status": "pending",
+    "created_at": "2026-01-12T14:00:00"
+  },
+  {
+    "id": "5ac19d4a-c933-5a22-92d5-be9e2baca911",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "cancelled",
+    "created_at": "2026-01-12T16:30:00"
+  },
+  {
+    "id": "222b8716-cc5c-5abb-895a-4aa0fa753561",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "item_name": "Naan",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-01-12T19:00:00"
+  },
+  {
+    "id": "16790297-cc5a-52e3-8321-5962f42e8859",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "completed",
+    "created_at": "2026-01-12T21:30:00"
+  },
+  {
+    "id": "e8867dbc-1ba5-5a25-9116-21084f3b7dc1",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "item_name": "Paneer Tikka Masala",
+    "amount": 260.0,
+    "status": "pending",
+    "created_at": "2026-01-13T00:00:00"
+  },
+  {
+    "id": "f357ad9c-9d11-5a3e-823d-63c11c9f56eb",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Qubani Ka Meetha",
+    "amount": 110.0,
+    "status": "completed",
+    "created_at": "2026-01-13T02:30:00"
+  },
+  {
+    "id": "46dd88f3-f22f-5b3b-8744-2ef3d199994c",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "item_name": "Masala Dosa",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-13T05:00:00"
+  },
+  {
+    "id": "4101ce21-9f17-540e-ad7d-d18d7bd799e5",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-01-13T07:30:00"
+  },
+  {
+    "id": "9acfef5e-9809-5d5c-8e7d-7b38791daefd",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "item_name": "Caramel Custard",
+    "amount": 120.0,
+    "status": "completed",
+    "created_at": "2026-01-13T10:00:00"
+  },
+  {
+    "id": "eae98c85-b5a0-5d75-9a5a-dd7ad1cca136",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "item_name": "Naan",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-01-13T12:30:00"
+  },
+  {
+    "id": "6f5fc0fa-a8f9-515c-b08a-6719b05a5ceb",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "item_name": "Mutton Biryani",
+    "amount": 290.0,
+    "status": "completed",
+    "created_at": "2026-01-13T15:00:00"
+  },
+  {
+    "id": "de0d8f40-ab25-569e-8cd2-ace3caf7e429",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "item_name": "Veg Fried Rice",
+    "amount": 200.0,
+    "status": "completed",
+    "created_at": "2026-01-13T17:30:00"
+  },
+  {
+    "id": "6ae5fbb2-7f0d-56de-b030-50b312ea760d",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "item_name": "Club Sandwich",
+    "amount": 300.0,
+    "status": "pending",
+    "created_at": "2026-01-13T20:00:00"
+  },
+  {
+    "id": "bbd42b69-9629-5e76-a786-cbdcbc2a1618",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "item_name": "Buttermilk",
+    "amount": 50.0,
+    "status": "pending",
+    "created_at": "2026-01-13T22:30:00"
+  },
+  {
+    "id": "e10b0f6f-945a-5a3f-a086-c2007c50dc47",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "item_name": "Butter Chicken",
+    "amount": 280.0,
+    "status": "pending",
+    "created_at": "2026-01-14T01:00:00"
+  },
+  {
+    "id": "1e9cf942-7ccf-5c75-a172-ab2183619542",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "item_name": "Veg Fried Rice",
+    "amount": 200.0,
+    "status": "pending",
+    "created_at": "2026-01-14T03:30:00"
+  },
+  {
+    "id": "d41a80da-427a-5da3-bc16-db2265619628",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "item_name": "Rava Idli",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-14T06:00:00"
+  },
+  {
+    "id": "e246a918-cbfe-5971-b288-19aa6686fd13",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "item_name": "Idli Sambar",
+    "amount": 70.0,
+    "status": "pending",
+    "created_at": "2026-01-14T08:30:00"
+  },
+  {
+    "id": "004c3a0a-ffe8-5582-ba65-8a6242622ed9",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "item_name": "Caesar Salad",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-01-14T11:00:00"
+  },
+  {
+    "id": "1b2c68de-11e0-54dc-bf81-49f529b670c2",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "item_name": "Lassi",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-14T13:30:00"
+  },
+  {
+    "id": "6f570315-18d0-5b18-b36e-6c457fc4f364",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "item_name": "Paneer Biryani",
+    "amount": 240.0,
+    "status": "pending",
+    "created_at": "2026-01-14T16:00:00"
+  },
+  {
+    "id": "0b360e39-8e79-5b2c-b748-5953233316f7",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "item_name": "Paniyaram",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-14T18:30:00"
+  },
+  {
+    "id": "25e0ddfe-b801-54aa-92bd-f8723808c235",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "item_name": "Masala Dosa",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-14T21:00:00"
+  },
+  {
+    "id": "526357b6-71b7-58dd-b2ce-5aedef464aad",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "item_name": "Bombil Fry",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-01-14T23:30:00"
+  },
+  {
+    "id": "c5c05ef1-80be-5a31-b6f8-3ff1799fe164",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "item_name": "Seekh Kebab",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-01-15T02:00:00"
+  },
+  {
+    "id": "d3dddad5-e759-5109-b4ec-d904f157e042",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Veg Biryani",
+    "amount": 220.0,
+    "status": "pending",
+    "created_at": "2026-01-15T04:30:00"
+  },
+  {
+    "id": "63fd0b0e-d6ce-5fba-ab1e-4d0d4858149b",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "pending",
+    "created_at": "2026-01-15T07:00:00"
+  },
+  {
+    "id": "883e2e63-f7ba-5e50-a9bf-8a5281589438",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-15T09:30:00"
+  },
+  {
+    "id": "b14613ac-2ad8-5bac-8612-a842e03cdc92",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "item_name": "Sali Boti",
+    "amount": 360.0,
+    "status": "pending",
+    "created_at": "2026-01-15T12:00:00"
+  },
+  {
+    "id": "bc19721d-ba06-5da9-8ec8-7ada3dea1435",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "item_name": "Rabri Kulfi",
+    "amount": 200.0,
+    "status": "completed",
+    "created_at": "2026-01-15T14:30:00"
+  },
+  {
+    "id": "fac4bcb8-382b-529f-a00a-1a6ae5d5459f",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "item_name": "Soda Lemon",
+    "amount": 50.0,
+    "status": "cancelled",
+    "created_at": "2026-01-15T17:00:00"
+  },
+  {
+    "id": "e1fb60a6-0381-5cae-bea2-250a3d7b5a9f",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "item_name": "Mutton Rogan Josh",
+    "amount": 340.0,
+    "status": "completed",
+    "created_at": "2026-01-15T19:30:00"
+  },
+  {
+    "id": "d02eeb54-4b18-54fa-9075-1b863595bacd",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "item_name": "Sabzi",
+    "amount": 120.0,
+    "status": "completed",
+    "created_at": "2026-01-15T22:00:00"
+  },
+  {
+    "id": "67942736-cd79-504b-bf6f-87717e075566",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "item_name": "Kolambi Bhaat",
+    "amount": 320.0,
+    "status": "completed",
+    "created_at": "2026-01-16T00:30:00"
+  },
+  {
+    "id": "12772bb4-22c7-51f3-b081-a85121a595e9",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-01-16T03:00:00"
+  },
+  {
+    "id": "9862f406-db11-59c4-951e-5d73bd4456fd",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "item_name": "Gulab Jamun",
+    "amount": 100.0,
+    "status": "cancelled",
+    "created_at": "2026-01-16T05:30:00"
+  },
+  {
+    "id": "c2fcd49c-aad2-5ab0-be51-885c85e16380",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "completed",
+    "created_at": "2026-01-16T08:00:00"
+  },
+  {
+    "id": "7e7a7fbb-3bf4-55ca-8f73-9eae078fb424",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "item_name": "Chocolate Brownie",
+    "amount": 200.0,
+    "status": "completed",
+    "created_at": "2026-01-16T10:30:00"
+  },
+  {
+    "id": "995fbe3d-7371-5b6b-93b3-219ec61f775f",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "item_name": "Seekh Kebab",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-01-16T13:00:00"
+  },
+  {
+    "id": "cc03cbbf-de0b-5b7c-804a-feba3a2a736a",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "item_name": "Naan",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-01-16T15:30:00"
+  },
+  {
+    "id": "67104a28-c96d-5156-b06d-c8e4119ea231",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "item_name": "Double Ka Meetha",
+    "amount": 120.0,
+    "status": "completed",
+    "created_at": "2026-01-16T18:00:00"
+  },
+  {
+    "id": "dbec1b5f-8749-59b5-b23e-fdefab85235a",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-01-16T20:30:00"
+  },
+  {
+    "id": "b6fa11d1-8d9f-5cbd-9dd5-048d457fe605",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "item_name": "French Onion Soup",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-01-16T23:00:00"
+  },
+  {
+    "id": "1c986f71-8d5c-5bc7-818f-03ce04eb6bc0",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "item_name": "Beef Steak",
+    "amount": 580.0,
+    "status": "completed",
+    "created_at": "2026-01-17T01:30:00"
+  },
+  {
+    "id": "8720a374-4a94-54b4-b0bf-35c33060d3c5",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "item_name": "Mutton Rogan Josh",
+    "amount": 340.0,
+    "status": "completed",
+    "created_at": "2026-01-17T04:00:00"
+  },
+  {
+    "id": "adfadc48-50ba-5684-9cec-e53d73c80e7f",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Mutton Biryani",
+    "amount": 290.0,
+    "status": "completed",
+    "created_at": "2026-01-17T06:30:00"
+  },
+  {
+    "id": "6423ecb6-e497-5d42-b61e-5609dd0655aa",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "item_name": "Hakka Noodles",
+    "amount": 220.0,
+    "status": "completed",
+    "created_at": "2026-01-17T09:00:00"
+  },
+  {
+    "id": "2115c4cb-03ec-57f3-ac86-f5e44fff6fe0",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "item_name": "Pesarattu",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-17T11:30:00"
+  },
+  {
+    "id": "cea885e8-3ac3-59f8-af2e-de4193725575",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "item_name": "Lagan nu Custard",
+    "amount": 130.0,
+    "status": "completed",
+    "created_at": "2026-01-17T14:00:00"
+  },
+  {
+    "id": "905897ba-2fe4-5df1-ac18-46474429297e",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-17T16:30:00"
+  },
+  {
+    "id": "131d9765-ea2c-5ced-ae98-1dc187218d96",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "item_name": "Soda Lemon",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-01-17T19:00:00"
+  },
+  {
+    "id": "eeaf9402-34ac-54d0-b25f-741f31a19965",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "item_name": "Chicken 65",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-01-17T21:30:00"
+  },
+  {
+    "id": "7c0c1a01-b3b2-50f3-a968-3ecd1491d1f5",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-18T00:00:00"
+  },
+  {
+    "id": "11849c2b-8bfb-58c3-9de2-be7bec42e3b7",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "item_name": "Modak",
+    "amount": 120.0,
+    "status": "completed",
+    "created_at": "2026-01-18T02:30:00"
+  },
+  {
+    "id": "bfccfe4b-10de-58ae-911d-a7c61cc9f2f1",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "item_name": "Butter Chicken",
+    "amount": 280.0,
+    "status": "pending",
+    "created_at": "2026-01-18T05:00:00"
+  },
+  {
+    "id": "bf28bd2e-71d8-54c4-869e-8d8cc8a629eb",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "item_name": "Chicken Dum Biryani",
+    "amount": 260.0,
+    "status": "cancelled",
+    "created_at": "2026-01-18T07:30:00"
+  },
+  {
+    "id": "82465a9f-ad75-555e-96f0-91ffd6905bf1",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-01-18T10:00:00"
+  },
+  {
+    "id": "f36bed25-2251-5509-befd-9e824bd33a4a",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "item_name": "Idli Sambar",
+    "amount": 70.0,
+    "status": "pending",
+    "created_at": "2026-01-18T12:30:00"
+  },
+  {
+    "id": "016f0c37-f500-50ed-9bfd-4fd373e0870b",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "item_name": "Lassi",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-18T15:00:00"
+  },
+  {
+    "id": "3f05b0b2-339d-51ab-90da-b2cc8a03e7b4",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "item_name": "Naan",
+    "amount": 50.0,
+    "status": "cancelled",
+    "created_at": "2026-01-18T17:30:00"
+  },
+  {
+    "id": "07a1d311-c1d0-5f1d-8f35-82182389a2a0",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Double Ka Meetha",
+    "amount": 120.0,
+    "status": "completed",
+    "created_at": "2026-01-18T20:00:00"
+  },
+  {
+    "id": "da805975-d08e-5fe9-b767-5eb96e2fa810",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "cancelled",
+    "created_at": "2026-01-18T22:30:00"
+  },
+  {
+    "id": "141a406f-12c0-5f60-a4d6-686de81d1df9",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "item_name": "Beef Steak",
+    "amount": 580.0,
+    "status": "completed",
+    "created_at": "2026-01-19T01:00:00"
+  },
+  {
+    "id": "96ba3475-0d66-5506-aff2-70c234a488dc",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "item_name": "Prawn Masala",
+    "amount": 380.0,
+    "status": "cancelled",
+    "created_at": "2026-01-19T03:30:00"
+  },
+  {
+    "id": "5c5cae62-c8b5-53d3-bd98-364ad295ee6f",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-19T06:00:00"
+  },
+  {
+    "id": "c32ca50b-6b64-5e72-be26-a7d44e27aefb",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "item_name": "Chicken Biryani",
+    "amount": 280.0,
+    "status": "completed",
+    "created_at": "2026-01-19T08:30:00"
+  },
+  {
+    "id": "e5406be9-e0b6-5079-9cf6-e68d65e6019b",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-01-19T11:00:00"
+  },
+  {
+    "id": "e54a53ca-fa57-5cce-a9d7-c19cd4e7830d",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "pending",
+    "created_at": "2026-01-19T13:30:00"
+  },
+  {
+    "id": "3e582aed-a775-5b76-b3c9-b9401491554b",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "item_name": "Raita",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-01-19T16:00:00"
+  },
+  {
+    "id": "d93485e0-fa9b-53ae-b195-31800549ad1f",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "cancelled",
+    "created_at": "2026-01-19T18:30:00"
+  },
+  {
+    "id": "1180a15a-b9b3-567d-a1ec-1878d342058b",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "item_name": "Rava Idli",
+    "amount": 80.0,
+    "status": "pending",
+    "created_at": "2026-01-19T21:00:00"
+  },
+  {
+    "id": "6fd7675c-63c1-5887-9f8a-339eb4f1e493",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "cancelled",
+    "created_at": "2026-01-19T23:30:00"
+  },
+  {
+    "id": "b8588a81-fe04-52e8-b3be-41a67e40468f",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "item_name": "Pesarattu",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-20T02:00:00"
+  },
+  {
+    "id": "bd5003c1-3ea9-5124-aeda-45cc7839d48d",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "item_name": "Eggs Benedict",
+    "amount": 320.0,
+    "status": "completed",
+    "created_at": "2026-01-20T04:30:00"
+  },
+  {
+    "id": "5e6b39c2-6a95-5c14-a6a1-fea63f0c64e3",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "item_name": "Paneer Tikka Masala",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-01-20T07:00:00"
+  },
+  {
+    "id": "b52582a0-01ca-57eb-824b-48e391e75440",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "item_name": "Paneer Biryani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-01-20T09:30:00"
+  },
+  {
+    "id": "af9da2e1-d495-52ef-8ef8-5889d04e8e4b",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "item_name": "Idli Sambar",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-01-20T12:00:00"
+  },
+  {
+    "id": "92fc8f05-1304-56ac-9752-cc29c32a0662",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-01-20T14:30:00"
+  },
+  {
+    "id": "24a911ec-c8ba-5e41-bdc8-cf7d458317f5",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "item_name": "Surmai Fry",
+    "amount": 360.0,
+    "status": "completed",
+    "created_at": "2026-01-20T17:00:00"
+  },
+  {
+    "id": "fcffbc74-8821-5590-babc-109473245222",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "item_name": "Paneer Tikka Masala",
+    "amount": 260.0,
+    "status": "pending",
+    "created_at": "2026-01-20T19:30:00"
+  },
+  {
+    "id": "c5b67df1-4238-58ed-b4f0-92a0781530bb",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "item_name": "Mutton Biryani",
+    "amount": 290.0,
+    "status": "completed",
+    "created_at": "2026-01-20T22:00:00"
+  },
+  {
+    "id": "909c9523-d5d8-5968-ac38-b1f492024ad5",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "item_name": "Kavuni Arisi",
+    "amount": 100.0,
+    "status": "pending",
+    "created_at": "2026-01-21T00:30:00"
+  },
+  {
+    "id": "6fa5aa67-68e3-5bfc-9841-0e83fbc68f1e",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "item_name": "Filter Coffee",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-01-21T03:00:00"
+  },
+  {
+    "id": "f739c671-0f62-5e25-aecd-42ed776535ea",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "item_name": "Beef Steak",
+    "amount": 580.0,
+    "status": "completed",
+    "created_at": "2026-01-21T05:30:00"
+  },
+  {
+    "id": "e9365bee-8e16-55ee-863a-a6df76485dcc",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "item_name": "Paneer Tikka Masala",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-01-21T08:00:00"
+  },
+  {
+    "id": "4cf0c971-7b3b-54db-b6cf-b3829d358753",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "item_name": "Hakka Noodles",
+    "amount": 220.0,
+    "status": "cancelled",
+    "created_at": "2026-01-21T10:30:00"
+  },
+  {
+    "id": "de52ab13-b238-5ed3-825b-dd5b95a67022",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "item_name": "Mango Lassi",
+    "amount": 120.0,
+    "status": "cancelled",
+    "created_at": "2026-01-21T13:00:00"
+  },
+  {
+    "id": "528fc946-9511-5d39-a6d4-2fe48ab2ce00",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "item_name": "Curd Rice",
+    "amount": 100.0,
+    "status": "cancelled",
+    "created_at": "2026-01-21T15:30:00"
+  },
+  {
+    "id": "5c0bb90d-15d4-5aa4-ab6e-ebbd77b92fba",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "item_name": "Paneer Tikka Masala",
+    "amount": 260.0,
+    "status": "pending",
+    "created_at": "2026-01-21T18:00:00"
+  },
+  {
+    "id": "740f229f-8872-5d6f-9e69-983f9b329c27",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "item_name": "Raita",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-01-21T20:30:00"
+  },
+  {
+    "id": "e7d2e198-f5b3-5ab5-a9ad-beae29ab95af",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "item_name": "Chicken Haleem",
+    "amount": 180.0,
+    "status": "cancelled",
+    "created_at": "2026-01-21T23:00:00"
+  },
+  {
+    "id": "bd98c746-39ac-57a7-a60f-054493211279",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-01-22T01:30:00"
+  },
+  {
+    "id": "cef27f5a-d104-5244-a10d-8b2f59e9085a",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "item_name": "Mushroom Pasta",
+    "amount": 320.0,
+    "status": "pending",
+    "created_at": "2026-01-22T04:00:00"
+  },
+  {
+    "id": "05d44abc-982a-5d9f-b911-2e4b2ddc44d9",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "item_name": "Khandvi",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-22T06:30:00"
+  },
+  {
+    "id": "06037ff5-8ffe-5768-9e4d-a52e5194bcb8",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "item_name": "Seekh Kebab",
+    "amount": 240.0,
+    "status": "cancelled",
+    "created_at": "2026-01-22T09:00:00"
+  },
+  {
+    "id": "e45b91ad-f017-5243-a935-0c4d316faf12",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "item_name": "Veg Biryani",
+    "amount": 220.0,
+    "status": "completed",
+    "created_at": "2026-01-22T11:30:00"
+  },
+  {
+    "id": "9fc50457-8a2f-510a-ba2b-ca49cf56fa20",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "item_name": "Appam",
+    "amount": 80.0,
+    "status": "pending",
+    "created_at": "2026-01-22T14:00:00"
+  },
+  {
+    "id": "f18162d9-a6b5-5a78-9907-36bbef42cc07",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "item_name": "Beef Steak",
+    "amount": 580.0,
+    "status": "completed",
+    "created_at": "2026-01-22T16:30:00"
+  },
+  {
+    "id": "504ef3d2-4255-58a4-a7fa-5f959790ef76",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "item_name": "Sol Kadhi",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-22T19:00:00"
+  },
+  {
+    "id": "71d69b37-5837-5e88-bdd0-5a56c4cd8e2f",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "item_name": "Raita",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-01-22T21:30:00"
+  },
+  {
+    "id": "f5471f87-43e4-5f3e-a352-c897de05f980",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "item_name": "Paneer Biryani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-01-23T00:00:00"
+  },
+  {
+    "id": "96e57e75-8a8e-5619-8335-eb53bbe0e6ec",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "pending",
+    "created_at": "2026-01-23T02:30:00"
+  },
+  {
+    "id": "7545442a-d3af-5839-90ac-9ef5f23c9050",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "item_name": "Lassi",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-01-23T05:00:00"
+  },
+  {
+    "id": "0c9f7ccb-e7e4-5831-afd3-42d63d42aeda",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "item_name": "Butter Chicken",
+    "amount": 280.0,
+    "status": "completed",
+    "created_at": "2026-01-23T07:30:00"
+  },
+  {
+    "id": "b8c0b989-8780-5ecf-9b9e-db033975ff6e",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "item_name": "Mutton Rogan Josh",
+    "amount": 340.0,
+    "status": "completed",
+    "created_at": "2026-01-23T10:00:00"
+  },
+  {
+    "id": "ee611d33-47d7-5664-ac92-c523a5681b08",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "item_name": "Hakka Noodles",
+    "amount": 220.0,
+    "status": "cancelled",
+    "created_at": "2026-01-23T12:30:00"
+  },
+  {
+    "id": "9a6100e8-7ec5-55db-95d4-0ac1cb620e36",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "item_name": "Chettinad Kuzhambu",
+    "amount": 200.0,
+    "status": "completed",
+    "created_at": "2026-01-23T15:00:00"
+  },
+  {
+    "id": "ccb7b476-ab2b-590d-bcc0-4c1c63e7cf40",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "item_name": "Curd Rice",
+    "amount": 100.0,
+    "status": "completed",
+    "created_at": "2026-01-23T17:30:00"
+  },
+  {
+    "id": "45ccb782-da14-5826-a2af-0e8159a4d2db",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "item_name": "Sol Kadhi",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-23T20:00:00"
+  },
+  {
+    "id": "5001b18d-528e-55c3-bf03-d469bf8cfed5",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "item_name": "Paneer Tikka Masala",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-01-23T22:30:00"
+  },
+  {
+    "id": "b9c66e06-b927-5cbd-b3da-56082d9459b9",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "item_name": "Soda Lemon",
+    "amount": 50.0,
+    "status": "cancelled",
+    "created_at": "2026-01-24T01:00:00"
+  },
+  {
+    "id": "f5b40d1b-81a8-5048-b5fc-a22bef3680c8",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "item_name": "Curd Rice",
+    "amount": 100.0,
+    "status": "cancelled",
+    "created_at": "2026-01-24T03:30:00"
+  },
+  {
+    "id": "e786e91b-b653-50cb-893f-fc0c60aae8a0",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "item_name": "Masala Dosa",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-24T06:00:00"
+  },
+  {
+    "id": "dc233879-8f79-5cc0-a3c9-29521c3a33e7",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "item_name": "Prawn Masala",
+    "amount": 380.0,
+    "status": "completed",
+    "created_at": "2026-01-24T08:30:00"
+  },
+  {
+    "id": "b03ac5df-d31c-583d-a4e9-6862a1c73999",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "item_name": "Kashmiri Morels",
+    "amount": 680.0,
+    "status": "completed",
+    "created_at": "2026-01-24T11:00:00"
+  },
+  {
+    "id": "501bd076-e341-5eb5-9112-13dc67bd5e1c",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "item_name": "Mutton Seekh Kebab",
+    "amount": 220.0,
+    "status": "completed",
+    "created_at": "2026-01-24T13:30:00"
+  },
+  {
+    "id": "e4ae0750-157f-54a4-824b-1362029153f9",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "item_name": "Pesarattu",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-24T16:00:00"
+  },
+  {
+    "id": "831b5845-f3ff-5589-ae67-52758e97b483",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-24T18:30:00"
+  },
+  {
+    "id": "dc93034a-9ba6-56aa-99e4-c4febb2d6e26",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "item_name": "Thepla",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-24T21:00:00"
+  },
+  {
+    "id": "f91364fb-9797-5c48-9f36-f9e4000e1c89",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "item_name": "Gulab Jamun",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-24T23:30:00"
+  },
+  {
+    "id": "8897dd32-ed0f-5461-8cf3-ba0109c50f61",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "item_name": "Paneer Biryani",
+    "amount": 240.0,
+    "status": "pending",
+    "created_at": "2026-01-25T02:00:00"
+  },
+  {
+    "id": "c480f654-4809-5f66-8edc-414a204d94db",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "item_name": "Masala Dosa",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-25T04:30:00"
+  },
+  {
+    "id": "d6fbb2ca-a062-5e6d-8d68-89a4e5581794",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "item_name": "Mac and Cheese",
+    "amount": 280.0,
+    "status": "completed",
+    "created_at": "2026-01-25T07:00:00"
+  },
+  {
+    "id": "bd4ca027-aebc-5c37-9209-bed239c70c24",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "item_name": "Prawn Masala",
+    "amount": 380.0,
+    "status": "completed",
+    "created_at": "2026-01-25T09:30:00"
+  },
+  {
+    "id": "a5021ee9-0df7-5d27-88be-b29514964a73",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "item_name": "Lamb Raan",
+    "amount": 1200.0,
+    "status": "pending",
+    "created_at": "2026-01-25T12:00:00"
+  },
+  {
+    "id": "1573d4f2-b04f-52dc-a8e6-a4f4c69c5322",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "item_name": "Soda Lemon",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-01-25T14:30:00"
+  },
+  {
+    "id": "98837623-a9d7-5407-9eb1-019728062a77",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-25T17:00:00"
+  },
+  {
+    "id": "d11e7a3d-3b30-5221-9017-a4371b0c969d",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "item_name": "Tiramisu",
+    "amount": 250.0,
+    "status": "cancelled",
+    "created_at": "2026-01-25T19:30:00"
+  },
+  {
+    "id": "a8aa2b97-bec8-5930-a1f2-96710de6202f",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "item_name": "Patra ni Machhi",
+    "amount": 400.0,
+    "status": "completed",
+    "created_at": "2026-01-25T22:00:00"
+  },
+  {
+    "id": "b362f212-cdc3-51e2-ba34-186f638c5990",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "item_name": "Lassi",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-26T00:30:00"
+  },
+  {
+    "id": "b56d698d-9c0e-5a80-aedc-31c349908732",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Soda Lemon",
+    "amount": 50.0,
+    "status": "pending",
+    "created_at": "2026-01-26T03:00:00"
+  },
+  {
+    "id": "b1ee656a-0ad2-53a3-a9e1-ffcffb909740",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "item_name": "Curd Rice",
+    "amount": 100.0,
+    "status": "pending",
+    "created_at": "2026-01-26T05:30:00"
+  },
+  {
+    "id": "f3bdabe7-c2b7-5a81-aeb9-877cf12f9079",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "item_name": "BBQ Chicken Pizza",
+    "amount": 380.0,
+    "status": "cancelled",
+    "created_at": "2026-01-26T08:00:00"
+  },
+  {
+    "id": "4dc5a403-d639-568f-869b-389c324643af",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "item_name": "Mushroom Pasta",
+    "amount": 320.0,
+    "status": "pending",
+    "created_at": "2026-01-26T10:30:00"
+  },
+  {
+    "id": "8a13ccb4-beaf-5adc-bde4-c02c5d5e289b",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "item_name": "Lassi",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-26T13:00:00"
+  },
+  {
+    "id": "45c34fe6-f0e6-5203-8512-d51801bf26b8",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "item_name": "Chicken Dum Biryani",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-01-26T15:30:00"
+  },
+  {
+    "id": "e2100eab-317f-5f22-b2d8-59f94b0b6812",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "item_name": "Curd Rice",
+    "amount": 100.0,
+    "status": "pending",
+    "created_at": "2026-01-26T18:00:00"
+  },
+  {
+    "id": "47701cd5-cce6-5803-9e72-836b5926c5e8",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "cancelled",
+    "created_at": "2026-01-26T20:30:00"
+  },
+  {
+    "id": "796793c1-ea50-5d80-9f84-cd3be4e36117",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "item_name": "Butter Chicken",
+    "amount": 280.0,
+    "status": "completed",
+    "created_at": "2026-01-26T23:00:00"
+  },
+  {
+    "id": "d580853f-9dab-52a0-a122-f4c21ac8413c",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-01-27T01:30:00"
+  },
+  {
+    "id": "92406789-ac1b-529a-ae8d-160acf23d669",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "item_name": "Qubani Ka Meetha",
+    "amount": 110.0,
+    "status": "pending",
+    "created_at": "2026-01-27T04:00:00"
+  },
+  {
+    "id": "dde5947f-2b95-5229-880b-1a05f320231b",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "item_name": "Mutton Rogan Josh",
+    "amount": 340.0,
+    "status": "completed",
+    "created_at": "2026-01-27T06:30:00"
+  },
+  {
+    "id": "1f86e0ed-3651-5cd1-89df-2684c8fac853",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "cancelled",
+    "created_at": "2026-01-27T09:00:00"
+  },
+  {
+    "id": "dbaeb089-1344-599e-9e50-b6d050d19a56",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "item_name": "Espresso",
+    "amount": 120.0,
+    "status": "completed",
+    "created_at": "2026-01-27T11:30:00"
+  },
+  {
+    "id": "90e317b1-729c-56e9-9d51-6605485fb251",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "item_name": "Lassi",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-27T14:00:00"
+  },
+  {
+    "id": "5450348e-da2a-56cb-9472-6e4fb12396b3",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "item_name": "Paneer Biryani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-01-27T16:30:00"
+  },
+  {
+    "id": "5825a1b5-f62a-5c19-814a-ac2d128cef59",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "item_name": "Chettinad Kuzhambu",
+    "amount": 200.0,
+    "status": "completed",
+    "created_at": "2026-01-27T19:00:00"
+  },
+  {
+    "id": "07cc8fcd-550b-5059-89d8-6b73c294cc21",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "item_name": "Tiramisu",
+    "amount": 250.0,
+    "status": "cancelled",
+    "created_at": "2026-01-27T21:30:00"
+  },
+  {
+    "id": "44aa0de5-3e92-5f8c-af1a-f2f8aea92fe9",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "item_name": "Kolambi Bhaat",
+    "amount": 320.0,
+    "status": "completed",
+    "created_at": "2026-01-28T00:00:00"
+  },
+  {
+    "id": "baaf51bd-f288-560e-a6fa-4b51261d7570",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "item_name": "Seekh Kebab",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-01-28T02:30:00"
+  },
+  {
+    "id": "536191a6-f525-5daa-85ec-b3082690ec40",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-01-28T05:00:00"
+  },
+  {
+    "id": "a0b77227-6208-53a3-9939-a1cd84c57f06",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "item_name": "Idiyappam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-28T07:30:00"
+  },
+  {
+    "id": "4f587a08-4a1b-5142-b146-a98f4bf2c6d2",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "cancelled",
+    "created_at": "2026-01-28T10:00:00"
+  },
+  {
+    "id": "2856a12d-f802-599e-86d7-563bdc0e583b",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "item_name": "Crab Sukka",
+    "amount": 580.0,
+    "status": "completed",
+    "created_at": "2026-01-28T12:30:00"
+  },
+  {
+    "id": "150d3407-ff9d-5b10-82d6-99718d683691",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "pending",
+    "created_at": "2026-01-28T15:00:00"
+  },
+  {
+    "id": "2941eab3-d075-5841-b886-b214f1b8fd43",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "item_name": "Qubani Ka Meetha",
+    "amount": 110.0,
+    "status": "cancelled",
+    "created_at": "2026-01-28T17:30:00"
+  },
+  {
+    "id": "769abf0c-5523-555f-8d27-70a262cebbfe",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "item_name": "Chettinad Kuzhambu",
+    "amount": 200.0,
+    "status": "pending",
+    "created_at": "2026-01-28T20:00:00"
+  },
+  {
+    "id": "fd8c8570-f7b7-59c9-963c-b2b54ba61652",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "item_name": "Espresso",
+    "amount": 120.0,
+    "status": "completed",
+    "created_at": "2026-01-28T22:30:00"
+  },
+  {
+    "id": "58eed00e-f2d2-5a42-8c6d-3c6eb2e891ef",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "item_name": "Lagan nu Custard",
+    "amount": 130.0,
+    "status": "completed",
+    "created_at": "2026-01-29T01:00:00"
+  },
+  {
+    "id": "04a19edd-b59a-5baf-8afd-a089266682e1",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "completed",
+    "created_at": "2026-01-29T03:30:00"
+  },
+  {
+    "id": "a3b456ff-930a-5ad1-b4a9-186ab83787cb",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "item_name": "Mutton Seekh Kebab",
+    "amount": 220.0,
+    "status": "completed",
+    "created_at": "2026-01-29T06:00:00"
+  },
+  {
+    "id": "26a53d83-07ff-5b8d-a7b4-42eaa42d3d9c",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-29T08:30:00"
+  },
+  {
+    "id": "8e753c35-3d54-5d42-be6d-f2aa2657b961",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-29T11:00:00"
+  },
+  {
+    "id": "205a4cd0-493e-58b3-a612-b94f9a566385",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "item_name": "Raita",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-01-29T13:30:00"
+  },
+  {
+    "id": "1d3d9473-4582-5180-a843-8c9ab4f6be62",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "item_name": "Naan",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-01-29T16:00:00"
+  },
+  {
+    "id": "54e0d5c2-355d-554e-9e90-0306a5b4a85e",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "item_name": "Paneer Biryani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-01-29T18:30:00"
+  },
+  {
+    "id": "934a970a-e426-51ac-a1d3-ebcebf6d64bd",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "pending",
+    "created_at": "2026-01-29T21:00:00"
+  },
+  {
+    "id": "3e06612e-bb65-573e-88bd-0ff7ed3b0931",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "item_name": "Beef Steak",
+    "amount": 580.0,
+    "status": "completed",
+    "created_at": "2026-01-29T23:30:00"
+  },
+  {
+    "id": "9b8e9c59-d420-5fda-a7f0-d6db3a9b1989",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "item_name": "Naan",
+    "amount": 50.0,
+    "status": "pending",
+    "created_at": "2026-01-30T02:00:00"
+  },
+  {
+    "id": "e1c7da98-86bd-5a05-a070-57316b285928",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "cancelled",
+    "created_at": "2026-01-30T04:30:00"
+  },
+  {
+    "id": "ab9bdec7-5762-5498-958d-00a488feda76",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Mutton Biryani",
+    "amount": 290.0,
+    "status": "completed",
+    "created_at": "2026-01-30T07:00:00"
+  },
+  {
+    "id": "d04ba83e-42a2-55a6-8d25-bb5c4f0541e2",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-01-30T09:30:00"
+  },
+  {
+    "id": "6c2e4bef-6d5a-5809-8468-e8170599a574",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "item_name": "Eggs Benedict",
+    "amount": 320.0,
+    "status": "completed",
+    "created_at": "2026-01-30T12:00:00"
+  },
+  {
+    "id": "897164b3-232b-50a2-852b-ddf3ee3a2805",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "item_name": "Caesar Salad",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-01-30T14:30:00"
+  },
+  {
+    "id": "d45b24be-a675-5b34-81dd-492725d5e071",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "item_name": "Butter Chicken",
+    "amount": 280.0,
+    "status": "cancelled",
+    "created_at": "2026-01-30T17:00:00"
+  },
+  {
+    "id": "08e361c6-2ca3-50ee-bfcb-dfeed2a379c1",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Veg Biryani",
+    "amount": 220.0,
+    "status": "pending",
+    "created_at": "2026-01-30T19:30:00"
+  },
+  {
+    "id": "1ac685c6-6644-5ce4-ab4b-0afe651b2491",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "item_name": "Idli Sambar",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-01-30T22:00:00"
+  },
+  {
+    "id": "b9192172-9741-52dc-9fcb-5282a89c727c",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-01-31T00:30:00"
+  },
+  {
+    "id": "5e26e34f-16f5-50b1-a5bf-88c4d2b07ee5",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "item_name": "Raita",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-01-31T03:00:00"
+  },
+  {
+    "id": "562bfcae-592e-58f8-8a55-6f6ca620c17e",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "item_name": "Kashmiri Morels",
+    "amount": 680.0,
+    "status": "completed",
+    "created_at": "2026-01-31T05:30:00"
+  },
+  {
+    "id": "5b3d269f-7984-5493-b4cb-786145c4ab09",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "item_name": "Idli Sambar",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-01-31T08:00:00"
+  },
+  {
+    "id": "0925b0ef-3e5a-5074-99cc-60b1d943efa0",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "item_name": "Filter Coffee",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-01-31T10:30:00"
+  },
+  {
+    "id": "05e439af-86e8-5aa2-827a-b5b8276e7c29",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "item_name": "Masala Dosa",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-31T13:00:00"
+  },
+  {
+    "id": "afe6fffe-e11f-56d2-a078-498bb32a84f4",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "item_name": "Lassi",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-01-31T15:30:00"
+  },
+  {
+    "id": "c29eddf7-0791-5039-8a2c-dd2d70d3a934",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "completed",
+    "created_at": "2026-01-31T18:00:00"
+  },
+  {
+    "id": "3f2afab7-dcb3-5315-ab2a-5e0b65129179",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "item_name": "Gulab Jamun",
+    "amount": 100.0,
+    "status": "cancelled",
+    "created_at": "2026-01-31T20:30:00"
+  },
+  {
+    "id": "041860b7-9dc3-563a-9ead-884bc40e0ed9",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-01-31T23:00:00"
+  },
+  {
+    "id": "b32a7726-6c83-5313-9c1b-4d091931b21f",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "item_name": "Curd Rice",
+    "amount": 100.0,
+    "status": "completed",
+    "created_at": "2026-02-01T01:30:00"
+  },
+  {
+    "id": "4fbfed4c-1613-538a-92dc-09fc108abd04",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "item_name": "Naan",
+    "amount": 50.0,
+    "status": "cancelled",
+    "created_at": "2026-02-01T04:00:00"
+  },
+  {
+    "id": "a5ba3e55-cf12-5ef5-a2ab-60feb99dfabc",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "item_name": "Naan",
+    "amount": 50.0,
+    "status": "cancelled",
+    "created_at": "2026-02-01T06:30:00"
+  },
+  {
+    "id": "d4ff2b47-1c4f-5325-a63e-a33b55088198",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "item_name": "Chicken Dum Biryani",
+    "amount": 260.0,
+    "status": "cancelled",
+    "created_at": "2026-02-01T09:00:00"
+  },
+  {
+    "id": "ffa973ec-19b5-53f0-b8c4-e7465dd0a5c7",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "pending",
+    "created_at": "2026-02-01T11:30:00"
+  },
+  {
+    "id": "bfce5f63-0223-5336-9328-579524f75150",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "item_name": "Chicken Wings",
+    "amount": 320.0,
+    "status": "pending",
+    "created_at": "2026-02-01T14:00:00"
+  },
+  {
+    "id": "d5af99d7-2bcf-5385-b7db-58614e061783",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "item_name": "Patra ni Machhi",
+    "amount": 400.0,
+    "status": "completed",
+    "created_at": "2026-02-01T16:30:00"
+  },
+  {
+    "id": "f833dc37-96ae-5dcd-afad-b237486203d2",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "item_name": "Rabri Kulfi",
+    "amount": 200.0,
+    "status": "completed",
+    "created_at": "2026-02-01T19:00:00"
+  },
+  {
+    "id": "e099afc9-6a72-5929-8883-b21469f4bd67",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "item_name": "Chicken Dum Biryani",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-02-01T21:30:00"
+  },
+  {
+    "id": "e23e24c0-1b3a-57a4-87f0-1bb036cad15b",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-02-02T00:00:00"
+  },
+  {
+    "id": "96373c6f-ad92-5224-951f-fbb0cab21748",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "item_name": "Masala Dosa",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-02T02:30:00"
+  },
+  {
+    "id": "884d7585-a852-5e66-854a-780139e90d4e",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "item_name": "Fafda Jalebi",
+    "amount": 100.0,
+    "status": "pending",
+    "created_at": "2026-02-02T05:00:00"
+  },
+  {
+    "id": "55853b7c-8b0f-58d0-bb6d-249c7c8c58ee",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "pending",
+    "created_at": "2026-02-02T07:30:00"
+  },
+  {
+    "id": "5d715398-665e-522c-9179-13061c7abc7b",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "item_name": "Chicken Haleem",
+    "amount": 180.0,
+    "status": "pending",
+    "created_at": "2026-02-02T10:00:00"
+  },
+  {
+    "id": "d12d2e51-da69-56fa-9f2e-c0cc69f134c6",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-02-02T12:30:00"
+  },
+  {
+    "id": "26647ebe-a2d1-5655-9011-c6ef9a26284a",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-02T15:00:00"
+  },
+  {
+    "id": "9fa25cae-e775-56b9-9a06-beb34e5edb47",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "item_name": "Naan",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-02-02T17:30:00"
+  },
+  {
+    "id": "4f4764b2-3653-51bf-990b-8bc1351b3286",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "item_name": "Butter Chicken",
+    "amount": 280.0,
+    "status": "completed",
+    "created_at": "2026-02-02T20:00:00"
+  },
+  {
+    "id": "0a37f47d-83ae-5e51-a0bb-4de89ffd68db",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Soda Lemon",
+    "amount": 50.0,
+    "status": "pending",
+    "created_at": "2026-02-02T22:30:00"
+  },
+  {
+    "id": "4292930c-b268-5671-924b-70ed0406ac12",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-02-03T01:00:00"
+  },
+  {
+    "id": "fdb43b0f-b0b4-5648-b689-cbd2dd126143",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "item_name": "Filter Coffee",
+    "amount": 50.0,
+    "status": "pending",
+    "created_at": "2026-02-03T03:30:00"
+  },
+  {
+    "id": "527a8480-3cbc-5568-8841-6b8aaa087ace",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "item_name": "Farsan",
+    "amount": 140.0,
+    "status": "completed",
+    "created_at": "2026-02-03T06:00:00"
+  },
+  {
+    "id": "19dcc94e-cc2e-54e1-aca5-49a79ea0b278",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "item_name": "Gulab Jamun",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-02-03T08:30:00"
+  },
+  {
+    "id": "ed1066cd-eccc-5d80-8e91-16d39fd21f35",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "item_name": "Idli Sambar",
+    "amount": 70.0,
+    "status": "cancelled",
+    "created_at": "2026-02-03T11:00:00"
+  },
+  {
+    "id": "4a9fe30f-c166-5ae1-b383-ad70f309b4a7",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "item_name": "Curd Rice",
+    "amount": 100.0,
+    "status": "pending",
+    "created_at": "2026-02-03T13:30:00"
+  },
+  {
+    "id": "923dd74e-c5b1-58c2-856d-01204ca0c6d2",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "item_name": "Lassi",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-03T16:00:00"
+  },
+  {
+    "id": "52a1ef8d-2e3d-5dd6-9a18-b816ae5f4349",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "item_name": "Grilled Pomfret",
+    "amount": 420.0,
+    "status": "completed",
+    "created_at": "2026-02-03T18:30:00"
+  },
+  {
+    "id": "d33c536a-66cf-5dc8-a1ab-0553d47f5f7d",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-02-03T21:00:00"
+  },
+  {
+    "id": "d8a1c871-1e1f-5e96-ae9b-b8e247a73f22",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Soda Lemon",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-02-03T23:30:00"
+  },
+  {
+    "id": "0ac6bc52-f267-5c1f-8b99-297c947db705",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "item_name": "Raita",
+    "amount": 60.0,
+    "status": "cancelled",
+    "created_at": "2026-02-04T02:00:00"
+  },
+  {
+    "id": "8581f94c-c61b-51c7-9e52-be91375bcb58",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "item_name": "Eggs Benedict",
+    "amount": 320.0,
+    "status": "completed",
+    "created_at": "2026-02-04T04:30:00"
+  },
+  {
+    "id": "136300c6-f2f0-57db-b805-545ee3817fc6",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "item_name": "Sol Kadhi",
+    "amount": 80.0,
+    "status": "pending",
+    "created_at": "2026-02-04T07:00:00"
+  },
+  {
+    "id": "fbcae993-494c-5f14-9737-90c81cf47780",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-02-04T09:30:00"
+  },
+  {
+    "id": "9f584fa9-c913-58fd-8385-54898c1ad76e",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "item_name": "Double Ka Meetha",
+    "amount": 120.0,
+    "status": "completed",
+    "created_at": "2026-02-04T12:00:00"
+  },
+  {
+    "id": "2d527d05-b1ca-5273-8e40-81f72b0182f8",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "item_name": "Paneer Butter Masala",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-02-04T14:30:00"
+  },
+  {
+    "id": "209bd981-9be4-535c-91d3-e0500e36ba8c",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "item_name": "Mutton Rogan Josh",
+    "amount": 340.0,
+    "status": "pending",
+    "created_at": "2026-02-04T17:00:00"
+  },
+  {
+    "id": "712dc500-4a95-512a-a31b-4418927ec2a5",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "item_name": "Naan",
+    "amount": 50.0,
+    "status": "pending",
+    "created_at": "2026-02-04T19:30:00"
+  },
+  {
+    "id": "3edf500a-432f-590d-807e-95cedca6418d",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "item_name": "Gulab Jamun",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-02-04T22:00:00"
+  },
+  {
+    "id": "15383470-aed5-5492-8988-652d43aaa24e",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "item_name": "Idli Sambar",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-02-05T00:30:00"
+  },
+  {
+    "id": "2afea753-7f8c-5837-a14d-1fc3f84ea914",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "item_name": "Idiyappam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-02-05T03:00:00"
+  },
+  {
+    "id": "79bbb06b-b7ac-53e4-b10d-6ad153245c60",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-05T05:30:00"
+  },
+  {
+    "id": "b0dc99ab-41ae-518f-9933-480c397a49a4",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "item_name": "Espresso",
+    "amount": 120.0,
+    "status": "completed",
+    "created_at": "2026-02-05T08:00:00"
+  },
+  {
+    "id": "50a1782c-88b1-5c98-a8ed-f97a261c8a9d",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "cancelled",
+    "created_at": "2026-02-05T10:30:00"
+  },
+  {
+    "id": "bff2a656-6b88-506a-893f-da3f42c86107",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "item_name": "Soda Lemon",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-02-05T13:00:00"
+  },
+  {
+    "id": "207958b9-ce60-5079-b3ed-46b2b1c12efd",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "item_name": "Masala Dosa",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-05T15:30:00"
+  },
+  {
+    "id": "3509e3ee-9202-5b27-a7b9-10041ea35f2d",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-05T18:00:00"
+  },
+  {
+    "id": "8e725d39-5d5a-56de-a3e4-a45e8ff4735c",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "item_name": "Shreekhand",
+    "amount": 120.0,
+    "status": "pending",
+    "created_at": "2026-02-05T20:30:00"
+  },
+  {
+    "id": "a78eba92-26a2-527a-9411-a9501cf3deb6",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-02-05T23:00:00"
+  },
+  {
+    "id": "6688bc02-a912-5a06-9a1b-54315e01f164",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "item_name": "Paneer Biryani",
+    "amount": 240.0,
+    "status": "pending",
+    "created_at": "2026-02-06T01:30:00"
+  },
+  {
+    "id": "98bf58a8-979a-55dc-a555-5c0a29d25cab",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "item_name": "Naan",
+    "amount": 50.0,
+    "status": "cancelled",
+    "created_at": "2026-02-06T04:00:00"
+  },
+  {
+    "id": "0dcd576d-3974-578a-8e5c-80d4d472f8bf",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "item_name": "Kheer",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-02-06T06:30:00"
+  },
+  {
+    "id": "5cdfd308-736e-5d75-92ec-76ef8e686068",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "item_name": "Berry Pulao",
+    "amount": 320.0,
+    "status": "completed",
+    "created_at": "2026-02-06T09:00:00"
+  },
+  {
+    "id": "e44d1b8b-2af8-51a6-b8ff-dfc3b18e2b1a",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "pending",
+    "created_at": "2026-02-06T11:30:00"
+  },
+  {
+    "id": "e0324b28-358a-5c12-be16-f418cd860493",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "item_name": "Qubani Ka Meetha",
+    "amount": 110.0,
+    "status": "pending",
+    "created_at": "2026-02-06T14:00:00"
+  },
+  {
+    "id": "b5cd143e-e541-5f5b-9b57-b0aefec711ea",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "item_name": "Paniyaram",
+    "amount": 90.0,
+    "status": "pending",
+    "created_at": "2026-02-06T16:30:00"
+  },
+  {
+    "id": "1b60a863-68a3-5dcc-8ffb-8f9aca476736",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "item_name": "Curd Rice",
+    "amount": 100.0,
+    "status": "completed",
+    "created_at": "2026-02-06T19:00:00"
+  },
+  {
+    "id": "2b634da8-3a8e-56ed-adaa-8ac4970d0bfe",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "completed",
+    "created_at": "2026-02-06T21:30:00"
+  },
+  {
+    "id": "a140313e-b732-5cfb-8566-824cda99b51e",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "item_name": "Paneer Tikka Masala",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-02-07T00:00:00"
+  },
+  {
+    "id": "2b98e696-4a57-5720-82f0-4a7e8345c265",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "item_name": "Soda Lemon",
+    "amount": 50.0,
+    "status": "cancelled",
+    "created_at": "2026-02-07T02:30:00"
+  },
+  {
+    "id": "62e6d04d-7150-5781-950a-52780062781e",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-02-07T05:00:00"
+  },
+  {
+    "id": "0f0e67e4-dfd8-59af-b75d-c989dbdf9be3",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "item_name": "Pesarattu",
+    "amount": 80.0,
+    "status": "cancelled",
+    "created_at": "2026-02-07T07:30:00"
+  },
+  {
+    "id": "8089f095-0e52-5232-9450-f131dac2bb37",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "item_name": "Dhokla",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-07T10:00:00"
+  },
+  {
+    "id": "eec3b006-df28-56e0-b9d9-1c13f7bfbf89",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "item_name": "Lassi",
+    "amount": 80.0,
+    "status": "cancelled",
+    "created_at": "2026-02-07T12:30:00"
+  },
+  {
+    "id": "f60d6f65-bd58-54e7-b039-272092082592",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "item_name": "Rava Idli",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-07T15:00:00"
+  },
+  {
+    "id": "94033c15-57df-519d-9379-6a1fcb36b4b3",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "item_name": "Filter Coffee",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-02-07T17:30:00"
+  },
+  {
+    "id": "2274aabd-955e-513d-8754-56f1c1817c30",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "item_name": "Gulab Jamun",
+    "amount": 90.0,
+    "status": "cancelled",
+    "created_at": "2026-02-07T20:00:00"
+  },
+  {
+    "id": "79f0a76a-d4ab-5969-a516-ca3c35c0fec2",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "item_name": "Surmai Fry",
+    "amount": 360.0,
+    "status": "completed",
+    "created_at": "2026-02-07T22:30:00"
+  },
+  {
+    "id": "c0f264e5-4486-5edb-9887-17e9c62e7b9f",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "cancelled",
+    "created_at": "2026-02-08T01:00:00"
+  },
+  {
+    "id": "7399fe47-f972-55f6-bc0e-d821718b8a8a",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "item_name": "Paneer Biryani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-02-08T03:30:00"
+  },
+  {
+    "id": "da8bb302-4a68-53ab-894a-a8f9a059796a",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "b2616a78-61a9-5443-bbe2-434f743888f4",
+    "item_name": "Pesarattu",
+    "amount": 80.0,
+    "status": "pending",
+    "created_at": "2026-02-08T06:00:00"
+  },
+  {
+    "id": "b3bda0fb-6ef9-5039-a38c-9fb176ea0986",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "item_name": "Chocolate Brownie",
+    "amount": 200.0,
+    "status": "completed",
+    "created_at": "2026-02-08T08:30:00"
+  },
+  {
+    "id": "214e8b4a-3c73-55f8-9d0a-dcf664a28de3",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "item_name": "Raita",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-02-08T11:00:00"
+  },
+  {
+    "id": "90ac7a46-1fa5-5967-a46d-bc64806fc33a",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "item_name": "Rabri Kulfi",
+    "amount": 200.0,
+    "status": "cancelled",
+    "created_at": "2026-02-08T13:30:00"
+  },
+  {
+    "id": "c25f6dce-b733-5334-88c0-cb4da298e1a2",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "item_name": "Mutton Biryani",
+    "amount": 290.0,
+    "status": "completed",
+    "created_at": "2026-02-08T16:00:00"
+  },
+  {
+    "id": "303c6759-5725-5baf-8aeb-db7d31444a14",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-08T18:30:00"
+  },
+  {
+    "id": "396a4818-2742-5ead-91de-62cec1ccc333",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "item_name": "Dal",
+    "amount": 100.0,
+    "status": "completed",
+    "created_at": "2026-02-08T21:00:00"
+  },
+  {
+    "id": "775301d0-be8a-53b9-9faa-ceaa5783eb6a",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-02-08T23:30:00"
+  },
+  {
+    "id": "423547e8-073d-5b04-9686-55a73a9057e8",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "item_name": "Seekh Kebab",
+    "amount": 240.0,
+    "status": "cancelled",
+    "created_at": "2026-02-09T02:00:00"
+  },
+  {
+    "id": "a6cb8bc6-a7df-5ac0-9abb-763864560662",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "item_name": "Mutton Biryani",
+    "amount": 290.0,
+    "status": "completed",
+    "created_at": "2026-02-09T04:30:00"
+  },
+  {
+    "id": "4a0c41d2-4524-5189-9d9b-40eaf8fedb75",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "item_name": "Curd Rice",
+    "amount": 100.0,
+    "status": "completed",
+    "created_at": "2026-02-09T07:00:00"
+  },
+  {
+    "id": "ed1b1891-6c74-5e63-848d-b1e5d32becc2",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "item_name": "Club Sandwich",
+    "amount": 300.0,
+    "status": "completed",
+    "created_at": "2026-02-09T09:30:00"
+  },
+  {
+    "id": "f002ba3e-c75c-593f-9ecf-c4ef65e59d07",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "item_name": "Grilled Pomfret",
+    "amount": 420.0,
+    "status": "completed",
+    "created_at": "2026-02-09T12:00:00"
+  },
+  {
+    "id": "61c30711-b651-52e2-9432-21bbbb89bb1e",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "pending",
+    "created_at": "2026-02-09T14:30:00"
+  },
+  {
+    "id": "cb03c5af-ee54-5b0f-ba26-e46f8f2f2cdc",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "item_name": "Double Ka Meetha",
+    "amount": 120.0,
+    "status": "completed",
+    "created_at": "2026-02-09T17:00:00"
+  },
+  {
+    "id": "892d8619-d362-5d9c-b86e-417ebb0734e8",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "item_name": "Filter Coffee",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-02-09T19:30:00"
+  },
+  {
+    "id": "b4742782-46a2-58d6-8e98-f1fe1c46649d",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "item_name": "Masala Dosa",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-09T22:00:00"
+  },
+  {
+    "id": "6212ff16-f87c-5396-b2ab-c92287ee6150",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "item_name": "Butter Chicken",
+    "amount": 280.0,
+    "status": "completed",
+    "created_at": "2026-02-10T00:30:00"
+  },
+  {
+    "id": "3be636bb-0d3e-5604-a225-8b6704bbd52d",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "item_name": "Seekh Kebab",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-02-10T03:00:00"
+  },
+  {
+    "id": "1fc7c86c-a577-53d4-8475-2aa34d28c2e4",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "item_name": "Paneer Biryani",
+    "amount": 240.0,
+    "status": "cancelled",
+    "created_at": "2026-02-10T05:30:00"
+  },
+  {
+    "id": "fc38919a-87e2-5e87-8221-a55b0e68165a",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "pending",
+    "created_at": "2026-02-10T08:00:00"
+  },
+  {
+    "id": "43638185-f2f1-5c4e-bc6e-2971e1130dc1",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "item_name": "Caesar Salad",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-02-10T10:30:00"
+  },
+  {
+    "id": "09acd819-3ef3-5a3e-9eea-2f00dc043ca8",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "56af2f47-7664-5824-b017-ac103c84eb55",
+    "item_name": "Raspberry Soda",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-02-10T13:00:00"
+  },
+  {
+    "id": "fcbfef5f-bd04-5cce-b8f1-eaba1aa7b964",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-02-10T15:30:00"
+  },
+  {
+    "id": "858899f7-77d3-59b6-9fd5-7cf3f9e3bbb1",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "item_name": "Veg Biryani",
+    "amount": 220.0,
+    "status": "completed",
+    "created_at": "2026-02-10T18:00:00"
+  },
+  {
+    "id": "91521111-859b-5f8b-bb41-38a2f543af86",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-02-10T20:30:00"
+  },
+  {
+    "id": "1163a028-985b-5c87-b85b-21711393910a",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "item_name": "Masala Dosa",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-10T23:00:00"
+  },
+  {
+    "id": "7170306f-76d9-5730-835f-a97ca54dac95",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "item_name": "Aam Panna",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-02-11T01:30:00"
+  },
+  {
+    "id": "31550327-076b-5028-b4c1-6d86be75d1a0",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "item_name": "Raita",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-02-11T04:00:00"
+  },
+  {
+    "id": "dc2789d5-bdda-5a82-bf86-db0fa9661539",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "item_name": "Chicken Haleem",
+    "amount": 180.0,
+    "status": "pending",
+    "created_at": "2026-02-11T06:30:00"
+  },
+  {
+    "id": "a98436cc-b2d1-5bf5-a215-2533aa00b9fa",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-02-11T09:00:00"
+  },
+  {
+    "id": "ee36502e-afa7-55bf-bdb7-c88a48f8fc89",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-02-11T11:30:00"
+  },
+  {
+    "id": "18b86470-b7e1-51fa-8186-619aa8b29506",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-02-11T14:00:00"
+  },
+  {
+    "id": "e5a16df4-8fb0-5b12-bb25-92d89b7fe15e",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "item_name": "Lassi",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-11T16:30:00"
+  },
+  {
+    "id": "6bc7706b-e159-588e-8c4a-6ed834e483da",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "item_name": "Chicken Haleem",
+    "amount": 180.0,
+    "status": "pending",
+    "created_at": "2026-02-11T19:00:00"
+  },
+  {
+    "id": "294f5cd5-4ac6-56aa-b1ae-ae5d5eda4ed3",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "item_name": "Chettinad Chicken Curry",
+    "amount": 300.0,
+    "status": "pending",
+    "created_at": "2026-02-11T21:30:00"
+  },
+  {
+    "id": "a918bcd0-2af2-5969-b81b-3b10ff09a1dd",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-02-12T00:00:00"
+  },
+  {
+    "id": "adad27d6-1e9c-51f7-b132-a5a6a8031b02",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "item_name": "Butter Garlic Crab",
+    "amount": 680.0,
+    "status": "cancelled",
+    "created_at": "2026-02-12T02:30:00"
+  },
+  {
+    "id": "52ba461b-5abd-5a76-b585-cf6386b2852a",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "item_name": "Naan",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-02-12T05:00:00"
+  },
+  {
+    "id": "9cb372f6-3d75-5ab5-b94f-e24acf4bd8d4",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "item_name": "Mutton Seekh Kebab",
+    "amount": 220.0,
+    "status": "completed",
+    "created_at": "2026-02-12T07:30:00"
+  },
+  {
+    "id": "4607893c-a666-56f0-a50b-7a7679e323a3",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "e938ebd9-7b6f-5669-9cd4-de073292e85e",
+    "item_name": "Filter Coffee",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-02-12T10:00:00"
+  },
+  {
+    "id": "d52cfdf3-a3a0-578b-b386-2b056b9bf3cd",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "item_name": "Mushroom Pasta",
+    "amount": 320.0,
+    "status": "pending",
+    "created_at": "2026-02-12T12:30:00"
+  },
+  {
+    "id": "380603ab-c64b-5520-b7cf-b4e05672b155",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "d2715d44-2f9b-5882-8711-73e507dbcba7",
+    "item_name": "Bombil Fry",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-02-12T15:00:00"
+  },
+  {
+    "id": "bee0bf9a-62dd-5d29-ac9c-2588f9622084",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "item_name": "Lassi",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-12T17:30:00"
+  },
+  {
+    "id": "ebeb8f1b-d1bc-505a-878b-754fdfbd586c",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "item_name": "Mutton Biryani",
+    "amount": 290.0,
+    "status": "completed",
+    "created_at": "2026-02-12T20:00:00"
+  },
+  {
+    "id": "7452b0e0-70aa-5e49-b3b5-9d36f96388cb",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "item_name": "Gulab Jamun",
+    "amount": 100.0,
+    "status": "completed",
+    "created_at": "2026-02-12T22:30:00"
+  },
+  {
+    "id": "ba9af1a2-ca5c-5dbe-a095-2a019ee29da7",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "item_name": "Loaded Nachos",
+    "amount": 280.0,
+    "status": "cancelled",
+    "created_at": "2026-02-13T01:00:00"
+  },
+  {
+    "id": "a29ed8cb-bfa1-5e36-ab15-ce0ee5ee5c52",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "item_name": "Gulab Jamun",
+    "amount": 90.0,
+    "status": "cancelled",
+    "created_at": "2026-02-13T03:30:00"
+  },
+  {
+    "id": "b2e6c17d-52b6-57a1-9537-7aa98c726863",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "cd4923bf-8f5f-5411-86ec-e4f718f622e1",
+    "item_name": "Paneer Tikka Masala",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-02-13T06:00:00"
+  },
+  {
+    "id": "2d2bbb92-3c4b-51a0-8303-b6aa0c467cea",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "pending",
+    "created_at": "2026-02-13T08:30:00"
+  },
+  {
+    "id": "2ec489b8-d086-5324-b27a-3e616632e73a",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "item_name": "Paneer Butter Masala",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-02-13T11:00:00"
+  },
+  {
+    "id": "80525771-1200-54ab-8b4a-0bd083916e68",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "item_name": "Rava Idli",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-13T13:30:00"
+  },
+  {
+    "id": "177b9bfa-d2a7-52cd-abd0-16ccf9d2c342",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "item_name": "Crab Sukka",
+    "amount": 580.0,
+    "status": "completed",
+    "created_at": "2026-02-13T16:00:00"
+  },
+  {
+    "id": "3ccd33ae-c49a-596c-9abd-a74740e1eab4",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "item_name": "Mutton Rogan Josh",
+    "amount": 340.0,
+    "status": "completed",
+    "created_at": "2026-02-13T18:30:00"
+  },
+  {
+    "id": "f6799c59-a3fc-5c44-a885-2b5e5cb7bde3",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Lassi",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-02-13T21:00:00"
+  },
+  {
+    "id": "6988b355-a011-5f6e-95e7-dd58b538d1d8",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "2a27321b-9228-5ee6-a3b2-e3b7bcf4fb5d",
+    "item_name": "Pesarattu",
+    "amount": 80.0,
+    "status": "pending",
+    "created_at": "2026-02-13T23:30:00"
+  },
+  {
+    "id": "e04d320a-b948-55f9-bbff-573222918876",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "70b96fcb-00e7-5150-9089-e7e80777c04e",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-02-14T02:00:00"
+  },
+  {
+    "id": "1e17ea34-2178-59f4-82f8-698cc73af465",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "pending",
+    "created_at": "2026-02-14T04:30:00"
+  },
+  {
+    "id": "1f8807e6-cd5e-5437-9382-feb286dd558a",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "3533003c-b935-557e-a808-5684d5ac709f",
+    "item_name": "Raita",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-02-14T07:00:00"
+  },
+  {
+    "id": "d855eabc-a8b0-5399-887d-9667d9915d8c",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "c195905d-ed92-58b5-97ba-dba98c3f3431",
+    "item_name": "Lassi",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-02-14T09:30:00"
+  },
+  {
+    "id": "9f5af070-59f8-59e9-8bf7-751ac4b5a9e4",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "pending",
+    "created_at": "2026-02-14T12:00:00"
+  },
+  {
+    "id": "e3ea3974-a92c-536e-8584-498a83c2621e",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "item_name": "Filter Coffee",
+    "amount": 50.0,
+    "status": "pending",
+    "created_at": "2026-02-14T14:30:00"
+  },
+  {
+    "id": "55842f38-5362-5e0b-bf9f-5b54ee868578",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "item_name": "Farsan",
+    "amount": 140.0,
+    "status": "completed",
+    "created_at": "2026-02-14T17:00:00"
+  },
+  {
+    "id": "8b518a80-eb41-5eda-8206-fd6b437decaf",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "72f1a28b-4322-5067-8d8d-31322e84e6c6",
+    "item_name": "Kashmiri Morels",
+    "amount": 680.0,
+    "status": "completed",
+    "created_at": "2026-02-14T19:30:00"
+  },
+  {
+    "id": "4565b507-4247-5bf8-913b-1a86593a2555",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Qubani Ka Meetha",
+    "amount": 110.0,
+    "status": "completed",
+    "created_at": "2026-02-14T22:00:00"
+  },
+  {
+    "id": "7b660ae8-e001-5c90-8e5c-7d10aa5b573c",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "cancelled",
+    "created_at": "2026-02-15T00:30:00"
+  },
+  {
+    "id": "5fe82034-e9dd-563c-9b7e-7ed5e634464f",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "b6f15a6c-2068-513f-8497-69dd1fb89774",
+    "item_name": "Chocolate Brownie",
+    "amount": 200.0,
+    "status": "completed",
+    "created_at": "2026-02-15T03:00:00"
+  },
+  {
+    "id": "647ebe2d-e948-52c8-87ab-881ad6357c57",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "item_name": "Gulab Jamun",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-02-15T05:30:00"
+  },
+  {
+    "id": "26e2e6f5-5867-5480-ab49-2f932d2e839a",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "af166a86-ac7d-5d0b-bcdf-8d794b331771",
+    "item_name": "Rava Idli",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-15T08:00:00"
+  },
+  {
+    "id": "3b8e5861-e86c-59fd-8376-ef7c35ecdc1b",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "item_name": "Qubani Ka Meetha",
+    "amount": 110.0,
+    "status": "cancelled",
+    "created_at": "2026-02-15T10:30:00"
+  },
+  {
+    "id": "43d66f4f-1487-5de6-bb3d-e2276a4ae16c",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-02-15T13:00:00"
+  },
+  {
+    "id": "b8711dc9-acdd-578e-95d6-d70d6a98d517",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "completed",
+    "created_at": "2026-02-15T15:30:00"
+  },
+  {
+    "id": "de930a05-1fb2-5f54-961b-3b736c57964d",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "16fe361f-c773-5a56-b4e5-5b51b4d10bd5",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "completed",
+    "created_at": "2026-02-15T18:00:00"
+  },
+  {
+    "id": "7e186b03-1ac4-562b-abde-97f19ebc3b47",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "item_name": "Seekh Kebab",
+    "amount": 240.0,
+    "status": "cancelled",
+    "created_at": "2026-02-15T20:30:00"
+  },
+  {
+    "id": "f7bf32b7-ed3a-536b-8c6b-d5d06a4aa567",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "item_name": "Chicken Dum Biryani",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-02-15T23:00:00"
+  },
+  {
+    "id": "8796b2ea-149b-5762-ab06-8fa32609912c",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-02-16T01:30:00"
+  },
+  {
+    "id": "66677c42-44ee-5022-bba3-7ede703b55c0",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "0392bdaa-c3ed-5e42-8d2d-8b0e3d461024",
+    "item_name": "Mushroom Pasta",
+    "amount": 320.0,
+    "status": "pending",
+    "created_at": "2026-02-16T04:00:00"
+  },
+  {
+    "id": "3986ea86-01d2-514d-8e75-c7cc6e829212",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "item_name": "Tiramisu",
+    "amount": 250.0,
+    "status": "completed",
+    "created_at": "2026-02-16T06:30:00"
+  },
+  {
+    "id": "3bb24e62-09f2-5a5c-90b4-731f6b6cab4b",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "item_name": "Seekh Kebab",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-02-16T09:00:00"
+  },
+  {
+    "id": "fdf69bba-f9e2-57c7-8e4f-4885e73a48d6",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "item_name": "Soda Lemon",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-02-16T11:30:00"
+  },
+  {
+    "id": "86109559-c9c9-538d-ab87-015e19ff1261",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-16T14:00:00"
+  },
+  {
+    "id": "63863b90-3d0c-5d78-9104-c1d7276106ea",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "0e0c9b27-129b-5183-ae72-cae1680dfe36",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-02-16T16:30:00"
+  },
+  {
+    "id": "0fc17257-2049-5598-a13a-e42f60ba14e0",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "item_name": "Paneer Tikka Masala",
+    "amount": 260.0,
+    "status": "cancelled",
+    "created_at": "2026-02-16T19:00:00"
+  },
+  {
+    "id": "0c5ddaa6-11d0-593e-b92f-e7c17ac8966f",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "9f6f3df3-aea3-5612-a723-b746a2f18fce",
+    "item_name": "Naan",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-02-16T21:30:00"
+  },
+  {
+    "id": "3e03fc7f-9fc4-55fe-bae4-ca2be3a8bb08",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "9c8d909b-1e26-53b0-8802-4e61c82ce82e",
+    "item_name": "Lassi",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-02-17T00:00:00"
+  },
+  {
+    "id": "334af89f-2f80-5785-a35a-4e38dc7c5464",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "67277f48-bf59-5992-a244-47831757fa17",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "pending",
+    "created_at": "2026-02-17T02:30:00"
+  },
+  {
+    "id": "4fee9ab7-a1df-5dec-91d8-2518561ff0a0",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "item_name": "Dal",
+    "amount": 100.0,
+    "status": "completed",
+    "created_at": "2026-02-17T05:00:00"
+  },
+  {
+    "id": "cf47e3a2-ef6c-50f9-82d8-15a4e55d5849",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "cancelled",
+    "created_at": "2026-02-17T07:30:00"
+  },
+  {
+    "id": "648fa6f1-8633-5547-9d6d-524c0642c5d3",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "item_name": "Butter Chicken",
+    "amount": 280.0,
+    "status": "completed",
+    "created_at": "2026-02-17T10:00:00"
+  },
+  {
+    "id": "e978e4c1-aaf4-5081-92b8-4ad6280f8911",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Chicken Dum Biryani",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-02-17T12:30:00"
+  },
+  {
+    "id": "b3ac67db-3dae-5bcf-979c-67242b64e7a6",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "item_name": "Kesari Bath",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-17T15:00:00"
+  },
+  {
+    "id": "779139cf-c10c-5945-a620-158bca71914b",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "item_name": "Filter Coffee",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-02-17T17:30:00"
+  },
+  {
+    "id": "c4115790-fa0f-5e9b-9a9b-6108b051ce9b",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "c77f4223-3d70-56d3-b5d6-5a98d4e2f533",
+    "item_name": "Gulab Jamun",
+    "amount": 90.0,
+    "status": "cancelled",
+    "created_at": "2026-02-17T20:00:00"
+  },
+  {
+    "id": "a1b700d1-2054-5e4d-999a-525419b27749",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "item_name": "Raita",
+    "amount": 60.0,
+    "status": "cancelled",
+    "created_at": "2026-02-17T22:30:00"
+  },
+  {
+    "id": "e62dbc39-6eb1-504c-b9fc-a00296aa05c7",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "81fb38eb-8903-553f-9c6d-4e45150049bb",
+    "item_name": "Soda Lemon",
+    "amount": 50.0,
+    "status": "completed",
+    "created_at": "2026-02-18T01:00:00"
+  },
+  {
+    "id": "502d4695-9886-50f3-b20f-0f89058e6a47",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-02-18T03:30:00"
+  },
+  {
+    "id": "a99d4d01-d9ff-5e26-bd7d-ea487e1c5fea",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "dfe07c7c-96b0-5a89-9757-ea7b3604bb04",
+    "item_name": "Thali",
+    "amount": 200.0,
+    "status": "completed",
+    "created_at": "2026-02-18T06:00:00"
+  },
+  {
+    "id": "0ab231c5-72b1-5385-be35-b05b69f66ba4",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "8841ced6-d07f-5962-8505-fcbcec39c3ae",
+    "item_name": "Sol Kadhi",
+    "amount": 80.0,
+    "status": "pending",
+    "created_at": "2026-02-18T08:30:00"
+  },
+  {
+    "id": "9935dd47-931d-5f8a-b6d0-1241d611195c",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "item_name": "Raita",
+    "amount": 60.0,
+    "status": "pending",
+    "created_at": "2026-02-18T11:00:00"
+  },
+  {
+    "id": "ca50cba0-2c5c-56a6-8bcf-222c4fe0c36f",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "aebffb45-cc9f-5292-b52e-aeaedca90e57",
+    "item_name": "Idli Sambar",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-02-18T13:30:00"
+  },
+  {
+    "id": "61d54620-cb52-54ea-9b59-7901b33a56e0",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "e1852e90-c0dd-58d7-ba01-64d42a0b762a",
+    "item_name": "Ice Cream",
+    "amount": 120.0,
+    "status": "completed",
+    "created_at": "2026-02-18T16:00:00"
+  },
+  {
+    "id": "5bc0abc4-2ed5-594e-95bf-587e14eb3d67",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "item_name": "Rava Idli",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-18T18:30:00"
+  },
+  {
+    "id": "4111ec2e-4b43-5e40-a730-b566b8878249",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "item_name": "Modak",
+    "amount": 120.0,
+    "status": "cancelled",
+    "created_at": "2026-02-18T21:00:00"
+  },
+  {
+    "id": "d6d347ca-6a73-5cf3-81b0-6ed911cebbd1",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "347b1b77-7b49-5de4-a37f-98a4f9e33ead",
+    "item_name": "Mutton Rogan Josh",
+    "amount": 340.0,
+    "status": "cancelled",
+    "created_at": "2026-02-18T23:30:00"
+  },
+  {
+    "id": "edc2f2a6-b4e9-5aff-999d-103673f90283",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "a9f9690e-6f75-5f5b-b0ad-974d68dd6859",
+    "item_name": "Veg Fried Rice",
+    "amount": 200.0,
+    "status": "completed",
+    "created_at": "2026-02-19T02:00:00"
+  },
+  {
+    "id": "a4c5bd72-60e5-5f37-9a01-31f76d99899e",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-02-19T04:30:00"
+  },
+  {
+    "id": "3b83734c-27b7-5537-9e7c-e029a9919a68",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "item_name": "Idli Sambar",
+    "amount": 70.0,
+    "status": "pending",
+    "created_at": "2026-02-19T07:00:00"
+  },
+  {
+    "id": "07c31eb5-c8c2-5c3f-ba55-247d91cfd1cf",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "item_name": "Beef Steak",
+    "amount": 580.0,
+    "status": "completed",
+    "created_at": "2026-02-19T09:30:00"
+  },
+  {
+    "id": "956e2bc6-c0ad-5c69-a6e8-51abdd8721d8",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "completed",
+    "created_at": "2026-02-19T12:00:00"
+  },
+  {
+    "id": "0b808fd0-a3fb-58fa-8992-b4546451f72d",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "item_name": "Qubani Ka Meetha",
+    "amount": 110.0,
+    "status": "completed",
+    "created_at": "2026-02-19T14:30:00"
+  },
+  {
+    "id": "f98e7577-19d0-55af-b256-b2961e268e0a",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "79ba9b26-cb6a-5752-9b7a-0f35d7ec8511",
+    "item_name": "Idli Sambar",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-02-19T17:00:00"
+  },
+  {
+    "id": "5675ec60-e5bf-5003-9cd3-b5c73c75ceba",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "28a0d8fc-5d31-54da-a91a-e977f5cd5b37",
+    "item_name": "Pesarattu",
+    "amount": 80.0,
+    "status": "pending",
+    "created_at": "2026-02-19T19:30:00"
+  },
+  {
+    "id": "fb1b3e7d-72a2-59b6-a38f-2d2ada9e9308",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "e0786f21-57e2-5783-8015-152249d7727c",
+    "item_name": "Dal Dhokli",
+    "amount": 160.0,
+    "status": "completed",
+    "created_at": "2026-02-19T22:00:00"
+  },
+  {
+    "id": "17551062-a990-5770-af72-92d393cc76ed",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-02-20T00:30:00"
+  },
+  {
+    "id": "8130455e-fd90-5607-a5c9-2af49c6ba91c",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "970a31f9-2267-5525-901a-dfdf83f39c7a",
+    "item_name": "Mutton Biryani",
+    "amount": 290.0,
+    "status": "completed",
+    "created_at": "2026-02-20T03:00:00"
+  },
+  {
+    "id": "03aa8b55-7cf1-5b72-ba93-60261d32ff05",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "item_name": "Pesarattu",
+    "amount": 80.0,
+    "status": "completed",
+    "created_at": "2026-02-20T05:30:00"
+  },
+  {
+    "id": "f6089fd6-ff6c-588b-81a3-266377a20896",
+    "user_id": "64b683b7-4bcb-54d8-8ca2-cc75375786f0",
+    "restaurant_id": "0cc60a2a-5e26-5737-ae3b-ad35944aad00",
+    "item_name": "Masala Dosa",
+    "amount": 80.0,
+    "status": "cancelled",
+    "created_at": "2026-02-20T08:00:00"
+  },
+  {
+    "id": "9169ec17-9349-55c9-8e07-dc8381344f2e",
+    "user_id": "d22a2c2f-a59f-5d14-9d8d-44d30e4feb4c",
+    "restaurant_id": "4e2fef66-512d-5b7f-ac0f-8d6ce15a633d",
+    "item_name": "Club Sandwich",
+    "amount": 300.0,
+    "status": "completed",
+    "created_at": "2026-02-20T10:30:00"
+  },
+  {
+    "id": "f4329e8b-49af-5b57-8449-51e3c95ef6a4",
+    "user_id": "4f63ba6a-aee7-5105-8c7f-4da87c84d70e",
+    "restaurant_id": "b5d7cef0-e28b-5836-b248-1c58e8449d55",
+    "item_name": "Mutton Rogan Josh",
+    "amount": 340.0,
+    "status": "completed",
+    "created_at": "2026-02-20T13:00:00"
+  },
+  {
+    "id": "62aa6d57-69e0-5864-9f50-38a71d14307d",
+    "user_id": "bead90c4-2115-5311-b210-638a3741c15d",
+    "restaurant_id": "f7abb562-0aed-5786-9b65-074f89ba0913",
+    "item_name": "Chicken Dum Biryani",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-02-20T15:30:00"
+  },
+  {
+    "id": "a4465e57-2c07-5044-adf3-4085eb40ae7c",
+    "user_id": "eace2e98-ced1-56dd-930f-d4e3c51d7e25",
+    "restaurant_id": "e90ddbb4-c564-5842-8bda-23373338597f",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "completed",
+    "created_at": "2026-02-20T18:00:00"
+  },
+  {
+    "id": "e5f5619b-3eb0-5124-bd72-55ff76dbb7a3",
+    "user_id": "bb9f15e3-486d-5934-919b-8c24c1cde8cf",
+    "restaurant_id": "69abd940-d201-502e-93ca-bf6f5a07d4af",
+    "item_name": "Rasam",
+    "amount": 60.0,
+    "status": "cancelled",
+    "created_at": "2026-02-20T20:30:00"
+  },
+  {
+    "id": "f7a90efc-5974-510e-be8e-a07a99ec90ce",
+    "user_id": "b4d50094-7340-5503-b75f-562acf8f9d0a",
+    "restaurant_id": "72730eb5-e2fe-5842-b54e-6ba240e3d91d",
+    "item_name": "Caesar Salad",
+    "amount": 260.0,
+    "status": "pending",
+    "created_at": "2026-02-20T23:00:00"
+  },
+  {
+    "id": "a9ac953b-6ac7-55b0-816f-eb4ca3b3db83",
+    "user_id": "99059e9f-0960-5856-9d77-d11ea0ee2123",
+    "restaurant_id": "24aefe87-df9d-592e-a63b-59dec9c6a9bf",
+    "item_name": "Chicken Biryani",
+    "amount": 300.0,
+    "status": "completed",
+    "created_at": "2026-02-21T01:30:00"
+  },
+  {
+    "id": "f505b028-c4ed-50c2-9e26-35c9e19b2b8f",
+    "user_id": "02b3af1e-28ad-5987-9a92-535e5f5aed80",
+    "restaurant_id": "4219c86f-2df1-5da0-a100-c0ece7fa2dd2",
+    "item_name": "Lassi",
+    "amount": 60.0,
+    "status": "completed",
+    "created_at": "2026-02-21T04:00:00"
+  },
+  {
+    "id": "c281a695-c74b-5739-872c-6297e6a49c62",
+    "user_id": "281decd0-d04f-5459-a5e9-08746c5e601c",
+    "restaurant_id": "8b27d3f0-b279-582a-9f72-4d1be27d6ffd",
+    "item_name": "Uttapam",
+    "amount": 90.0,
+    "status": "cancelled",
+    "created_at": "2026-02-21T06:30:00"
+  },
+  {
+    "id": "8c40735e-8076-5ba7-b713-60573dd7a15b",
+    "user_id": "8a8ef05c-5937-50cc-9553-7be3d2e43a4c",
+    "restaurant_id": "776e0065-9a68-5de2-8efe-45514a84744b",
+    "item_name": "Milkshake",
+    "amount": 180.0,
+    "status": "cancelled",
+    "created_at": "2026-02-21T09:00:00"
+  },
+  {
+    "id": "8c8f3dff-102e-5a4b-b534-f0b27bb99b30",
+    "user_id": "4d86741e-0765-5df7-a701-f165cdced6c6",
+    "restaurant_id": "f1028263-87f1-526c-ac0f-2449a35f6e8d",
+    "item_name": "Modak",
+    "amount": 120.0,
+    "status": "pending",
+    "created_at": "2026-02-21T11:30:00"
+  },
+  {
+    "id": "733c10b5-dab8-5aed-b186-d05d2a4172f9",
+    "user_id": "4d39dd9d-fe14-5505-8e60-a87941dadb3c",
+    "restaurant_id": "dfa621c6-f93d-56d7-beb1-0c0603287a85",
+    "item_name": "Butter Chicken",
+    "amount": 280.0,
+    "status": "cancelled",
+    "created_at": "2026-02-21T14:00:00"
+  },
+  {
+    "id": "7b37cfef-c650-5fa8-b1ca-5761f3725186",
+    "user_id": "f2dbb016-f5cf-5d84-b422-e8eea911daa9",
+    "restaurant_id": "0a7fb64f-1aab-5df7-a2d9-82d9e01b6821",
+    "item_name": "Chicken Dum Biryani",
+    "amount": 260.0,
+    "status": "completed",
+    "created_at": "2026-02-21T16:30:00"
+  },
+  {
+    "id": "6a298605-a12a-5883-9b3e-5c4e144cb2bd",
+    "user_id": "9cab70e5-16a3-5407-80ea-91e346260269",
+    "restaurant_id": "df6a0a43-0114-5ee2-87cf-7a5082aa01ec",
+    "item_name": "Parotta",
+    "amount": 120.0,
+    "status": "completed",
+    "created_at": "2026-02-21T19:00:00"
+  },
+  {
+    "id": "83729847-9f74-52f9-977a-e0d040b825ba",
+    "user_id": "fb284708-2835-50b6-9f0b-9c8cd5adcd5c",
+    "restaurant_id": "12c761e9-5278-504c-aad1-170d2de9604f",
+    "item_name": "Butter Chicken",
+    "amount": 280.0,
+    "status": "completed",
+    "created_at": "2026-02-21T21:30:00"
+  },
+  {
+    "id": "9d83ea70-1ba1-547b-9dd6-7463e7d56f63",
+    "user_id": "5bccd972-374b-50d0-b450-cdcb03340c9f",
+    "restaurant_id": "f1a2691b-53ec-5957-81e3-3af5731a6e22",
+    "item_name": "Lassi",
+    "amount": 80.0,
+    "status": "pending",
+    "created_at": "2026-02-22T00:00:00"
+  },
+  {
+    "id": "d1310d18-9f7d-570f-b81c-c610a2d9f83e",
+    "user_id": "3fd847e7-2024-5368-91aa-3db19040e97a",
+    "restaurant_id": "eee2103c-e939-5440-a3b6-039a58d03d05",
+    "item_name": "Dal Makhani",
+    "amount": 240.0,
+    "status": "completed",
+    "created_at": "2026-02-22T02:30:00"
+  },
+  {
+    "id": "7851a7e3-a5ab-5908-b01d-683223e8ab8a",
+    "user_id": "6a2ac79c-1d88-5499-a5cf-a41558e1fd52",
+    "restaurant_id": "2e660d57-ca6d-529c-9235-ec843a6e82b3",
+    "item_name": "Mutton Biryani",
+    "amount": 290.0,
+    "status": "pending",
+    "created_at": "2026-02-22T05:00:00"
+  },
+  {
+    "id": "b5ddb51a-e8b2-595a-a515-49dc0f8d764e",
+    "user_id": "fec04020-c56b-5357-88f3-359e28da03be",
+    "restaurant_id": "bd58ad54-17b2-5c70-bd5f-c3bb7dab141b",
+    "item_name": "Medu Vada",
+    "amount": 70.0,
+    "status": "completed",
+    "created_at": "2026-02-22T07:30:00"
+  }
+]

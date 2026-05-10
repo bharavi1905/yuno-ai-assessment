@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker compose *)",
+      "Bash(curl -s -X POST http://localhost:8000/api/workflows/trigger -H 'Content-Type: application/json' -d '{\"workflow_type\":\"food_ordering\",\"user_message\":\"Order me chicken biryani under Rs300 with 4+ stars in Bangalore\",\"telegram_chat_id\":\"0\",\"user_id\":\"test-user-01\"}')",
+      "WebFetch(domain:docs.langchain.com)"
+    ]
+  }
+}
