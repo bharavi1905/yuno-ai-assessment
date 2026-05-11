@@ -1,0 +1,195 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" width="1000" height="720">
+  <style>text { font-family: system-ui, -apple-system, sans-serif; }</style>
+  <defs>
+    <marker id="arr"  viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 2 L8 5 L1 8" fill="none" stroke="#555" stroke-width="1.5" stroke-linecap="round"/></marker>
+    <marker id="arr-d" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 2 L8 5 L1 8" fill="none" stroke="#999" stroke-width="1.2" stroke-linecap="round"/></marker>
+  </defs>
+  <rect width="1000" height="720" fill="#fff"/>
+  <text x="500" y="24" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">Backend Module Map — Key Classes and Relationships</text>
+
+  <!-- Layout:
+       AgentState   center: x=340 y=40 w=300 h=220
+       Graph Nodes  left:   x=20  y=40 w=200 h=180
+       Cond Edges   left:   x=20  y=240 w=200 h=120
+       MCP Tools    right:  x=660 y=40 w=220 h=180
+       SQLModel     right:  x=660 y=240 w=220 h=140
+       FastAPI      right:  x=660 y=400 w=220 h=140
+       Pydantic     left:   x=20  y=380 w=200 h=120
+       Graph Build  center: x=340 y=280 w=300 h=120
+       Agent Build  bottom: x=20  y=520 w=860 h=180
+  -->
+
+  <!-- AgentState: x=340 y=40 w=300 h=220 -->
+  <rect x="340" y="40" width="300" height="220" rx="8" fill="#e8f8f5" stroke="#0e6655" stroke-width="2"/>
+  <rect x="340" y="40" width="300" height="40" rx="8" fill="#a9dfbf" stroke="#0e6655" stroke-width="2"/>
+  <rect x="340" y="72" width="300" height="8" fill="#a9dfbf"/>
+  <text x="490" y="62" text-anchor="middle" font-size="12" font-weight="700" fill="#0b5345">AgentState (TypedDict)</text>
+  <text x="490" y="76" text-anchor="middle" font-size="9.5" fill="#0e6655">graph/state.py — single state contract</text>
+  <text x="356" y="100" font-size="10" fill="#0b5345" font-weight="700">Identity</text>
+  <text x="356" y="116" font-size="9.5" fill="#0e6655">run_id · workflow_type · telegram_chat_id</text>
+  <text x="356" y="134" font-size="10" fill="#0b5345" font-weight="700">Execution</text>
+  <text x="356" y="150" font-size="9.5" fill="#0e6655">current_step → drives React Flow highlight</text>
+  <text x="356" y="166" font-size="9.5" fill="#0e6655">workflow_status · execution_logs</text>
+  <text x="356" y="184" font-size="10" fill="#0b5345" font-weight="700">HITL</text>
+  <text x="356" y="200" font-size="9.5" fill="#0e6655">hitl_status · hitl_prompt · hitl_expires_at</text>
+  <text x="356" y="218" font-size="10" fill="#0b5345" font-weight="700">Results</text>
+  <text x="356" y="234" font-size="9.5" fill="#0e6655">order / fraud / payment results · token_usage</text>
+
+  <!-- Arrow: Nodes → AgentState -->
+  <line x1="220" y1="130" x2="340" y2="130" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="280" y="122" text-anchor="middle" font-size="9" fill="#555">reads/writes</text>
+
+  <!-- Arrow: Edges → AgentState -->
+  <line x1="220" y1="298" x2="340" y2="200" stroke="#999" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#arr-d)"/>
+  <text x="272" y="258" text-anchor="middle" font-size="9" fill="#999">reads only</text>
+
+  <!-- Arrow: AgentState → GraphBuilder -->
+  <line x1="490" y1="260" x2="490" y2="280" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="510" y="274" font-size="9" fill="#555">compiled with</text>
+
+  <!-- Arrow: MCP Tools ← nodes call -->
+  <line x1="640" y1="130" x2="660" y2="130" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="650" y="122" text-anchor="middle" font-size="9" fill="#555">called by</text>
+
+  <!-- Arrow: SQLModel ← MCP queries -->
+  <line x1="770" y1="220" x2="770" y2="240" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="790" y="234" font-size="9" fill="#555">queries</text>
+
+  <!-- Arrow: FastAPI → SQLModel CRUD -->
+  <line x1="770" y1="380" x2="770" y2="400" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="790" y="394" font-size="9" fill="#555">CRUD</text>
+
+  <!-- Arrow: Pydantic → Builders typed output -->
+  <line x1="120" y1="500" x2="120" y2="520" stroke="#999" stroke-width="1" stroke-dasharray="5 3" marker-end="url(#arr-d)"/>
+  <text x="148" y="514" font-size="9" fill="#999">typed output</text>
+
+  <!-- Arrow: Builders → Nodes (instantiates) -->
+  <path d="M 240 520 L 240 220 L 220 220" fill="none" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="260" y="420" font-size="9" fill="#555">instantiates</text>
+  <text x="260" y="432" font-size="9" fill="#555">agents for</text>
+  <text x="260" y="444" font-size="9" fill="#555">node fns</text>
+
+  <!-- Graph Nodes: x=20 y=40 w=200 h=180 -->
+  <rect x="20" y="40" width="200" height="200" rx="8" fill="#f0ecf9" stroke="#6c3483" stroke-width="1.2"/>
+  <rect x="20" y="40" width="200" height="38" rx="8" fill="#d7bde2" stroke="#6c3483" stroke-width="1.2"/>
+  <rect x="20" y="70" width="200" height="8" fill="#d7bde2"/>
+  <text x="120" y="59" text-anchor="middle" font-size="11" font-weight="700" fill="#4a235a">Graph nodes</text>
+  <text x="120" y="73" text-anchor="middle" font-size="9" fill="#6c3483">graph/nodes.py</text>
+  <text x="34" y="96" font-size="9.5" fill="#4a235a">router_node(state)</text>
+  <text x="34" y="113" font-size="9.5" fill="#4a235a">ordering_node(state)</text>
+  <text x="34" y="130" font-size="9.5" fill="#4a235a">complaint_node(state)</text>
+  <text x="34" y="147" font-size="9.5" fill="#4a235a">fraud_node(state)</text>
+  <text x="34" y="164" font-size="9.5" fill="#4a235a">payment_node(state)</text>
+  <text x="34" y="181" font-size="9.5" fill="#922b21" font-weight="600">hitl_node — interrupt() ⏸</text>
+  <text x="34" y="198" font-size="9.5" fill="#4a235a">notification_node(state)</text>
+  <text x="34" y="215" font-size="9" fill="#6c3483">publish logs → Redis</text>
+  <text x="34" y="230" font-size="9" fill="#6c3483">→ WebSocket clients</text>
+
+  <!-- Conditional Edges: x=20 y=260 w=200 h=120 -->
+  <rect x="20" y="260" width="200" height="120" rx="8" fill="#f0ecf9" stroke="#6c3483" stroke-width="1.2"/>
+  <rect x="20" y="260" width="200" height="38" rx="8" fill="#d7bde2" stroke="#6c3483" stroke-width="1.2"/>
+  <rect x="20" y="290" width="200" height="8" fill="#d7bde2"/>
+  <text x="120" y="279" text-anchor="middle" font-size="11" font-weight="700" fill="#4a235a">Conditional edges</text>
+  <text x="120" y="293" text-anchor="middle" font-size="9" fill="#6c3483">graph/edges.py</text>
+  <text x="34" y="316" font-size="9.5" fill="#4a235a">route_from_router(state) → str</text>
+  <text x="34" y="333" font-size="9.5" fill="#4a235a">route_after_fraud(state) → str</text>
+  <text x="34" y="350" font-size="9.5" fill="#4a235a">route_after_hitl(state) → str</text>
+  <text x="34" y="370" font-size="9" fill="#6c3483">pure functions · read state only</text>
+
+  <!-- Graph Builder: x=340 y=280 w=300 h=120 -->
+  <rect x="340" y="280" width="300" height="120" rx="8" fill="#f2f3f4" stroke="#5d6d7e" stroke-width="1.2"/>
+  <rect x="340" y="280" width="300" height="38" rx="8" fill="#d5d8dc" stroke="#5d6d7e" stroke-width="1.2"/>
+  <rect x="340" y="310" width="300" height="8" fill="#d5d8dc"/>
+  <text x="490" y="299" text-anchor="middle" font-size="11" font-weight="700" fill="#2c3e50">Graph builder</text>
+  <text x="490" y="313" text-anchor="middle" font-size="9" fill="#5d6d7e">graph/builder.py</text>
+  <text x="356" y="336" font-size="9.5" fill="#2c3e50">build_food_ordering_graph(checkpointer)</text>
+  <text x="356" y="353" font-size="9.5" fill="#2c3e50">build_complaint_resolution_graph(checkpointer)</text>
+  <text x="356" y="370" font-size="9.5" fill="#2c3e50">init_graphs() · get_graph(workflow_type)</text>
+  <text x="356" y="387" font-size="9" fill="#5d6d7e">compiles static graphs once at startup</text>
+
+  <!-- MCP Tools: x=660 y=40 w=220 h=180 -->
+  <rect x="660" y="40" width="220" height="200" rx="8" fill="#fdf2e9" stroke="#a04000" stroke-width="1.2"/>
+  <rect x="660" y="40" width="220" height="38" rx="8" fill="#fad7a0" stroke="#a04000" stroke-width="1.2"/>
+  <rect x="660" y="70" width="220" height="8" fill="#fad7a0"/>
+  <text x="770" y="59" text-anchor="middle" font-size="11" font-weight="700" fill="#784212">MCP tools</text>
+  <text x="770" y="73" text-anchor="middle" font-size="9" fill="#a04000">mcp_tools/ · /mcp/sse</text>
+  <text x="674" y="96" font-size="9.5" fill="#784212">restaurant_search(city, cuisine, price)</text>
+  <text x="674" y="113" font-size="9.5" fill="#784212">menu_retrieval(restaurant_id)</text>
+  <text x="674" y="130" font-size="9.5" fill="#784212">order_lookup(user_id)</text>
+  <text x="674" y="147" font-size="9.5" fill="#784212">payment_routing(amount, preferred_method)</text>
+  <text x="674" y="164" font-size="9.5" fill="#784212">fraud_scoring(amount, user_id)</text>
+  <text x="674" y="181" font-size="9.5" fill="#784212">telegram_notify(chat_id, text)</text>
+  <text x="674" y="200" font-size="9" fill="#a04000">mock-backed · real SSE interfaces</text>
+  <text x="674" y="215" font-size="9" fill="#a04000">no live APIs required</text>
+  <text x="674" y="230" font-size="9" fill="#a04000">langchain-mcp-adapters</text>
+
+  <!-- SQLModel: x=660 y=260 w=220 h=140 -->
+  <rect x="660" y="260" width="220" height="140" rx="8" fill="#eaf4d3" stroke="#1e8449" stroke-width="1.2"/>
+  <rect x="660" y="260" width="220" height="38" rx="8" fill="#a9dfbf" stroke="#1e8449" stroke-width="1.2"/>
+  <rect x="660" y="290" width="220" height="8" fill="#a9dfbf"/>
+  <text x="770" y="279" text-anchor="middle" font-size="11" font-weight="700" fill="#196f3d">SQLModel tables</text>
+  <text x="770" y="293" text-anchor="middle" font-size="9" fill="#1e8449">models/ · 12 tables</text>
+  <text x="674" y="316" font-size="9.5" fill="#196f3d">Agent · Workflow · WorkflowRun</text>
+  <text x="674" y="333" font-size="9.5" fill="#196f3d">RunMessage · TelegramSession</text>
+  <text x="674" y="350" font-size="9.5" fill="#196f3d">Restaurant · MenuItem · PaymentGateway</text>
+  <text x="674" y="367" font-size="9.5" fill="#196f3d">FraudRule · User · Order · Transaction</text>
+  <text x="674" y="387" font-size="9" fill="#1e8449">MCP tools query seed tables</text>
+
+  <!-- FastAPI Routes: x=660 y=420 w=220 h=140 -->
+  <rect x="660" y="420" width="220" height="140" rx="8" fill="#f2f3f4" stroke="#5d6d7e" stroke-width="1.2"/>
+  <rect x="660" y="420" width="220" height="38" rx="8" fill="#d5d8dc" stroke="#5d6d7e" stroke-width="1.2"/>
+  <rect x="660" y="450" width="220" height="8" fill="#d5d8dc"/>
+  <text x="770" y="439" text-anchor="middle" font-size="11" font-weight="700" fill="#2c3e50">FastAPI routes</text>
+  <text x="770" y="453" text-anchor="middle" font-size="9" fill="#5d6d7e">api/routes/ + websocket.py</text>
+  <text x="674" y="476" font-size="9.5" fill="#2c3e50">CRUD /api/agents</text>
+  <text x="674" y="493" font-size="9.5" fill="#2c3e50">POST /api/workflows/{id}/trigger</text>
+  <text x="674" y="510" font-size="9.5" fill="#2c3e50">GET /api/runs · /api/messages</text>
+  <text x="674" y="527" font-size="9.5" fill="#2c3e50">WS /ws/monitor · /ws/logs/{run_id}</text>
+  <text x="674" y="547" font-size="9" fill="#5d6d7e">triggers graph via builder</text>
+
+  <!-- Pydantic Schemas: x=20 y=400 w=200 h=110 -->
+  <rect x="20" y="400" width="200" height="110" rx="8" fill="#ebf5fb" stroke="#2980b9" stroke-width="1.2"/>
+  <rect x="20" y="400" width="200" height="38" rx="8" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.2"/>
+  <rect x="20" y="430" width="200" height="8" fill="#d6eaf8"/>
+  <text x="120" y="419" text-anchor="middle" font-size="11" font-weight="700" fill="#1a4971">Pydantic schemas</text>
+  <text x="120" y="433" text-anchor="middle" font-size="9" fill="#2980b9">schemas/</text>
+  <text x="34" y="456" font-size="9.5" fill="#1a4971">OrderSummary · FraudResult</text>
+  <text x="34" y="473" font-size="9.5" fill="#1a4971">PaymentSummary</text>
+  <text x="34" y="490" font-size="9.5" fill="#1a4971">AgentCreate · AgentUpdate</text>
+  <text x="34" y="506" font-size="9.5" fill="#1a4971">route-local API request models</text>
+
+  <!-- Agent Builders: x=20 y=520 w=860 h=180 -->
+  <rect x="20" y="520" width="860" height="186" rx="8" fill="#fef9e7" stroke="#b7770d" stroke-width="2"/>
+  <rect x="20" y="520" width="860" height="40" rx="8" fill="#fac775" stroke="#b7770d" stroke-width="2"/>
+  <rect x="20" y="552" width="860" height="8" fill="#fac775"/>
+  <text x="450" y="540" text-anchor="middle" font-size="12" font-weight="700" fill="#7d6608">Agent builders — agents/</text>
+  <text x="450" y="556" text-anchor="middle" font-size="9.5" fill="#b7770d">base.py · ordering.py · complaint.py · fraud.py · payment.py · notification.py</text>
+
+  <!-- 3 columns dividers -->
+  <line x1="310" y1="568" x2="310" y2="696" stroke="#fac775" stroke-width="1"/>
+  <line x1="590" y1="568" x2="590" y2="696" stroke="#fac775" stroke-width="1"/>
+
+  <!-- Col 1: Dispatcher -->
+  <text x="165" y="582" text-anchor="middle" font-size="10" font-weight="700" fill="#7d6608">build_agent(config)</text>
+  <text x="165" y="598" text-anchor="middle" font-size="9.5" fill="#9a7d0a">available dispatcher in base.py</text>
+  <text x="165" y="614" text-anchor="middle" font-size="9.5" fill="#9a7d0a">maps agent.role → builder fn</text>
+  <text x="165" y="630" text-anchor="middle" font-size="9.5" fill="#9a7d0a">nodes call role builders directly</text>
+
+  <!-- Col 2: LLM agents -->
+  <text x="450" y="582" text-anchor="middle" font-size="10" font-weight="700" fill="#7d6608">LLM-backed agents</text>
+  <text x="450" y="598" text-anchor="middle" font-size="9.5" fill="#9a7d0a">ordering: create_agent + HITL middleware</text>
+  <text x="450" y="614" text-anchor="middle" font-size="9.5" fill="#9a7d0a">complaint: order_lookup + structured output</text>
+  <text x="450" y="630" text-anchor="middle" font-size="9.5" fill="#9a7d0a">ChatOpenAI with DB-loaded config</text>
+
+  <!-- Col 3: Det chains -->
+  <text x="730" y="582" text-anchor="middle" font-size="10" font-weight="700" fill="#7d6608">Deterministic chains</text>
+  <text x="730" y="598" text-anchor="middle" font-size="9.5" fill="#9a7d0a">build_fraud_agent(config)</text>
+  <text x="730" y="614" text-anchor="middle" font-size="9.5" fill="#9a7d0a">build_payment_agent(config)</text>
+  <text x="730" y="630" text-anchor="middle" font-size="9.5" fill="#9a7d0a">build_notification_agent(config)</text>
+
+  <!-- Separator -->
+  <line x1="20" y1="646" x2="880" y2="646" stroke="#fac775" stroke-width="1"/>
+  <text x="450" y="662" text-anchor="middle" font-size="10" font-weight="700" fill="#7d6608">Seeded to DB on startup — DB prompt always in sync with runtime</text>
+  <text x="450" y="678" text-anchor="middle" font-size="9.5" fill="#9a7d0a">config-active: ordering · complaint — editing agent config in UI changes live behavior</text>
+  <text x="450" y="694" text-anchor="middle" font-size="9.5" fill="#9a7d0a">fixed-behavior: fraud · payment · notification — UI edits stored but not applied at runtime</text>
+</svg>

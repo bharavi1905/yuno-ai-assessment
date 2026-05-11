@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 820" width="900" height="820">
+  <style>
+    text { font-family: system-ui, -apple-system, sans-serif; }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 2 L8 5 L1 8" fill="none" stroke="#555" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 2 L8 5 L1 8" fill="none" stroke="#c0392b" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+  </defs>
+  <rect width="900" height="820" fill="#fff"/>
+
+  <!-- TITLE -->
+  <text x="450" y="28" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">AI Agent Orchestration Platform — System Architecture</text>
+
+  <!-- LAYER 1: Frontend  y=40..128 -->
+  <rect x="30" y="40" width="840" height="88" rx="10" fill="#ebf5fb" stroke="#2980b9" stroke-width="1.5"/>
+  <text x="450" y="60" text-anchor="middle" font-size="13" font-weight="700" fill="#1a4971">Layer 1 — React Frontend (port 3000)</text>
+  <text x="450" y="78" text-anchor="middle" font-size="11" fill="#2471a3">Vite · Tailwind CSS · React Flow canvas · WebSocket live events</text>
+  <!-- 5 chips: x=44,204,364,524,684  w=148 h=30 y=90 gap=12  right=832 ok -->
+  <rect x="44"  y="90" width="148" height="30" rx="6" fill="#d6eaf8" stroke="#2980b9" stroke-width="0.8"/>
+  <text x="118" y="109" text-anchor="middle" font-size="11" font-weight="600" fill="#1a4971">Dashboard</text>
+  <rect x="204" y="90" width="148" height="30" rx="6" fill="#d6eaf8" stroke="#2980b9" stroke-width="0.8"/>
+  <text x="278" y="109" text-anchor="middle" font-size="11" font-weight="600" fill="#1a4971">Agents CRUD</text>
+  <rect x="364" y="90" width="148" height="30" rx="6" fill="#d6eaf8" stroke="#2980b9" stroke-width="0.8"/>
+  <text x="438" y="109" text-anchor="middle" font-size="11" font-weight="600" fill="#1a4971">Workflow canvas</text>
+  <rect x="524" y="90" width="148" height="30" rx="6" fill="#d6eaf8" stroke="#2980b9" stroke-width="0.8"/>
+  <text x="598" y="109" text-anchor="middle" font-size="11" font-weight="600" fill="#1a4971">Run history</text>
+  <rect x="684" y="90" width="148" height="30" rx="6" fill="#d6eaf8" stroke="#2980b9" stroke-width="0.8"/>
+  <text x="758" y="109" text-anchor="middle" font-size="11" font-weight="600" fill="#1a4971">Monitor</text>
+
+  <!-- L1→L2 -->
+  <line x1="280" y1="128" x2="280" y2="154" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="250" y="144" font-size="10" fill="#555">REST API</text>
+  <line x1="620" y1="128" x2="620" y2="154" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="590" y="144" font-size="10" fill="#555">WebSocket</text>
+
+  <!-- LAYER 2: Backend  y=154..264 -->
+  <rect x="30" y="154" width="840" height="110" rx="10" fill="#f0ecf9" stroke="#6c3483" stroke-width="1.5"/>
+  <text x="450" y="174" text-anchor="middle" font-size="13" font-weight="700" fill="#4a235a">Layer 2 — FastAPI Backend (port 8000)</text>
+  <text x="450" y="192" text-anchor="middle" font-size="11" fill="#6c3483">async Python · pydantic-settings · lifespan startup · background tasks</text>
+  <!-- 4 chips: w=188 h=48 gap=14  total=4*188+3*14=794  start=(840-794)/2+30=53
+       x=53,255,457,659  right=847... trim w=180 gap=14 → 4*180+3*14=762 start=69
+       x=69,263,457,651  right=831 ok -->
+  <rect x="69"  y="206" width="180" height="48" rx="6" fill="#d7bde2" stroke="#6c3483" stroke-width="0.8"/>
+  <text x="159" y="226" text-anchor="middle" font-size="11" font-weight="600" fill="#4a235a">/api/agents</text>
+  <text x="159" y="244" text-anchor="middle" font-size="10" fill="#6c3483">CRUD endpoints</text>
+  <rect x="263" y="206" width="180" height="48" rx="6" fill="#d7bde2" stroke="#6c3483" stroke-width="0.8"/>
+  <text x="353" y="226" text-anchor="middle" font-size="11" font-weight="600" fill="#4a235a">/api/workflows</text>
+  <text x="353" y="244" text-anchor="middle" font-size="10" fill="#6c3483">trigger + HITL resume</text>
+  <rect x="457" y="206" width="180" height="48" rx="6" fill="#d7bde2" stroke="#6c3483" stroke-width="0.8"/>
+  <text x="547" y="226" text-anchor="middle" font-size="11" font-weight="600" fill="#4a235a">/api/runs · /api/msgs</text>
+  <text x="547" y="244" text-anchor="middle" font-size="10" fill="#6c3483">history · events</text>
+  <rect x="651" y="206" width="180" height="48" rx="6" fill="#d7bde2" stroke="#6c3483" stroke-width="0.8"/>
+  <text x="741" y="226" text-anchor="middle" font-size="11" font-weight="600" fill="#4a235a">Telegram bot</text>
+  <text x="741" y="244" text-anchor="middle" font-size="10" fill="#6c3483">background task · HITL</text>
+
+  <!-- L2→L3 -->
+  <line x1="310" y1="264" x2="310" y2="292" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="318" y="282" font-size="10" fill="#555">graph.ainvoke()</text>
+
+  <!-- LAYER 3 LEFT: LangGraph  x=30 y=292 w=560 h=224 -->
+  <rect x="30" y="292" width="560" height="224" rx="10" fill="#e8f8f5" stroke="#0e6655" stroke-width="1.5"/>
+  <text x="310" y="312" text-anchor="middle" font-size="13" font-weight="700" fill="#0b5345">LangGraph StateGraph</text>
+  <text x="310" y="330" text-anchor="middle" font-size="11" fill="#0e6655">runtime authority · AsyncPostgresSaver · interrupt/resume</text>
+
+  <!-- Row 1: x=50,222,394  w=160 h=44 y=342  gap=12  right=554 ok -->
+  <rect x="50"  y="342" width="160" height="44" rx="6" fill="#a9dfbf" stroke="#0e6655" stroke-width="0.8"/>
+  <text x="130" y="360" text-anchor="middle" font-size="11" font-weight="600" fill="#0b5345">router_node</text>
+  <text x="130" y="377" text-anchor="middle" font-size="10" fill="#0e6655">routes by type</text>
+  <rect x="222" y="342" width="160" height="44" rx="6" fill="#a9dfbf" stroke="#0e6655" stroke-width="0.8"/>
+  <text x="302" y="360" text-anchor="middle" font-size="11" font-weight="600" fill="#0b5345">ordering_node</text>
+  <text x="302" y="377" text-anchor="middle" font-size="10" fill="#0e6655">ReAct agent</text>
+  <rect x="394" y="342" width="160" height="44" rx="6" fill="#a9dfbf" stroke="#0e6655" stroke-width="0.8"/>
+  <text x="474" y="360" text-anchor="middle" font-size="11" font-weight="600" fill="#0b5345">complaint_node</text>
+  <text x="474" y="377" text-anchor="middle" font-size="10" fill="#0e6655">structured chain</text>
+
+  <!-- Row 2: y=398 -->
+  <rect x="50"  y="398" width="160" height="44" rx="6" fill="#a9dfbf" stroke="#0e6655" stroke-width="0.8"/>
+  <text x="130" y="416" text-anchor="middle" font-size="11" font-weight="600" fill="#0b5345">fraud_node</text>
+  <text x="130" y="433" text-anchor="middle" font-size="10" fill="#0e6655">det. chain</text>
+  <rect x="222" y="398" width="160" height="44" rx="6" fill="#a9dfbf" stroke="#0e6655" stroke-width="0.8"/>
+  <text x="302" y="416" text-anchor="middle" font-size="11" font-weight="600" fill="#0b5345">payment_node</text>
+  <text x="302" y="433" text-anchor="middle" font-size="10" fill="#0e6655">det. chain</text>
+  <!-- hitl pink -->
+  <rect x="394" y="398" width="160" height="44" rx="6" fill="#f1948a" stroke="#c0392b" stroke-width="1.2"/>
+  <text x="474" y="416" text-anchor="middle" font-size="11" font-weight="600" fill="#7b241c">hitl_node</text>
+  <text x="474" y="433" text-anchor="middle" font-size="10" fill="#922b21">interrupt() ⏸</text>
+
+  <!-- notification centered: x=222 w=160 center=302 y=454 -->
+  <rect x="222" y="454" width="160" height="44" rx="6" fill="#a9dfbf" stroke="#0e6655" stroke-width="0.8"/>
+  <text x="302" y="472" text-anchor="middle" font-size="11" font-weight="600" fill="#0b5345">notification_node</text>
+  <text x="302" y="489" text-anchor="middle" font-size="10" fill="#0e6655">det. chain · Telegram</text>
+
+  <!-- LAYER 3 RIGHT: sidecars x=606 y=292 w=264 -->
+  <!-- Redis: h=100 → bottom=392 -->
+  <rect x="606" y="292" width="264" height="100" rx="10" fill="#fef9e7" stroke="#b7770d" stroke-width="1.5"/>
+  <text x="738" y="314" text-anchor="middle" font-size="13" font-weight="700" fill="#7d6608">Redis Streams</text>
+  <text x="738" y="332" text-anchor="middle" font-size="11" fill="#9a7d0a">port 6379</text>
+  <text x="738" y="352" text-anchor="middle" font-size="11" fill="#7d6608">stream:logs:{run_id}</text>
+  <text x="738" y="372" text-anchor="middle" font-size="11" fill="#7d6608">telegram:session:{chat_id}</text>
+
+  <line x1="590" y1="342" x2="606" y2="342" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="595" y="336" font-size="9" fill="#555">events</text>
+
+  <!-- gap arrow -->
+  <line x1="738" y1="392" x2="738" y2="404" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- Langfuse: y=404 h=112 → bottom=516 -->
+  <rect x="606" y="404" width="264" height="112" rx="10" fill="#fef9e7" stroke="#b7770d" stroke-width="1.5"/>
+  <text x="738" y="426" text-anchor="middle" font-size="13" font-weight="700" fill="#7d6608">Langfuse</text>
+  <text x="738" y="444" text-anchor="middle" font-size="11" fill="#9a7d0a">port 3001 · self-hosted</text>
+  <text x="738" y="464" text-anchor="middle" font-size="11" fill="#7d6608">traces · spans · token cost</text>
+  <text x="738" y="484" text-anchor="middle" font-size="11" fill="#7d6608">session_id = run_id</text>
+  <text x="738" y="504" text-anchor="middle" font-size="11" fill="#7d6608">uuid5 deterministic trace IDs</text>
+
+  <line x1="590" y1="444" x2="606" y2="444" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="595" y="438" font-size="9" fill="#555">spans</text>
+
+  <!-- L3→L4 -->
+  <line x1="310" y1="516" x2="310" y2="544" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="318" y="533" font-size="10" fill="#555">MCP calls (SSE)</text>
+
+  <!-- LAYER 4: MCP Tools  y=544..656 -->
+  <rect x="30" y="544" width="840" height="112" rx="10" fill="#fdf2e9" stroke="#a04000" stroke-width="1.5"/>
+  <text x="450" y="565" text-anchor="middle" font-size="13" font-weight="700" fill="#784212">Layer 4 — MCP Tool Layer (FastMCP @ /mcp/sse)</text>
+  <text x="450" y="583" text-anchor="middle" font-size="11" fill="#a04000">SSE transport · mock-backed · real interfaces · no live APIs required</text>
+
+  <!-- 6 chips: w=120 gap=12  total=6*120+5*12=780  start=(840-780)/2+30=60
+       x=60,192,324,456,588,720  right=840 perfect -->
+  <rect x="60"  y="595" width="120" height="51" rx="6" fill="#fad7a0" stroke="#a04000" stroke-width="0.8"/>
+  <text x="120" y="615" text-anchor="middle" font-size="11" font-weight="600" fill="#784212">restaurant</text>
+  <text x="120" y="635" text-anchor="middle" font-size="10" fill="#a04000">_search</text>
+  <rect x="192" y="595" width="120" height="51" rx="6" fill="#fad7a0" stroke="#a04000" stroke-width="0.8"/>
+  <text x="252" y="615" text-anchor="middle" font-size="11" font-weight="600" fill="#784212">menu</text>
+  <text x="252" y="635" text-anchor="middle" font-size="10" fill="#a04000">_retrieval</text>
+  <rect x="324" y="595" width="120" height="51" rx="6" fill="#fad7a0" stroke="#a04000" stroke-width="0.8"/>
+  <text x="384" y="615" text-anchor="middle" font-size="11" font-weight="600" fill="#784212">order</text>
+  <text x="384" y="635" text-anchor="middle" font-size="10" fill="#a04000">_lookup</text>
+  <rect x="456" y="595" width="120" height="51" rx="6" fill="#fad7a0" stroke="#a04000" stroke-width="0.8"/>
+  <text x="516" y="615" text-anchor="middle" font-size="11" font-weight="600" fill="#784212">payment</text>
+  <text x="516" y="635" text-anchor="middle" font-size="10" fill="#a04000">_routing</text>
+  <rect x="588" y="595" width="120" height="51" rx="6" fill="#fad7a0" stroke="#a04000" stroke-width="0.8"/>
+  <text x="648" y="615" text-anchor="middle" font-size="11" font-weight="600" fill="#784212">fraud</text>
+  <text x="648" y="635" text-anchor="middle" font-size="10" fill="#a04000">_scoring</text>
+  <rect x="720" y="595" width="120" height="51" rx="6" fill="#fad7a0" stroke="#a04000" stroke-width="0.8"/>
+  <text x="780" y="615" text-anchor="middle" font-size="11" font-weight="600" fill="#784212">telegram</text>
+  <text x="780" y="635" text-anchor="middle" font-size="10" fill="#a04000">_notify</text>
+
+  <!-- L4→L5 -->
+  <line x1="450" y1="656" x2="450" y2="682" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="458" y="672" font-size="10" fill="#555">SQL queries</text>
+
+  <!-- LAYER 5: PostgreSQL  y=682..762 -->
+  <rect x="30" y="682" width="840" height="80" rx="10" fill="#f2f3f4" stroke="#5d6d7e" stroke-width="1.5"/>
+  <text x="450" y="704" text-anchor="middle" font-size="13" font-weight="700" fill="#2c3e50">Layer 5 — PostgreSQL 15 + pgvector</text>
+  <text x="450" y="722" text-anchor="middle" font-size="11" fill="#5d6d7e">12 tables · agent configs · runs · HITL checkpoints (AsyncPostgresSaver) · vector memory</text>
+  <text x="450" y="740" text-anchor="middle" font-size="11" fill="#5d6d7e">Seed: 50 restaurants · ~500 menus · 30 fraud rules · 24 payment routes · 500 orders · 20 users</text>
+
+  <!-- FORBIDDEN PATH spine: x=16 from y=420 to y=720 -->
+  <path d="M 30 420 L 14 420 L 14 720 L 30 720"
+        fill="none" stroke="#c0392b" stroke-width="1.8" stroke-dasharray="8 4" marker-end="url(#arr-red)"/>
+
+  <!-- LEGEND row y=775 -->
+  <rect x="30" y="770" width="840" height="30" rx="6" fill="#fafafa" stroke="#ddd" stroke-width="0.5"/>
+  <rect x="50"  y="780" width="11" height="11" rx="2" fill="#d6eaf8" stroke="#2980b9" stroke-width="0.5"/>
+  <text x="67"  y="790" font-size="10" fill="#333">Frontend</text>
+  <rect x="130" y="780" width="11" height="11" rx="2" fill="#d7bde2" stroke="#6c3483" stroke-width="0.5"/>
+  <text x="147" y="790" font-size="10" fill="#333">Backend</text>
+  <rect x="210" y="780" width="11" height="11" rx="2" fill="#a9dfbf" stroke="#0e6655" stroke-width="0.5"/>
+  <text x="227" y="790" font-size="10" fill="#333">LangGraph</text>
+  <rect x="310" y="780" width="11" height="11" rx="2" fill="#f1948a" stroke="#c0392b" stroke-width="0.8"/>
+  <text x="327" y="790" font-size="10" fill="#333">HITL node</text>
+  <rect x="400" y="780" width="11" height="11" rx="2" fill="#fad7a0" stroke="#a04000" stroke-width="0.5"/>
+  <text x="417" y="790" font-size="10" fill="#333">MCP tools</text>
+  <rect x="490" y="780" width="11" height="11" rx="2" fill="#fef9e7" stroke="#b7770d" stroke-width="0.5"/>
+  <text x="507" y="790" font-size="10" fill="#333">Observability</text>
+  <rect x="598" y="780" width="11" height="11" rx="2" fill="#f2f3f4" stroke="#5d6d7e" stroke-width="0.5"/>
+  <text x="615" y="790" font-size="10" fill="#333">Data store</text>
+  <text x="690" y="790" font-size="10" fill="#c0392b">— — — forbidden path</text>
+</svg>

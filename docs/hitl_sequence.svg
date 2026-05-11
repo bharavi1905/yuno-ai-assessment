@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 930" width="1100" height="930" role="img" aria-labelledby="title desc">
+  <title id="title">HITL sequence - human confirmation flow</title>
+  <desc id="desc">A swimlane sequence diagram showing Telegram or UI trigger, LangGraph interrupt, checkpoint persistence, Redis HITL session storage, user reply, and Command resume.</desc>
+  <style>
+    text { font-family: system-ui, -apple-system, sans-serif; }
+    .title { font-size: 18px; font-weight: 700; fill: #1a1a1a; }
+    .sub { font-size: 11px; fill: #555; }
+    .lane-title { font-size: 12px; font-weight: 700; }
+    .lane-sub { font-size: 10px; }
+    .label { font-size: 10px; font-weight: 600; fill: #333; }
+    .small { font-size: 9.5px; fill: #555; }
+    .tiny { font-size: 9px; fill: #777; }
+    .num { font-size: 9px; font-weight: 700; fill: #fff; }
+    .line { stroke: #444; stroke-width: 1.45; fill: none; marker-end: url(#arr); }
+    .line-blue { stroke: #2980b9; stroke-width: 1.55; fill: none; marker-end: url(#arr-blue); }
+    .line-purple { stroke: #6c3483; stroke-width: 1.55; fill: none; marker-end: url(#arr-purple); }
+    .line-green { stroke: #0e6655; stroke-width: 1.55; fill: none; marker-end: url(#arr-green); }
+    .line-dash { stroke: #777; stroke-width: 1.15; stroke-dasharray: 6 4; fill: none; marker-end: url(#arr-muted); }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 2 L8 5 L1 8" fill="none" stroke="#444" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="arr-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 2 L8 5 L1 8" fill="none" stroke="#2980b9" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="arr-purple" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 2 L8 5 L1 8" fill="none" stroke="#6c3483" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="arr-green" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 2 L8 5 L1 8" fill="none" stroke="#0e6655" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="arr-muted" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 2 L8 5 L1 8" fill="none" stroke="#777" stroke-width="1.2" stroke-linecap="round"/>
+    </marker>
+  </defs>
+
+  <rect width="1100" height="930" fill="#fff"/>
+  <text x="550" y="28" text-anchor="middle" class="title">HITL Sequence - Human-in-the-Loop Confirmation Flow</text>
+  <text x="550" y="48" text-anchor="middle" class="sub">Labels are separated from arrows; all resume operations reuse the same LangGraph thread_id.</text>
+
+  <!-- Lane headers -->
+  <rect x="45" y="70" width="170" height="58" rx="8" fill="#d6eaf8" stroke="#2980b9" stroke-width="1.2"/>
+  <text x="130" y="94" text-anchor="middle" class="lane-title" fill="#1a4971">User</text>
+  <text x="130" y="112" text-anchor="middle" class="lane-sub" fill="#2471a3">Telegram client / UI</text>
+
+  <rect x="290" y="70" width="170" height="58" rx="8" fill="#f0ecf9" stroke="#6c3483" stroke-width="1.2"/>
+  <text x="375" y="94" text-anchor="middle" class="lane-title" fill="#4a235a">Backend</text>
+  <text x="375" y="112" text-anchor="middle" class="lane-sub" fill="#6c3483">FastAPI + Telegram bot</text>
+
+  <rect x="555" y="70" width="170" height="58" rx="8" fill="#e8f8f5" stroke="#0e6655" stroke-width="1.2"/>
+  <text x="640" y="94" text-anchor="middle" class="lane-title" fill="#0b5345">LangGraph</text>
+  <text x="640" y="112" text-anchor="middle" class="lane-sub" fill="#0e6655">StateGraph runtime</text>
+
+  <rect x="830" y="70" width="190" height="58" rx="8" fill="#f2f3f4" stroke="#5d6d7e" stroke-width="1.2"/>
+  <text x="925" y="94" text-anchor="middle" class="lane-title" fill="#2c3e50">Persistence</text>
+  <text x="925" y="112" text-anchor="middle" class="lane-sub" fill="#5d6d7e">PostgreSQL + Redis</text>
+
+  <!-- Lifelines -->
+  <line x1="130" y1="128" x2="130" y2="840" stroke="#c6cbd3" stroke-width="1" stroke-dasharray="6 5"/>
+  <line x1="375" y1="128" x2="375" y2="840" stroke="#c6cbd3" stroke-width="1" stroke-dasharray="6 5"/>
+  <line x1="640" y1="128" x2="640" y2="840" stroke="#c6cbd3" stroke-width="1" stroke-dasharray="6 5"/>
+  <line x1="925" y1="128" x2="925" y2="840" stroke="#c6cbd3" stroke-width="1" stroke-dasharray="6 5"/>
+
+  <!-- Step 1 -->
+  <circle cx="34" cy="160" r="12" fill="#2980b9"/><text x="34" y="164" text-anchor="middle" class="num">1</text>
+  <rect x="172" y="137" width="160" height="22" rx="4" fill="#ebf5fb"/>
+  <text x="252" y="152" text-anchor="middle" class="label" fill="#1a4971">new request</text>
+  <line x1="130" y1="170" x2="375" y2="170" class="line-blue"/>
+
+  <!-- Step 2 -->
+  <circle cx="34" cy="215" r="12" fill="#6c3483"/><text x="34" y="219" text-anchor="middle" class="num">2</text>
+  <rect x="416" y="192" width="182" height="22" rx="4" fill="#f0ecf9"/>
+  <text x="507" y="207" text-anchor="middle" class="label" fill="#4a235a">graph.ainvoke(initial_state)</text>
+  <line x1="375" y1="225" x2="640" y2="225" class="line-purple"/>
+  <text x="507" y="243" text-anchor="middle" class="tiny">config.configurable.thread_id = chat_id</text>
+
+  <!-- LangGraph activation -->
+  <rect x="612" y="252" width="56" height="96" rx="5" fill="#a9dfbf" stroke="#0e6655" stroke-width="1"/>
+  <text x="640" y="273" text-anchor="middle" class="tiny" fill="#0b5345">router</text>
+  <text x="640" y="291" text-anchor="middle" class="tiny" fill="#0b5345">ordering</text>
+  <text x="640" y="309" text-anchor="middle" class="tiny" fill="#0b5345">or complaint</text>
+  <text x="640" y="327" text-anchor="middle" class="tiny" fill="#7b241c">hitl_node</text>
+  <text x="640" y="342" text-anchor="middle" class="tiny" fill="#922b21">interrupt()</text>
+
+  <!-- Step 3 -->
+  <circle cx="34" cy="385" r="12" fill="#0e6655"/><text x="34" y="389" text-anchor="middle" class="num">3</text>
+  <rect x="700" y="362" width="202" height="22" rx="4" fill="#e8f8f5"/>
+  <text x="801" y="377" text-anchor="middle" class="label" fill="#0b5345">persist full AgentState checkpoint</text>
+  <line x1="668" y1="395" x2="925" y2="395" class="line-green"/>
+
+  <!-- Step 4 -->
+  <circle cx="34" cy="440" r="12" fill="#5d6d7e"/><text x="34" y="444" text-anchor="middle" class="num">4</text>
+  <rect x="704" y="417" width="195" height="22" rx="4" fill="#f2f3f4"/>
+  <text x="801" y="432" text-anchor="middle" class="label">XADD stream:logs:{run_id}</text>
+  <line x1="668" y1="450" x2="925" y2="450" class="line-dash"/>
+
+  <!-- Step 5 -->
+  <circle cx="34" cy="495" r="12" fill="#6c3483"/><text x="34" y="499" text-anchor="middle" class="num">5</text>
+  <rect x="444" y="472" width="150" height="22" rx="4" fill="#f0ecf9"/>
+  <text x="519" y="487" text-anchor="middle" class="label" fill="#4a235a">hitl_status = pending</text>
+  <line x1="640" y1="505" x2="375" y2="505" class="line-dash"/>
+
+  <!-- Step 6 -->
+  <circle cx="34" cy="550" r="12" fill="#5d6d7e"/><text x="34" y="554" text-anchor="middle" class="num">6</text>
+  <rect x="572" y="527" width="240" height="22" rx="4" fill="#f2f3f4"/>
+  <text x="692" y="542" text-anchor="middle" class="label">set telegram:session:{chat_id} TTL=600s</text>
+  <line x1="375" y1="560" x2="925" y2="560" class="line-dash"/>
+
+  <!-- Step 7 -->
+  <circle cx="34" cy="605" r="12" fill="#6c3483"/><text x="34" y="609" text-anchor="middle" class="num">7</text>
+  <rect x="169" y="582" width="167" height="22" rx="4" fill="#f0ecf9"/>
+  <text x="252" y="597" text-anchor="middle" class="label" fill="#4a235a">send HITL prompt</text>
+  <line x1="375" y1="615" x2="130" y2="615" class="line-purple"/>
+
+  <!-- Pause band -->
+  <rect x="70" y="642" width="960" height="30" rx="5" fill="#fafafa" stroke="#e5e7eb" stroke-width="0.8"/>
+  <text x="550" y="662" text-anchor="middle" class="small">User replies within 10 minutes; otherwise Redis TTL expires and the session is cancelled.</text>
+
+  <!-- Step 8 -->
+  <circle cx="34" cy="705" r="12" fill="#2980b9"/><text x="34" y="709" text-anchor="middle" class="num">8</text>
+  <rect x="176" y="682" width="152" height="22" rx="4" fill="#ebf5fb"/>
+  <text x="252" y="697" text-anchor="middle" class="label" fill="#1a4971">YES / NO / correction</text>
+  <line x1="130" y1="715" x2="375" y2="715" class="line-blue"/>
+
+  <!-- Step 9 -->
+  <circle cx="34" cy="755" r="12" fill="#6c3483"/><text x="34" y="759" text-anchor="middle" class="num">9</text>
+  <rect x="415" y="732" width="190" height="22" rx="4" fill="#f0ecf9"/>
+  <text x="510" y="747" text-anchor="middle" class="label" fill="#4a235a">Command(resume={...})</text>
+  <line x1="375" y1="765" x2="640" y2="765" class="line-purple"/>
+
+  <!-- Step 10 -->
+  <circle cx="34" cy="805" r="12" fill="#0e6655"/><text x="34" y="809" text-anchor="middle" class="num">10</text>
+  <rect x="705" y="782" width="190" height="22" rx="4" fill="#e8f8f5"/>
+  <text x="800" y="797" text-anchor="middle" class="label" fill="#0b5345">reload checkpoint and route</text>
+  <line x1="925" y1="815" x2="640" y2="815" class="line-dash"/>
+
+  <!-- Constraint callout -->
+  <rect x="120" y="865" width="860" height="48" rx="6" fill="#fdedec" stroke="#c0392b" stroke-width="1.2"/>
+  <text x="550" y="885" text-anchor="middle" font-size="11" font-weight="700" fill="#7b241c">Critical constraint: thread_id MUST equal Telegram chat_id</text>
+  <text x="550" y="902" text-anchor="middle" class="tiny" fill="#922b21">AsyncPostgresSaver uses thread_id to retrieve the paused AgentState when the user replies.</text>
+</svg>

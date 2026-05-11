@@ -233,7 +233,9 @@ services:
       LANGFUSE_S3_MEDIA_UPLOAD_ENDPOINT: http://langfuse-minio:9000
       LANGFUSE_S3_MEDIA_UPLOAD_FORCE_PATH_STYLE: "true"
       LANGFUSE_S3_MEDIA_UPLOAD_REGION: auto
-      # Auto-init: creates org, project, and API keys on first startup (no manual UI setup needed)
+      # Auto-init: creates local org/project/user on first startup.
+      # Create/copy project API keys in Langfuse and set LANGFUSE_PUBLIC_KEY /
+      # LANGFUSE_SECRET_KEY in .env so backend traces appear in the UI.
       LANGFUSE_INIT_ORG_ID: yuno-ai-org
       LANGFUSE_INIT_ORG_NAME: "Yuno AI"
       LANGFUSE_INIT_PROJECT_ID: yuno-ai-project
@@ -242,7 +244,7 @@ services:
       LANGFUSE_INIT_PROJECT_SECRET_KEY: ${LANGFUSE_SECRET_KEY:-sk-lf-local-00000000-0000-0000-0000-000000000001}
       LANGFUSE_INIT_USER_EMAIL: ${LANGFUSE_INIT_USER_EMAIL:-admin@yuno.local}
       LANGFUSE_INIT_USER_NAME: ${LANGFUSE_INIT_USER_NAME:-Admin}
-      LANGFUSE_INIT_USER_PASSWORD: ${LANGFUSE_INIT_USER_PASSWORD:-admin}
+      LANGFUSE_INIT_USER_PASSWORD: ${LANGFUSE_INIT_USER_PASSWORD:-admin1234}
     networks:
       - agent-platform
     healthcheck:

@@ -1,11 +1,19 @@
 # AI Agent Orchestration Platform
 
-A production-inspired multi-agent workflow system where users create AI agents,
-configure them through a web UI, and assemble them into collaborative LangGraph
-workflows with real-time monitoring and human-in-the-loop (HITL) confirmation
-via Telegram.
+> Multi-agent LangGraph workflows with HITL via Telegram, real MCP tools,
+> and a full React monitoring dashboard — running locally with one command.
 
-> **Screenshots and architecture diagrams will be added in the next session.**
+![Build](https://img.shields.io/badge/build-local--docker-success)
+![Python](https://img.shields.io/badge/python-3.11-blue)
+![Docker](https://img.shields.io/badge/docker--compose-v2-blue)
+![Runtime](https://img.shields.io/badge/runtime-LangGraph-0e6655)
+![HITL](https://img.shields.io/badge/HITL-Telegram-c0392b)
+
+A production-inspired multi-agent workflow system where users create AI agents,
+configure them through a web UI, and assemble them into collaborative workflows
+with real-time monitoring, persistent checkpoints, and human confirmation.
+
+> Architecture and workflow diagrams are included in `docs/`. Screenshots and demo GIFs can be captured after running the stack.
 
 ---
 
@@ -17,67 +25,33 @@ via Telegram.
 4. [Features](#features)
 5. [Workflow Templates](#workflow-templates)
 6. [HITL Flow](#hitl-flow-human-in-the-loop)
-7. [Langfuse Observability](#langfuse-observability)
-8. [MCP Tool Layer](#mcp-tool-layer)
-9. [Agent Configuration](#agent-configuration)
-10. [How to Add a New Workflow Template](#how-to-add-a-new-workflow-template)
-11. [How to Add a New Messaging Channel](#how-to-add-a-new-messaging-channel)
-12. [Running Tests](#running-tests)
-13. [Environment Variables](#environment-variables)
-14. [Seed Data](#seed-data)
-15. [Project Structure](#project-structure)
-16. [Runtime & Framework Choices](#runtime--framework-choices)
+7. [Code Architecture](#code-architecture)
+8. [Langfuse Observability](#langfuse-observability)
+9. [MCP Tool Layer](#mcp-tool-layer)
+10. [Agent Configuration](#agent-configuration)
+11. [How to Add a New Workflow Template](#how-to-add-a-new-workflow-template)
+12. [How to Add a New Messaging Channel](#how-to-add-a-new-messaging-channel)
+13. [Running Tests](#running-tests)
+14. [Environment Variables](#environment-variables)
+15. [Seed Data](#seed-data)
+16. [Project Structure](#project-structure)
+17. [Runtime & Framework Choices](#runtime--framework-choices)
 
 ---
 
 ## Architecture
 
-```
-+----------------------------------------------------------+
-|                   React Frontend (Port 3000)             |
-|  Dashboard | Agents | Workflows | Runs | Monitor         |
-|             React Flow (workflow canvas)                 |
-+------------------------+----------------------------------+
-                         | REST + WebSocket
-+------------------------v----------------------------------+
-|                   FastAPI Backend (Port 8000)            |
-|  /api/agents  /api/workflows  /api/runs  /api/messages   |
-|  /ws/logs/{run_id}  /ws/monitor                          |
-|                Telegram Bot (background task)            |
-+-----+------------------------------------------+---------+
-      |                                          |
-+-----v---------------------+     +--------------v--------+
-|  LangGraph StateGraph     |     |   Redis Streams       |
-|  (runtime authority)      |     |   WebSocket events    |
-|                           |     |   Telegram sessions   |
-|  router_node              |     +-----------------------+
-|  ordering_node            |
-|  complaint_node           |             +---------------+
-|  fraud_node               |    traces   | Langfuse      |
-|  payment_node             +------------>| (Port 3001)   |
-|  hitl_node (interrupt())  |             | self-hosted   |
-|  notification_node        |             +---------------+
-|                           |
-|  + AsyncPostgresSaver     |
-|    (HITL state persist)   |
-+-----+---------------------+
-      |
-+-----v------------------+
-|   MCP Tool Layer       |
-|  FastMCP @ /mcp/sse    |
-|  restaurant_search     |
-|  menu_retrieval        |
-|  order_lookup          |
-|  payment_routing       |
-|  fraud_scoring         |
-|  telegram_notify       |
-+-----+------------------+
-      |
-+-----v-----------------------------+
-|  PostgreSQL 15 + pgvector         |
-|  12 tables, seeded on first run   |
-+-----------------------------------+
-```
+![System architecture](docs/architecture.svg)
+
+The platform has five runtime layers:
+
+| Layer | Technology | Responsibility |
+|---|---|---|
+| Frontend | React + React Flow | Visual workflow builder, run dashboard, live monitoring |
+| Backend | FastAPI | REST API, WebSocket streams, Telegram bot background task, MCP mount |
+| Runtime | LangGraph StateGraph | Graph execution, conditional routing, HITL interrupt/resume |
+| Tool layer | FastMCP at `/mcp/sse` | Business data access through six MCP tools |
+| Data | PostgreSQL 15 + Redis 7 | SQLModel persistence, LangGraph checkpoints, event streams, HITL sessions |
 
 ### Docker Compose Services
 
@@ -133,7 +107,7 @@ OPENAI_API_KEY=sk-...
 TELEGRAM_BOT_TOKEN=<your-bot-token>
 ```
 
-All other variables have working defaults for local Docker Compose usage.
+All other variables have working defaults for local Docker Compose usage. Langfuse traces are optional, but require `LANGFUSE_PUBLIC_KEY` and `LANGFUSE_SECRET_KEY` to be set before traces appear in the UI.
 
 ### 2. Start the platform
 
@@ -146,9 +120,11 @@ First startup automatically:
 - Seeds mock data (50 restaurants, ~500 menu items, 24 payment routes, 30 fraud rules, 500 orders, 200 transactions, 20 users)
 - Seeds 5 default agent configurations with real system prompts from the agent modules
 - Seeds 2 workflow templates
-- Initialises Langfuse with a preconfigured project and API keys (no manual setup needed)
+- Initialises local Langfuse with an admin user and project
 
 Subsequent starts skip seeding and boot immediately (~3 seconds).
+
+To see traces in the local Langfuse UI, create/copy a project API key pair in Langfuse and set `LANGFUSE_PUBLIC_KEY` and `LANGFUSE_SECRET_KEY` in `.env`, then restart the backend.
 
 ### 3. Get your Telegram chat ID
 
@@ -231,21 +207,12 @@ See [Langfuse Observability](#langfuse-observability) section below.
 **Trigger:** Telegram message or UI trigger  
 **Example:** `Order chicken biryani under Rs300, 4+ stars, Hyderabad`
 
-**Graph:**
-```
-Router → Ordering → HITL
-                      │ YES (confirmed)   │ retry_order      │ NO/expire → END
-                      ▼                   ▼
-                   Fraud Check        Ordering (loop)
-                      │ approve    │ block
-                      ▼            ▼
-                   Payment     Notification
-                      ▼
-                   Notification
-```
+![Food ordering flow](docs/flow_food_ordering.svg)
+
+**Graph summary:** `router` → `ordering` → `hitl`; `YES` continues through `fraud` → `payment` → `notification`, retry loops back to `ordering`, and `NO`/expiry ends the workflow. Fraud blocks skip payment and go directly to notification.
 
 **HITL checkpoint message (sent to Telegram):**
-```
+```text
 Restaurant: Meghana Foods ⭐ 4.6
 Item: Chicken Dum Biryani
 Price: Rs280 · Delivery: ~35 mins
@@ -267,21 +234,12 @@ Reply YES to confirm or NO to cancel
 **Trigger:** Complaint message via Telegram or UI trigger  
 **Example:** `I ordered chicken biryani but got veg biryani from Ohri's`
 
-**Graph:**
-```
-Router → Complaint AI → Fraud Check
-                              │ approve            │ block
-                              ▼                    ▼
-                           HITL              Notification
-                         /   │   \
-                reprompt  re-order  compensate/NO/expire
-                    │        │
-                    ▼        ▼
-              Complaint AI  Ordering → HITL → Notification
-```
+![Complaint resolution flow](docs/flow_complaint.svg)
+
+**Graph summary:** `router` → `complaint` → `fraud`; approved complaints pause at `hitl`, fraud blocks notify immediately, reprompts loop back to `complaint`, re-orders enter `ordering` and require a second food-confirmation HITL, and compensation/NO/expiry routes to `notification`.
 
 **HITL checkpoint message:**
-```
+```text
 Resolution for your complaint:
 Re-order: Chicken Biryani from Paradise Restaurant
 OR
@@ -298,30 +256,39 @@ Reply YES to confirm or NO to cancel
 
 ## HITL Flow (Human-in-the-Loop)
 
-```
-1. Workflow starts (UI trigger or Telegram message)
-   └─ graph.ainvoke(initial_state, config={"configurable": {"thread_id": chat_id}})
+![HITL sequence](docs/hitl_sequence.svg)
 
-2. Nodes execute autonomously: router → ordering/complaint → fraud → payment
+1. Workflow starts from the UI or Telegram with `graph.ainvoke(initial_state, config={"configurable": {"thread_id": chat_id}})`.
+2. Nodes run until `hitl_node` calls `interrupt()`, at which point `AsyncPostgresSaver` persists the full `AgentState`.
+3. The backend or Telegram bot sends the HITL prompt and stores `telegram:session:{chat_id}` in Redis with a 10-minute TTL.
+4. The user replies `YES`, `NO`, or correction text on Telegram.
+5. The bot resumes the graph with `Command(resume=...)`, using the same `thread_id`.
+6. The graph resumes from the checkpoint and routes to fraud/payment/notification, retry, support escalation, or END.
 
-3. hitl_node calls interrupt()
-   └─ LangGraph pauses execution
-   └─ AsyncPostgresSaver persists full AgentState to PostgreSQL
-   └─ workflow_status = "hitl_pending"
+Key constraint: `thread_id` MUST equal the Telegram `chat_id`. This is what enables correct state resumption across turns.
 
-4. Telegram bot sends HITL prompt with order/resolution summary
+**Session expiry:** Redis TTL is 600 seconds for every HITL session. After 10 minutes without a reply, the bot clears the session and asks the user to start a new request.
 
-5. User replies YES / NO on Telegram (within 10 minutes)
-   └─ graph.ainvoke(Command(resume={"approved": bool}), config)
+| Action | Requires HITL |
+|---|---|
+| Placing a food order | **Yes — always** |
+| Payment processing | **Yes — always** |
+| Complaint resolution | **Yes — always** |
+| Fraud scoring | No — internal decision |
+| Restaurant search | No — research phase |
+| Telegram notifications | No — autonomous |
 
-6. Graph resumes from hitl_node
-   └─ YES → notification_node → workflow_status = "completed"
-   └─ NO  → END → workflow_status = "cancelled"
-   └─ No reply → session expires, expiry message sent
+---
 
-Key constraint: thread_id MUST equal Telegram chat_id.
-This is what enables correct state resumption across turns.
-```
+## Code Architecture
+
+![Backend modules](docs/backend_modules.svg)
+
+Key design rules enforced in the codebase:
+- `AgentState` is the single state contract between graph nodes.
+- LangGraph node names match React Flow node IDs exactly, which enables live node highlighting.
+- Ordering and complaint agents load DB config at runtime; fraud, payment, and notification are deterministic fixed-behavior nodes.
+- Agents access business data through MCP tools only; backend service code owns persistence tables such as `agents`, `workflow_runs`, and `run_messages`.
 
 ---
 
@@ -333,9 +300,9 @@ Langfuse runs as a fully self-hosted stack inside `docker compose up` — no ext
 
 | URL | Credentials |
 |---|---|
-| http://localhost:3001 | `admin@yuno.local` / `admin` |
+| http://localhost:3001 | `admin@yuno.local` / `admin1234` |
 
-Login credentials are configurable via `LANGFUSE_INIT_USER_EMAIL` and `LANGFUSE_INIT_USER_PASSWORD` in `.env`.
+Login credentials are configured by `LANGFUSE_INIT_USER_EMAIL`, `LANGFUSE_INIT_USER_NAME`, and `LANGFUSE_INIT_USER_PASSWORD` in `.env`.
 
 ### What is traced
 
@@ -348,7 +315,23 @@ Every agent node execution is wrapped in a `langfuse_node_span()` context manage
 
 ### Configuration
 
-Langfuse API keys are pre-configured in `.env.example` and match the `LANGFUSE_INIT_PROJECT_*` values in `docker-compose.yml`. No manual project setup is needed.
+Langfuse runs locally with `docker compose up`, but traces are only visible after the backend has a valid Langfuse API key pair.
+
+For the local self-hosted setup:
+
+1. Open http://localhost:3001.
+2. Log in with `LANGFUSE_INIT_USER_EMAIL=admin@yuno.local` and `LANGFUSE_INIT_USER_PASSWORD=admin1234`.
+3. Create or copy a project API key pair from the Langfuse project settings.
+4. Paste those values into `.env`:
+
+```env
+LANGFUSE_PUBLIC_KEY=pk-lf-...
+LANGFUSE_SECRET_KEY=sk-lf-...
+LANGFUSE_HOST=http://localhost:3001
+LANGFUSE_BASE_URL=http://localhost:3001
+```
+
+5. Restart the backend so `core.observability.langfuse_node_span()` can attach Langfuse callbacks.
 
 To use Langfuse Cloud instead of self-hosted, set:
 ```env
@@ -357,7 +340,7 @@ LANGFUSE_SECRET_KEY=sk-lf-...
 LANGFUSE_HOST=https://cloud.langfuse.com
 LANGFUSE_BASE_URL=https://cloud.langfuse.com
 ```
-And remove the `langfuse-*` services from `docker-compose.yml`.
+Create those keys in your Langfuse Cloud project. You can remove the `langfuse-*` services from `docker-compose.yml` when using Cloud.
 
 ---
 
@@ -365,15 +348,16 @@ And remove the `langfuse-*` services from `docker-compose.yml`.
 
 Tools are implemented with FastMCP and mounted as an ASGI sub-application at `/mcp/sse` alongside FastAPI.
 
-The full access chain:
-```
-LangGraph node
-  → LangChain agent
-    → LangChain Tool (MCP adapter)
-      → FastMCP client
-        → FastMCP server (/mcp/sse)
-          → mock dataset (PostgreSQL seed data)
-```
+![MCP data access chain](docs/mcp_chain.svg)
+
+| Tool | Backing data | Purpose |
+|---|---|---|
+| `restaurant_search` | 50 seeded restaurants + menu embeddings | Search by city, cuisine, price, rating, and restaurant name |
+| `menu_retrieval` | ~500 menu items | Fetch available items for a restaurant |
+| `order_lookup` | 500 historical orders + users/restaurants | Retrieve recent order context for complaint resolution |
+| `payment_routing` | 24 gateway configurations | Select payment gateways by success rate, method, and fee |
+| `fraud_scoring` | 30 rule-based fraud rules + transaction context | Evaluate transaction risk and approve/block |
+| `telegram_notify` | Platform Telegram bot | Send user-facing workflow notifications |
 
 **Rule:** Agents never query PostgreSQL directly. All business data access goes through MCP tools.
 
@@ -382,6 +366,22 @@ Exception: persistence tables (`agents`, `workflow_runs`, `run_messages`) are ma
 ---
 
 ## Agent Configuration
+
+Agents are configured via the Agents page in the UI. Configuration is stored in PostgreSQL and loaded at workflow start for runtime-configurable roles.
+
+| Field | Type | Runtime-applied | Description |
+|---|---|---|---|
+| Name | string | — | Unique display name for the agent card |
+| Role | string | Yes | Determines which workflow node/builder uses the config |
+| System prompt | text | Yes (`ordering`, `complaint`) | Prompt used by configurable LLM-backed agent roles |
+| Model | select | Yes (`ordering`, `complaint`) | `gpt-4o` or `gpt-4o-mini` |
+| Tools | multi-select | Yes (`ordering`, `complaint`) | MCP tool names available to the agent |
+| Channels | select/list | UI metadata | `telegram` or no direct messaging channel |
+| Schedule | cron string | UI metadata | Optional future scheduling metadata |
+| Memory window | integer | UI metadata | Stored memory configuration metadata |
+| Skills | string list | UI metadata | Display labels for agent capabilities |
+| Interaction rules | text | UI metadata | Stored behavioral notes |
+| Guardrails | JSON | UI metadata | Stored policy/limit metadata |
 
 ### How DB config maps to runtime
 
@@ -402,6 +402,8 @@ On every startup, `seed.py` imports `ORDERING_SYSTEM`, `FRAUD_PROMPT`, etc. dire
 ---
 
 ## How to Add a New Workflow Template
+
+> **Node naming constraint:** LangGraph node names must match React Flow node IDs exactly. `current_step` in `AgentState` maps directly to the React Flow node that pulses during live execution.
 
 ### Step 1 — Implement the node function
 
@@ -540,7 +542,7 @@ async def lifespan(app: FastAPI):
 
 In `frontend/src/components/AgentForm.tsx`, add your channel name to the channels array.
 
-**Critical constraint:** `thread_id` must equal the channel user/conversation ID. This is what `AsyncPostgresSaver` uses to retrieve persisted state when the user replies.
+> **thread_id constraint:** `thread_id` must equal the channel user/conversation ID. This is the key `AsyncPostgresSaver` uses to retrieve persisted `AgentState` when the user replies to a HITL prompt. A mismatch breaks HITL resume.
 
 ---
 
@@ -586,11 +588,12 @@ See `.env.example` for full documentation. Minimum required to run:
 | `POSTGRES_*` | Auto (Docker) | Set by docker-compose defaults |
 | `REDIS_*` | Auto (Docker) | Set by docker-compose defaults |
 | `SEED_DATA_ON_STARTUP` | Optional | Default: `true` (idempotent — skips if already seeded) |
-| `LANGFUSE_PUBLIC_KEY` | Optional | Pre-set for self-hosted; set for Langfuse Cloud |
-| `LANGFUSE_SECRET_KEY` | Optional | Pre-set for self-hosted; set for Langfuse Cloud |
+| `LANGFUSE_PUBLIC_KEY` | Required for traces | Create/copy from local Langfuse or Langfuse Cloud project settings |
+| `LANGFUSE_SECRET_KEY` | Required for traces | Create/copy from local Langfuse or Langfuse Cloud project settings |
 | `LANGFUSE_HOST` | Optional | Default: `http://localhost:3001` (self-hosted) |
 | `LANGFUSE_INIT_USER_EMAIL` | Optional | Langfuse admin login (default: `admin@yuno.local`) |
-| `LANGFUSE_INIT_USER_PASSWORD` | Optional | Langfuse admin password (default: `admin`) |
+| `LANGFUSE_INIT_USER_NAME` | Optional | Langfuse admin display name (default: `Admin`) |
+| `LANGFUSE_INIT_USER_PASSWORD` | Optional | Langfuse admin password (default: `admin1234`) |
 
 ---
 
@@ -617,7 +620,7 @@ Agent records are upserted (not skipped) so prompt changes in Python code sync t
 
 ## Project Structure
 
-```
+```text
 agent-platform/
 ├── docker-compose.yml
 ├── docker/
@@ -734,26 +737,33 @@ LangGraph was chosen over CrewAI, AutoGen, and custom solutions:
 
 **5. Production-ready** — Handles async concurrency, multi-tenant state isolation, and stream processing out of the box.
 
+| Alternative | Why not chosen |
+|---|---|
+| CrewAI | No native `interrupt()` / checkpoint resume primitive for HITL across Telegram turns |
+| AutoGen | Conversation-centric rather than graph-centric; harder to map directly to React Flow topology |
+| Custom runtime | Would require rebuilding async checkpointing, conditional routing, and resume semantics |
+| LangGraph | First-class `interrupt()`, `AsyncPostgresSaver`, explicit graph topology, and async execution |
+
 ### Tech stack
 
-| Layer | Technology | Version |
-|---|---|---|
-| Agent runtime | LangGraph StateGraph | latest stable |
-| Agent framework | LangChain create_react_agent | latest stable |
-| HITL middleware | HumanInTheLoopMiddleware (LangChain) | latest stable |
-| MCP server | FastMCP | latest stable |
-| MCP client | langchain-mcp-adapters | latest stable |
-| Backend API | FastAPI | 0.115.x |
-| ORM | SQLModel | latest stable |
-| Database | PostgreSQL 15 + pgvector | pg15 |
-| Event streaming | Redis Streams | 7.x |
-| Observability | Langfuse (self-hosted) | 3.x |
-| Telegram | python-telegram-bot | 21.x |
-| Frontend | React + Vite | React 18, Vite 5 |
-| Workflow canvas | React Flow | 11.x |
-| Styling | Tailwind CSS | 3.x |
-| LLM provider | OpenAI GPT-4o / GPT-4o-mini | latest |
-| Deployment | Docker Compose | v2 |
+| Layer | Technology | Version | Why chosen |
+|---|---|---|---|
+| Agent runtime | LangGraph StateGraph | latest stable | Explicit topology plus durable HITL interrupt/resume |
+| Agent framework | LangChain `create_agent` | latest stable | Tool-calling agent abstraction with middleware support |
+| HITL middleware | HumanInTheLoopMiddleware (LangChain) | latest stable | Intercepts consequential tool calls before execution |
+| MCP server | FastMCP | latest stable | Lightweight local SSE tool server |
+| MCP client | langchain-mcp-adapters | latest stable | Exposes MCP tools as LangChain tools |
+| Backend API | FastAPI | 0.115.x | Async REST/WebSocket API with strong typing |
+| ORM | SQLModel | latest stable | Pydantic + SQLAlchemy models in one schema |
+| Database | PostgreSQL 15 + pgvector | pg15 | Relational persistence plus vector search for menu items |
+| Event streaming | Redis Streams | 7.x | Simple fan-out for live logs and monitor feeds |
+| Observability | Langfuse (self-hosted) | 3.x | Local trace, span, and token/cost visibility |
+| Telegram | python-telegram-bot | 21.x | Async Telegram polling and message handling |
+| Frontend | React + Vite | React 18, Vite 5 | Fast local UI iteration and typed component model |
+| Workflow canvas | React Flow | 11.x | Visual graph canvas matching LangGraph topology |
+| Styling | Tailwind CSS | 3.x | Fast utility styling for the dashboard UI |
+| LLM provider | OpenAI GPT-4o / GPT-4o-mini | latest | Strong general reasoning with cost-effective mini option |
+| Deployment | Docker Compose | v2 | One-command local stack with all dependencies |
 
 ---
 

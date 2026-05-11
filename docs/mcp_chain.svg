@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1180 560" width="1180" height="560" role="img" aria-labelledby="title desc">
+  <title id="title">MCP data access chain</title>
+  <desc id="desc">A left-to-right chain showing that business data flows from LangGraph nodes through LangChain agents, MCP adapter, FastMCP server, tool functions, and PostgreSQL seed tables. A red bypass path marks direct database access as forbidden for agents.</desc>
+  <style>
+    text { font-family: system-ui, -apple-system, sans-serif; }
+    .title { font-size: 18px; font-weight: 700; fill: #1a1a1a; }
+    .sub { font-size: 11px; fill: #555; }
+    .box-title { font-size: 11px; font-weight: 700; }
+    .box-sub { font-size: 9.5px; }
+    .step { font-size: 9px; font-weight: 700; fill: #fff; }
+    .panel-title { font-size: 11px; font-weight: 700; fill: #333; }
+    .small { font-size: 10px; fill: #444; }
+    .tiny { font-size: 9.5px; fill: #555; }
+    .edge { stroke: #444; stroke-width: 1.5; fill: none; marker-end: url(#arr); }
+    .forbidden { stroke: #c0392b; stroke-width: 2; stroke-dasharray: 9 5; fill: none; marker-end: url(#arr-red); }
+  </style>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 2 L8 5 L1 8" fill="none" stroke="#444" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M1 2 L8 5 L1 8" fill="none" stroke="#c0392b" stroke-width="1.5" stroke-linecap="round"/>
+    </marker>
+  </defs>
+
+  <rect width="1180" height="560" fill="#fff"/>
+  <text x="590" y="26" text-anchor="middle" class="title">MCP Data Access Chain</text>
+  <text x="590" y="47" text-anchor="middle" class="sub">The mandatory path for business data. Arrows are intentionally separated from text labels to keep direction unambiguous.</text>
+
+  <!-- Step boxes -->
+  <g>
+    <rect x="40" y="80" width="145" height="112" rx="9" fill="#e8f8f5" stroke="#0e6655" stroke-width="1.5"/>
+    <circle cx="62" cy="72" r="12" fill="#0e6655"/><text x="62" y="76" text-anchor="middle" class="step">1</text>
+    <text x="112" y="112" text-anchor="middle" class="box-title" fill="#0b5345">LangGraph node</text>
+    <text x="112" y="136" text-anchor="middle" class="box-sub" fill="#0e6655">ordering_node</text>
+    <text x="112" y="153" text-anchor="middle" class="box-sub" fill="#0e6655">complaint_node</text>
+    <text x="112" y="170" text-anchor="middle" class="box-sub" fill="#0e6655">fraud / payment</text>
+  </g>
+
+  <g>
+    <rect x="238" y="80" width="145" height="112" rx="9" fill="#f0ecf9" stroke="#6c3483" stroke-width="1.5"/>
+    <circle cx="260" cy="72" r="12" fill="#6c3483"/><text x="260" y="76" text-anchor="middle" class="step">2</text>
+    <text x="310" y="112" text-anchor="middle" class="box-title" fill="#4a235a">LangChain layer</text>
+    <text x="310" y="136" text-anchor="middle" class="box-sub" fill="#6c3483">create_agent</text>
+    <text x="310" y="153" text-anchor="middle" class="box-sub" fill="#6c3483">structured output</text>
+    <text x="310" y="170" text-anchor="middle" class="box-sub" fill="#6c3483">tool invocation</text>
+  </g>
+
+  <g>
+    <rect x="436" y="80" width="145" height="112" rx="9" fill="#ebf5fb" stroke="#2980b9" stroke-width="1.5"/>
+    <circle cx="458" cy="72" r="12" fill="#2980b9"/><text x="458" y="76" text-anchor="middle" class="step">3</text>
+    <text x="508" y="112" text-anchor="middle" class="box-title" fill="#1a4971">MCP adapter</text>
+    <text x="508" y="136" text-anchor="middle" class="box-sub" fill="#2471a3">MultiServer</text>
+    <text x="508" y="153" text-anchor="middle" class="box-sub" fill="#2471a3">MCPClient</text>
+    <text x="508" y="170" text-anchor="middle" class="box-sub" fill="#2471a3">SSE transport</text>
+  </g>
+
+  <g>
+    <rect x="634" y="80" width="145" height="112" rx="9" fill="#fdf2e9" stroke="#a04000" stroke-width="1.5"/>
+    <circle cx="656" cy="72" r="12" fill="#a04000"/><text x="656" y="76" text-anchor="middle" class="step">4</text>
+    <text x="706" y="112" text-anchor="middle" class="box-title" fill="#784212">FastMCP server</text>
+    <text x="706" y="136" text-anchor="middle" class="box-sub" fill="#a04000">/mcp/sse</text>
+    <text x="706" y="153" text-anchor="middle" class="box-sub" fill="#a04000">server.py</text>
+    <text x="706" y="170" text-anchor="middle" class="box-sub" fill="#a04000">@mcp.tool()</text>
+  </g>
+
+  <g>
+    <rect x="832" y="80" width="145" height="112" rx="9" fill="#fef9e7" stroke="#b7770d" stroke-width="1.5"/>
+    <circle cx="854" cy="72" r="12" fill="#b7770d"/><text x="854" y="76" text-anchor="middle" class="step">5</text>
+    <text x="904" y="112" text-anchor="middle" class="box-title" fill="#7d6608">Tool function</text>
+    <text x="904" y="136" text-anchor="middle" class="box-sub" fill="#9a7d0a">validated args</text>
+    <text x="904" y="153" text-anchor="middle" class="box-sub" fill="#9a7d0a">sync session</text>
+    <text x="904" y="170" text-anchor="middle" class="box-sub" fill="#9a7d0a">structured result</text>
+  </g>
+
+  <g>
+    <rect x="1030" y="80" width="110" height="112" rx="9" fill="#eaf4d3" stroke="#1e8449" stroke-width="1.5"/>
+    <circle cx="1052" cy="72" r="12" fill="#1e8449"/><text x="1052" y="76" text-anchor="middle" class="step">6</text>
+    <text x="1085" y="112" text-anchor="middle" class="box-title" fill="#196f3d">Postgres</text>
+    <text x="1085" y="136" text-anchor="middle" class="box-sub" fill="#1e8449">seed tables</text>
+    <text x="1085" y="153" text-anchor="middle" class="box-sub" fill="#1e8449">pgvector</text>
+    <text x="1085" y="170" text-anchor="middle" class="box-sub" fill="#1e8449">SQLModel</text>
+  </g>
+
+  <!-- Clear arrows between boxes. No labels are placed on these lines. -->
+  <line x1="185" y1="136" x2="238" y2="136" class="edge"/>
+  <line x1="383" y1="136" x2="436" y2="136" class="edge"/>
+  <line x1="581" y1="136" x2="634" y2="136" class="edge"/>
+  <line x1="779" y1="136" x2="832" y2="136" class="edge"/>
+  <line x1="977" y1="136" x2="1030" y2="136" class="edge"/>
+
+  <!-- Forbidden bypass kept below the boxes so it never crosses labels. -->
+  <path d="M112 192 L112 238 L1085 238 L1085 192" class="forbidden"/>
+  <rect x="365" y="252" width="450" height="30" rx="6" fill="#fdedec" stroke="#c0392b" stroke-width="1.2"/>
+  <text x="590" y="272" text-anchor="middle" font-size="11" font-weight="700" fill="#c0392b">FORBIDDEN: agents never query PostgreSQL directly</text>
+
+  <!-- Details panel -->
+  <rect x="40" y="315" width="520" height="180" rx="8" fill="#f8f9fa" stroke="#d0d7de" stroke-width="0.9"/>
+  <text x="62" y="340" class="panel-title">Mandatory call chain</text>
+  <text x="62" y="365" class="small" fill="#0b5345">1. LangGraph node(state)</text>
+  <text x="62" y="386" class="small" fill="#4a235a">2.   LangChain agent or structured chain</text>
+  <text x="62" y="407" class="small" fill="#1a4971">3.     LangChain MCP adapter wrapper</text>
+  <text x="62" y="428" class="small" fill="#784212">4.       FastMCP client to FastMCP server at /mcp/sse</text>
+  <text x="62" y="449" class="small" fill="#7d6608">5.         Tool function opens SQLModel sync session</text>
+  <text x="62" y="470" class="small" fill="#196f3d">6.           PostgreSQL seed tables return structured JSON</text>
+
+  <rect x="600" y="315" width="540" height="180" rx="8" fill="#fafafa" stroke="#d0d7de" stroke-width="0.9"/>
+  <text x="622" y="340" class="panel-title">Tool-to-data ownership</text>
+  <text x="622" y="365" class="tiny">restaurant_search -> restaurants, menu_items, pgvector embeddings</text>
+  <text x="622" y="386" class="tiny">menu_retrieval -> menu_items by restaurant_id</text>
+  <text x="622" y="407" class="tiny">order_lookup -> users, orders, restaurants</text>
+  <text x="622" y="428" class="tiny">payment_routing -> payment_gateways</text>
+  <text x="622" y="449" class="tiny">fraud_scoring -> fraud_rules plus transaction context</text>
+  <text x="622" y="470" class="tiny">telegram_notify -> Telegram transport through the platform bot</text>
+
+  <rect x="40" y="515" width="1100" height="28" rx="6" fill="#fef9e7" stroke="#b7770d" stroke-width="0.8"/>
+  <text x="590" y="533" text-anchor="middle" class="tiny" fill="#7d6608">Exception: platform persistence tables such as agents, workflow_runs, run_messages, and checkpoints are owned by backend service code, not by agent tools.</text>
+</svg>
