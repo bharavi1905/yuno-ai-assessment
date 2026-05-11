@@ -100,17 +100,12 @@ Find `"chat": {"id": <number>}` in the response and use that value in the workfl
 
 ## Live Demo
 
-### UI workflow
+GitHub may not render local MP4 files as inline video players. Click either card to open the playable demo video.
 
-<video src="docs/demos/demo_workflow_UI.mp4" controls width="100%" title="UI workflow demo"></video>
-
-[Open the UI workflow demo](docs/demos/demo_workflow_UI.mp4)
-
-### Telegram workflow
-
-<video src="docs/demos/demo_workflow_telegram.mp4" controls width="100%" title="Telegram workflow demo"></video>
-
-[Open the Telegram workflow demo](docs/demos/demo_workflow_telegram.mp4)
+| UI workflow | Telegram workflow |
+|---|---|
+| [![Play UI workflow demo](docs/demos/demo_ui_poster.svg)](docs/demos/demo_workflow_UI.mp4) | [![Play Telegram workflow demo](docs/demos/demo_telegram_poster.svg)](docs/demos/demo_workflow_telegram.mp4) |
+| Trigger a workflow from the React dashboard and review HITL from the UI. | Complete HITL approval, rejection, and reprompt flows from Telegram. |
 
 ---
 

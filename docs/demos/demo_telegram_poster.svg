@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="520" viewBox="0 0 960 520" role="img" aria-labelledby="title desc">
+  <title id="title">Play Telegram workflow demo</title>
+  <desc id="desc">A clickable poster card for the Yuno AI Telegram workflow demo video.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#08111f"/>
+      <stop offset="55%" stop-color="#102036"/>
+      <stop offset="100%" stop-color="#0f2f43"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2ca5e0"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#000000" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+  <rect width="960" height="520" rx="34" fill="url(#bg)"/>
+  <circle cx="140" cy="98" r="170" fill="#2ca5e0" opacity="0.10"/>
+  <circle cx="814" cy="420" r="200" fill="#22c55e" opacity="0.08"/>
+  <rect x="58" y="58" width="844" height="404" rx="28" fill="#0f172a" stroke="#334155" stroke-width="2" filter="url(#shadow)"/>
+  <rect x="98" y="96" width="312" height="284" rx="22" fill="#182536" stroke="#334155"/>
+  <circle cx="134" cy="134" r="20" fill="#60a5fa"/>
+  <rect x="166" y="122" width="160" height="15" rx="8" fill="#e2e8f0" opacity="0.82"/>
+  <rect x="126" y="182" width="218" height="44" rx="20" fill="#243449"/>
+  <rect x="154" y="252" width="206" height="76" rx="18" fill="#1d4ed8" opacity="0.72"/>
+  <rect x="126" y="344" width="244" height="24" rx="12" fill="#243449"/>
+  <rect x="548" y="118" width="240" height="250" rx="20" fill="#111827" stroke="#334155"/>
+  <rect x="588" y="154" width="160" height="34" rx="10" fill="#172033" stroke="#22c55e"/>
+  <rect x="588" y="214" width="160" height="34" rx="10" fill="#172033" stroke="#2ca5e0"/>
+  <rect x="588" y="274" width="160" height="34" rx="10" fill="#172033" stroke="#f59e0b"/>
+  <circle cx="480" cy="238" r="86" fill="url(#accent)" opacity="0.95"/>
+  <circle cx="480" cy="238" r="70" fill="#020617" opacity="0.76"/>
+  <path d="M458 200 L458 276 L522 238 Z" fill="#f8fafc"/>
+  <text x="92" y="424" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="800">Telegram Workflow Demo</text>
+  <text x="92" y="456" fill="#cbd5e1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20">Approve, reject, or reprompt a paused workflow from Telegram.</text>
+  <text x="718" y="424" fill="#86efac" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700">Click to play</text>
+</svg>
