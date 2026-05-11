@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 880" width="700" height="880">
+  <style>text { font-family: system-ui, -apple-system, sans-serif; }</style>
+  <defs>
+    <marker id="arr"     viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 2 L8 5 L1 8" fill="none" stroke="#555"    stroke-width="1.5" stroke-linecap="round"/></marker>
+    <marker id="arr-grn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 2 L8 5 L1 8" fill="none" stroke="#27ae60" stroke-width="1.5" stroke-linecap="round"/></marker>
+    <marker id="arr-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 2 L8 5 L1 8" fill="none" stroke="#c0392b" stroke-width="1.5" stroke-linecap="round"/></marker>
+    <marker id="arr-amb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M1 2 L8 5 L1 8" fill="none" stroke="#d68910" stroke-width="1.5" stroke-linecap="round"/></marker>
+  </defs>
+  <rect width="700" height="880" fill="#fff"/>
+
+  <text x="350" y="26" text-anchor="middle" font-size="16" font-weight="700" fill="#1a1a1a">Template 1 — Smart Food Ordering Concierge</text>
+  <text x="350" y="46" text-anchor="middle" font-size="11" fill="#555">LangGraph StateGraph execution flow</text>
+
+  <!-- START pill: x=200 w=300 h=34 y=60 center=350 -->
+  <rect x="200" y="60" width="300" height="34" rx="17" fill="#f2f3f4" stroke="#5d6d7e" stroke-width="1.2"/>
+  <text x="350" y="82" text-anchor="middle" font-size="12" font-weight="600" fill="#2c3e50">Telegram message / UI trigger</text>
+
+  <line x1="350" y1="94" x2="350" y2="118" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- router_node: x=175 w=350 h=52 y=118 -->
+  <rect x="175" y="118" width="350" height="52" rx="8" fill="#f2f3f4" stroke="#5d6d7e" stroke-width="1.2"/>
+  <text x="350" y="140" text-anchor="middle" font-size="12" font-weight="700" fill="#2c3e50">router_node</text>
+  <text x="350" y="158" text-anchor="middle" font-size="10" fill="#5d6d7e">sets workflow_type = food_ordering</text>
+
+  <line x1="350" y1="170" x2="350" y2="196" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+  <text x="370" y="186" font-size="10" fill="#555">food_ordering</text>
+
+  <!-- ordering_node: x=100 w=500 h=64 y=196 -->
+  <rect x="100" y="196" width="500" height="64" rx="8" fill="#ebf5fb" stroke="#2980b9" stroke-width="1.5"/>
+  <text x="350" y="218" text-anchor="middle" font-size="12" font-weight="700" fill="#1a4971">ordering_node</text>
+  <text x="350" y="236" text-anchor="middle" font-size="10" fill="#2471a3">ReAct agent · restaurant_search + menu_retrieval MCP tools</text>
+  <text x="350" y="252" text-anchor="middle" font-size="10" fill="#2471a3">finds best match by city, cuisine, price range, rating</text>
+
+  <line x1="350" y1="260" x2="350" y2="286" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- hitl_node: x=80 w=540 h=76 y=286 -->
+  <rect x="80" y="286" width="540" height="76" rx="8" fill="#fdedec" stroke="#c0392b" stroke-width="2"/>
+  <text x="350" y="308" text-anchor="middle" font-size="12" font-weight="700" fill="#7b241c">hitl_node — interrupt() ⏸</text>
+  <text x="350" y="326" text-anchor="middle" font-size="10" fill="#922b21">bot sends formatted order summary to Telegram</text>
+  <text x="350" y="342" text-anchor="middle" font-size="10" fill="#922b21">graph pauses · awaits user reply · Redis session TTL = 600 s</text>
+
+  <!-- Branch YES down -->
+  <line x1="350" y1="362" x2="350" y2="394" stroke="#27ae60" stroke-width="2" marker-end="url(#arr-grn)"/>
+  <text x="368" y="382" font-size="10" fill="#27ae60" font-weight="600">YES — confirmed</text>
+
+  <!-- Branch NO right to END pill — route clear of all boxes -->
+  <!-- From x=620,y=324 right to x=660,y=324, down to y=360, pill at x=660 w=30 -->
+  <line x1="620" y1="324" x2="658" y2="324" stroke="#c0392b" stroke-width="1.2" marker-end="url(#arr-red)"/>
+  <text x="625" y="316" font-size="10" fill="#c0392b">NO / expire</text>
+  <rect x="658" y="308" width="26" height="32" rx="13" fill="#f2f3f4" stroke="#5d6d7e" stroke-width="1"/>
+  <text x="671" y="329" text-anchor="middle" font-size="9" font-weight="600" fill="#2c3e50">END</text>
+
+  <!-- Loop-back "show other options": left side
+       From x=80,y=324 → x=40,y=324 → x=40,y=228 → x=100,y=228 -->
+  <path d="M 80 324 L 42 324 L 42 228 L 100 228"
+        fill="none" stroke="#d68910" stroke-width="1.2" stroke-dasharray="8 4" marker-end="url(#arr-amb)"/>
+  <text x="38" y="300" text-anchor="middle" font-size="10" fill="#d68910">show</text>
+  <text x="38" y="314" text-anchor="middle" font-size="10" fill="#d68910">other</text>
+  <text x="38" y="328" text-anchor="middle" font-size="10" fill="#d68910">↺</text>
+
+  <!-- fraud_node: x=100 w=500 h=64 y=394 -->
+  <rect x="100" y="394" width="500" height="64" rx="8" fill="#fef9e7" stroke="#b7770d" stroke-width="1.5"/>
+  <text x="350" y="416" text-anchor="middle" font-size="12" font-weight="700" fill="#7d6608">fraud_node</text>
+  <text x="350" y="434" text-anchor="middle" font-size="10" fill="#9a7d0a">deterministic chain · fraud_scoring MCP tool</text>
+  <text x="350" y="450" text-anchor="middle" font-size="10" fill="#9a7d0a">evaluates 30 rules · returns decision + risk score</text>
+
+  <!-- fraud approve → payment -->
+  <line x1="350" y1="458" x2="350" y2="484" stroke="#27ae60" stroke-width="1.5" marker-end="url(#arr-grn)"/>
+  <text x="368" y="474" font-size="10" fill="#27ae60">approve</text>
+
+  <!-- fraud block → right → down to notification
+       Route: right from x=600,y=426 to x=650,y=426, down to y=572, left to x=600,y=572 -->
+  <path d="M 600 426 L 650 426 L 650 572 L 600 572"
+        fill="none" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="6 3" marker-end="url(#arr-red)"/>
+  <text x="656" y="420" font-size="10" fill="#c0392b">block</text>
+  <text x="656" y="434" font-size="10" fill="#c0392b">→ skip</text>
+
+  <!-- payment_node: x=100 w=500 h=64 y=484 -->
+  <rect x="100" y="484" width="500" height="64" rx="8" fill="#e8f8f5" stroke="#0e6655" stroke-width="1.5"/>
+  <text x="350" y="506" text-anchor="middle" font-size="12" font-weight="700" fill="#0b5345">payment_node</text>
+  <text x="350" y="524" text-anchor="middle" font-size="10" fill="#0e6655">deterministic chain · payment_routing MCP tool</text>
+  <text x="350" y="540" text-anchor="middle" font-size="10" fill="#0e6655">selects best gateway · calculates fee</text>
+
+  <line x1="350" y1="548" x2="350" y2="574" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- notification_node: x=80 w=520 h=64 y=574 -->
+  <rect x="80" y="574" width="520" height="64" rx="8" fill="#eaf4d3" stroke="#1e8449" stroke-width="1.5"/>
+  <text x="340" y="596" text-anchor="middle" font-size="12" font-weight="700" fill="#196f3d">notification_node</text>
+  <text x="340" y="614" text-anchor="middle" font-size="10" fill="#1e8449">deterministic chain · telegram_notify MCP tool</text>
+  <text x="340" y="630" text-anchor="middle" font-size="10" fill="#1e8449">sends order confirmation or fraud-blocked message</text>
+
+  <line x1="350" y1="638" x2="350" y2="664" stroke="#555" stroke-width="1.2" marker-end="url(#arr)"/>
+
+  <!-- END pill -->
+  <rect x="200" y="664" width="300" height="34" rx="17" fill="#f2f3f4" stroke="#5d6d7e" stroke-width="1.2"/>
+  <text x="350" y="686" text-anchor="middle" font-size="12" font-weight="600" fill="#2c3e50">END — workflow_status = completed</text>
+
+  <!-- LEGEND -->
+  <rect x="30" y="716" width="640" height="148" rx="8" fill="#fafafa" stroke="#ddd" stroke-width="0.8"/>
+  <text x="46" y="736" font-size="11" font-weight="700" fill="#333">Node type legend</text>
+  <rect x="46"  y="746" width="14" height="14" rx="3" fill="#ebf5fb" stroke="#2980b9" stroke-width="1"/>
+  <text x="66"  y="758" font-size="10" fill="#333">ReAct agent — multi-step reasoning, dynamic tool selection, handles ambiguous inputs</text>
+  <rect x="46"  y="768" width="14" height="14" rx="3" fill="#e8f8f5" stroke="#0e6655" stroke-width="1"/>
+  <text x="66"  y="780" font-size="10" fill="#333">Deterministic chain — single structured tool call, no reasoning loop, predictable output</text>
+  <rect x="46"  y="790" width="14" height="14" rx="3" fill="#fdedec" stroke="#c0392b" stroke-width="1.5"/>
+  <text x="66"  y="802" font-size="10" fill="#333">HITL checkpoint — interrupt() pauses the graph, full AgentState persisted to PostgreSQL</text>
+  <line x1="46" y1="821" x2="80" y2="821" stroke="#d68910" stroke-width="1.2" stroke-dasharray="8 4"/>
+  <text x="88" y="825" font-size="10" fill="#333">Loop-back — re-runs ordering_node with +Rs 50 price tolerance if user asks for other options</text>
+  <line x1="46" y1="843" x2="80" y2="843" stroke="#c0392b" stroke-width="1.2" stroke-dasharray="6 3"/>
+  <text x="88" y="847" font-size="10" fill="#333">Bypass — fraud block skips payment_node, goes directly to notification_node</text>
+</svg>

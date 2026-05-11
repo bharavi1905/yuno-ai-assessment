@@ -94,15 +94,17 @@ async def build_ordering_agent(config: dict, checkpointer=None):
         checkpointer: LangGraph checkpointer (AsyncPostgresSaver) shared with the
             outer graph. Enables the inner agent to resume after a HITL decision.
     """
-    mcp_tools = await get_mcp_tools(ORDERING_TOOLS)
+    tool_names = config.get("tools") or ORDERING_TOOLS
+    mcp_tools = await get_mcp_tools(tool_names)
     all_tools = mcp_tools + [confirm_order]
     model_name = config.get("model", "gpt-4o-mini").replace("openai:", "")
     model = ChatOpenAI(model=model_name, temperature=0)
+    system_prompt = config.get("system_prompt") or ORDERING_SYSTEM
 
     return create_agent(
         model=model,
         tools=all_tools,
-        system_prompt=ORDERING_SYSTEM,
+        system_prompt=system_prompt,
         middleware=[
             HumanInTheLoopMiddleware(
                 interrupt_on={"confirm_order": True},

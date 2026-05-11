@@ -113,7 +113,8 @@ async def run_complaint_analysis(
     # Step 1: get order details via MCP tool
     order_data: dict = {}
     try:
-        mcp_tools = await get_mcp_tools(COMPLAINT_TOOLS)
+        tool_names = config.get("tools") or COMPLAINT_TOOLS
+        mcp_tools = await get_mcp_tools(tool_names)
         order_tool = next((t for t in mcp_tools if t.name == "order_lookup"), None)
         if order_tool:
             raw = await order_tool.ainvoke({})
@@ -122,7 +123,8 @@ async def run_complaint_analysis(
         logger.warning("order_lookup tool call failed: %s", exc)
 
     # Step 2: structured resolution decision
-    step2_prompt = f"""{COMPLAINT_SYSTEM}
+    system_prompt = config.get("system_prompt") or COMPLAINT_SYSTEM
+    step2_prompt = f"""{system_prompt}
 
 Customer complaint: {complaint_text}
 
